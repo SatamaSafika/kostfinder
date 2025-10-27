@@ -1,0 +1,103 @@
+[
+  {
+    "nama": "Kos Putri Agestya Living",
+    "lokasi": "Jl. Kaliurang, Gg. Lombok No.B 36A, Kentungan, Condongcatur, Kec. Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55284",
+    "harga": 1700000,
+    "kontak": "081779921304",
+    "sumber": "https://maps.app.goo.gl/pzMMTbb3gRje9QCB8",
+    "spesifikasi": {
+      "tipe": "Putri",
+      "ukuran": "3x4 m",
+      "listrik": "Sudah termasuk"
+    },
+    "fasilitas": {
+      "kamar": [
+        "Kasur",
+        "Lemari",
+        "Meja Belajar"
+      ],
+      "kamar_mandi": [
+        "Dalam",
+        "Shower",
+        "Water heater"
+      ],
+      "parkir": [
+        "Motor",
+        "Mobil"
+      ],
+      "umum": [
+        "WiFi",
+        "Dapur"
+      ]
+    },
+    "peraturan": [
+      "Hanya untuk wanita",
+      "Tidak boleh merokok di dalam kamar"
+    ],
+    "info_tambahan": "Dekat kampus UGM dan halte Trans Jogja"
+  },
+  {
+    "nama": "Kost Putri Eksklusif Triple A De Ariesta",
+    "lokasi": "Jl. Sulawesi VII No.7, Purwosari, Sinduadi, Kec. Mlati, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55281",
+    "harga": 1300000,
+    "kontak": "081802797777",
+    "sumber": "https://maps.app.goo.gl/o7yC7sqFDmnGasLo7",
+    "spesifikasi": {
+      "tipe": "Putri",
+      "ukuran": "3x3.5 m",
+      "listrik": "Sudah termasuk"
+    },
+    "fasilitas": {
+      "kamar": [
+        "Kasur",
+        "Meja Belajar"
+      ],
+      "kamar_mandi": [
+        "Luar"
+      ],
+      "umum": [
+        "WiFi",
+        "Ruang Jemur"
+      ]
+    },
+    "peraturan": [
+      "Tidak boleh bawa tamu menginap",
+      "Akses 24 jam"
+    ],
+    "info_tambahan": "Dekat minimarket dan warung makan"
+  },
+  {
+    "nama": "Kos Putri Pandega Sakti 2",
+    "lokasi": "Jl. Manggung, Caturtunggal, Depok, Sleman Regency, Daerah Istimewa Yogyakarta 55281",
+    "harga": 1500000,
+    "kontak": "081338957847",
+    "sumber": "https://maps.app.goo.gl/tCsH8iVaEhnENcct8",
+    "spesifikasi": {
+      "tipe": "Putri",
+      "ukuran": "3.5x4 m",
+      "listrik": "Token masing-masing kamar"
+    },
+    "fasilitas": {
+      "kamar": [
+        "Kasur",
+        "Lemari",
+        "Meja Belajar"
+      ],
+      "kamar_mandi": [
+        "Dalam"
+      ],
+      "umum": [
+        "WiFi",
+        "Air Minum Gratis",
+        "Dapur Bersama",
+        "Kulkas",
+        "Ruang Laundry"
+      ]
+    },
+    "peraturan": [
+      "Hanya untuk wanita",
+      "Tidak boleh merokok di dalam kamar"
+    ],
+    "info_tambahan": "Bangunan baru, dapur di lantai bawah dan laundry di lantai atas"
+  }
+]
