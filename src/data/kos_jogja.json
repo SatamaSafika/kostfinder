@@ -1,0 +1,47 @@
+[
+  {
+    "nama": "Kos Putri Mawar Indah",
+    "lokasi": "Jl. Kaliurang KM 7, Sleman",
+    "harga": 1000000,
+    "kontak": "08123456789",
+    "sumber": "https://mawarindahkos.com",
+    "spesifikasi": {
+      "tipe": "Putri",
+      "ukuran": "3x3 m",
+      "listrik": "Sudah termasuk"
+    },
+    "fasilitas": {
+      "kamar": ["Kasur", "Lemari", "Meja Belajar"],
+      "kamar_mandi": ["Dalam", "Shower"],
+      "parkir": ["Motor"],
+      "umum": ["WiFi", "Dapur"]
+    },
+    "peraturan": [
+      "Hanya untuk wanita",
+      "Tidak boleh merokok di dalam kamar"
+    ],
+    "info_tambahan": "Dekat kampus UGM dan halte Trans Jogja"
+  },
+  {
+    "nama": "Kos Pria Sembodo",
+    "lokasi": "Jl. Gejayan No. 12, Sleman",
+    "harga": 950000,
+    "kontak": "08234567890",
+    "sumber": "https://kossembodo.co.id",
+    "spesifikasi": {
+      "tipe": "Pria",
+      "ukuran": "3x3.5 m",
+      "listrik": "Sudah termasuk"
+    },
+    "fasilitas": {
+      "kamar": ["Kasur", "Meja Belajar"],
+      "kamar_mandi": ["Luar"],
+      "umum": ["WiFi", "Ruang Jemur"]
+    },
+    "peraturan": [
+      "Tidak boleh bawa tamu menginap",
+      "Akses 24 jam"
+    ],
+    "info_tambahan": "Dekat minimarket dan warung makan"
+  }
+]
