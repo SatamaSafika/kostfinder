@@ -1,64 +1,71 @@
-import 'dotenv/config'
-import { GoogleGenerativeAI } from "@google/generative-ai"
-import { searchKos } from "./utils/searchKos.js"
-import { formatResponse } from "./utils/formatResponse.js"
-import kosData from "./data/kos_jogja.json" assert { type: "json" }
+import { GoogleGenerativeAI } from "@google/generative-ai";
+import { searchKos } from "./utils/searchKos.js";
+import { formatResponse } from "./utils/formatResponse.js";
+import kosData from "./data/kos_jogja.json" assert { type: "json" };
+import kosVerified from "./data/kos_verified.json" assert { type: "json" };
 
-const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY)
+const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
+const model = genAI.getGenerativeModel({ model: "gemini-pro" });
 
-// Daftar model valid, coba satu per satu
-const modelNames = ["gemini-2.0-flash", "gemini-1.5-flash", "gemini-1.5-pro"]
+// Gabungkan data lokal + kredibel, beri label verified
+const allKosData = [
+  ...kosData.map(k => ({ ...k, verified: false })),
+  ...kosVerified.map(k => ({ ...k, verified: true }))
+];
 
-let model
-for (const name of modelNames) {
+export async function kosFinderAgent(userMessage, conversationHistory = []) {
   try {
-    model = genAI.getGenerativeModel({ model: name })
-    console.log(`✅ Menggunakan model: ${name}`)
-    break
-  } catch (err) {
-    console.warn(`⚠️ Model ${name} tidak tersedia, coba model berikutnya.`)
-  }
-}
+    // 1️⃣ Kirim ke Gemini untuk mengekstrak niat (lokasi, harga, tipe)
+    const extractPrompt = `
+Kamu adalah asisten pencari kos di Yogyakarta. Ekstrak maksud user menjadi JSON.
 
-if (!model) throw new Error("Tidak ada model Gemini valid tersedia.")
+Contoh output:
+{"lokasi": "Kaliurang", "harga": 1000000, "tipe": "Putri"}
 
-// Fungsi retry tetap sama
-async function generateWithRetry(prompt, retries = 2) {
-  for (let i = 0; i < retries; i++) {
+User: "${userMessage}"
+    `;
+    const extractRes = await model.generateContent(extractPrompt);
+    const rawText = extractRes.response.text();
+    let query = {};
     try {
-      const res = await model.generateContent(prompt)
-      const text = res?.response?.text()?.trim()
-      if (text) return text
-    } catch (err) {
-      console.warn(`⚠️ Retry ${i+1} gagal:`, err.message)
-      await new Promise(r => setTimeout(r, 500))
+      query = JSON.parse(rawText);
+    } catch {
+      query = {};
     }
-  }
-  throw new Error("Gagal menghubungi Gemini setelah beberapa percobaan.")
-}
 
-export async function kosFinderAgent(userMessage) {
-  console.log("🟦 User:", userMessage)
-  const prompt = `
-  Extract intent in JSON: {lokasi, harga, tipe, fasilitas, preferensi, aturan}
-  User: "${userMessage}"`
+    // 2️⃣ Cari kos dari data lokal
+    const results = searchKos(allKosData, query);
+    const formattedResults = formatResponse(results);
 
-  let text = ""
-  try {
-    text = await generateWithRetry(prompt)
+    // 3️⃣ Siapkan konteks percakapan sebelumnya + hasil pencarian
+    const conversation = [
+      ...conversationHistory,
+      { role: "user", parts: [{ text: userMessage }] },
+      {
+        role: "model",
+        parts: [
+          {
+            text: `
+Berikut hasil pencarian kos yang relevan (berdasarkan data nyata):
+
+${formattedResults}
+
+Gunakan informasi di atas untuk menjawab secara natural, ramah, dan ringan seperti "teman pencari kos" yang bantuin. 
+Kalau info belum cukup (misal harga, tipe, kamar mandi, atau lokasi kurang jelas), ajukan pertanyaan lanjutan agar bisa bantu lebih akurat.
+Jangan karang data baru di luar hasil di atas.
+`
+          }
+        ]
+      }
+    ];
+
+    // 4️⃣ Minta Gemini menyusun jawaban alami berbasis hasil pencarian
+    const chat = model.startChat({ history: conversation });
+    const reply = await chat.sendMessage(userMessage);
+    return reply.response.text();
+
   } catch (err) {
-    console.error("❌ Gemini Error:", err)
-    return "Maaf, layanan sedang mengalami gangguan, coba lagi nanti 🙏."
+    console.error(err);
+    return "😔 Maaf, aku nggak bisa memproses permintaanmu sekarang.";
   }
-
-  let query = {}
-  try {
-    query = JSON.parse(text)
-  } catch {
-    console.warn("⚠️ Gagal parsing hasil Gemini, gunakan query kosong.")
-  }
-
-  const results = searchKos(kosData, query)
-  console.log("🟩 Ditemukan:", results.length, "kos")
-  return formatResponse(results, query)
 }
