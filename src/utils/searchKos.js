@@ -1,18 +1,21 @@
 export function searchKos(kosList, query) {
   return kosList.filter(k => {
-    if (query.lokasi && !k.lokasi.toLowerCase().includes(query.lokasi.toLowerCase())) return false;
-    if (query.tipe && k.tipe.toLowerCase() !== query.tipe.toLowerCase()) return false;
-    if (query.harga_min && k.harga < query.harga_min) return false;
-    if (query.harga_max && k.harga > query.harga_max) return false;
-    if (query.fasilitas) {
-      if (!query.fasilitas.every(f => k.fasilitas.includes(f))) return false;
-    }
-    if (query.aturan) {
-      if (!query.aturan.every(a => k.aturan.includes(a))) return false;
-    }
-    if (query.preferensi) {
-      if (!query.preferensi.every(p => k.preferensi.includes(p))) return false;
-    }
-    return true;
+    const cocokLokasi = !query.lokasi || k.lokasi.toLowerCase().includes(query.lokasi.toLowerCase());
+    const cocokTipe = !query.tipe || k.tipe.toLowerCase() === query.tipe.toLowerCase();
+    const cocokHargaMin = !query.harga_min || k.harga >= query.harga_min;
+    const cocokHargaMax = !query.harga_max || k.harga <= query.harga_max;
+    const cocokFasilitas = !query.fasilitas || query.fasilitas.every(f => k.fasilitas.includes(f));
+    const cocokAturan = !query.aturan || query.aturan.every(a => k.aturan.includes(a));
+    const cocokPreferensi = !query.preferensi || query.preferensi.every(p => k.preferensi.includes(p));
+
+    return (
+      cocokLokasi &&
+      cocokTipe &&
+      cocokHargaMin &&
+      cocokHargaMax &&
+      cocokFasilitas &&
+      cocokAturan &&
+      cocokPreferensi
+    );
   });
 }
