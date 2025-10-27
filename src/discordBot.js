@@ -1,8 +1,7 @@
 import { Client, GatewayIntentBits } from "discord.js";
 import dotenv from "dotenv";
 import { kosFinderAgent } from "./agent.js";
-import 'dotenv/config'
-
+import { getUserHistory, saveUserHistory } from "./store.js";
 
 dotenv.config();
 
@@ -12,23 +11,36 @@ const client = new Client({
 
 client.once("ready", () => console.log(`🤖 Logged in as ${client.user.tag}`));
 
-const userConversations = {}; // simpan riwayat percakapan per user
-
 client.on("messageCreate", async (message) => {
   if (message.author.bot) return;
   if (!message.content.startsWith("!kos")) return;
 
   const userId = message.author.id;
-  if (!userConversations[userId]) userConversations[userId] = [];
+  const userMessage = message.content.replace("!kos", "").trim();
 
-  const query = message.content.replace("!kos", "").trim();
+  // Ambil histori user dari store.json
+  const conversationHistory = getUserHistory(userId);
+
+  // Cek duplikasi pesan terakhir
+  const lastUserMsg = conversationHistory.length
+    ? conversationHistory[conversationHistory.length - 1].parts[0].text
+    : null;
+
+  if (userMessage === lastUserMsg) {
+    return message.reply("Kamu sudah bilang itu sebelumnya 😅. Bisa kasih info tambahan biar aku lebih akurat?");
+  }
+
   message.channel.sendTyping();
 
-  const reply = await kosFinderAgent(query, userConversations[userId]);
+  const reply = await kosFinderAgent(userMessage, conversationHistory);
 
-  // Simpan percakapan terakhir biar bisa konteksual
-  userConversations[userId].push({ role: "user", parts: [{ text: query }] });
-  userConversations[userId].push({ role: "model", parts: [{ text: reply }] });
+  // Simpan histori baru
+  const newHistory = [
+    ...conversationHistory,
+    { role: "user", parts: [{ text: userMessage }] },
+    { role: "model", parts: [{ text: reply }] }
+  ];
+  saveUserHistory(userId, newHistory);
 
   await message.reply(reply);
 });

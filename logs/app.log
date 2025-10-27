@@ -1,0 +1,82 @@
+[INFO] 2025-10-27T04:30:02.645Z - User: aku cari kos dibawah 2 juta
+[WARN] 2025-10-27T04:30:03.653Z - ⚠️ Gagal parsing hasil Gemini, gunakan query kosong.
+[INFO] 2025-10-27T04:30:03.655Z - Ditemukan: 5 kos
+[INFO] 2025-10-27T04:30:06.474Z - Bot reply: Oke, siap! Mencari kos putri di bawah 2 juta dekat UGM itu masih sangat mungkin kok! Dari info yang aku dapat, ini beberapa opsi yang bisa kamu pertimbangkan:
+
+*   **Kos Putri Agestya Living:** Ini kayaknya oke banget nih! Lokasinya di Jl. Kaliurang, Gang Lombok. Harganya 1,7 juta per bulan. Kamarnya lumayan luas (3x4 m), listrik sudah termasuk, dan ada kasur, lemari, serta meja belajar. Lokasinya juga strategis, dekat UGM dan halte Trans Jogja. Cocok banget buat mahasiswi!
+*   **Kost Putri Eksklusif Triple A De Ariesta:** Kalau yang ini di Jl. Sulawesi VII. Harganya lebih murah, 1,3 juta per bulan. Kamarnya ukuran 3x3.5 m, sudah termasuk listrik, dan ada kasur serta meja belajar. Dekat minimarket dan warung makan juga, jadi gampang kalau mau cari makan.
+*   **Kos Putri Pandega Sakti 2:** Lokasinya di Jl. Manggung. Harganya 1,5 juta per bulan. Kamarnya ukuran 3.5x4 m, tapi listriknya pakai token sendiri ya. Fasilitasnya lengkap, ada kasur, lemari, dan meja belajar. Bangunannya juga baru, ada dapur dan laundry juga.
+
+Gimana? Ada yang menarik perhatianmu? Kalau mau, aku bisa bantu cari info lebih detail tentang salah satu kos ini, atau mungkin ada kriteria lain yang kamu cari? 😊
+
+[INFO] 2025-10-27T04:45:43.329Z - User: aku cari kos dibawah 90 juta
+[WARN] 2025-10-27T04:45:44.274Z - ⚠️ Gagal parsing hasil Gemini, gunakan query kosong.
+[INFO] 2025-10-27T04:45:44.276Z - Ditemukan: 5 kos
+[INFO] 2025-10-27T04:45:47.733Z - Bot reply: Oke, siap! Maksud kamu mungkin kos dengan harga sewa per tahun ya, bukan per bulan? Kalau gitu, kita cari yang perkiraan harga per bulannya di bawah 7,5 juta (karena 7,5 juta x 12 bulan = 90 juta).
+
+Dari daftar yang tadi aku kasih, ini beberapa opsi yang masih masuk budget kamu per tahun:
+
+*   **Kos Putri Agestya Living:** Ini harganya 1,7 juta per bulan. Kalau setahun, jadi sekitar 20,4 juta. Masih jauh di bawah 90 juta, kan? Lokasinya juga strategis dan fasilitasnya lumayan lengkap.
+*   **Kost Putri Eksklusif Triple A De Ariesta:** Nah, ini lebih murah lagi. 1,3 juta per bulan, atau sekitar 15,6 juta setahun. Cocok buat kamu yang cari kos nyaman dengan harga yang lebih terjangkau.
+*   **Kos Putri Pandega Sakti 2:** Ini juga masih oke, 1,5 juta per bulan atau sekitar 18 juta setahun. Fasilitasnya juga lengkap dan bangunannya baru.
+*   **Kos Putri Mawar Indah:** Yang ini malah lebih hemat lagi, 1 juta per bulan atau 12 juta per tahun. Lokasinya juga strategis dekat UGM.
+*   **Kos Pria Sembodo:** Nah, ini khusus buat cowok ya. Harganya paling murah, 950 ribu per bulan atau 11,4 juta per tahun.
+
+Gimana, ada yang makin menarik perhatianmu? Atau ada fasilitas khusus yang kamu cari selain yang sudah ada di daftar ini? Kasih tau aja, biar aku bisa bantu cari yang paling pas buat kamu! 😊
+
+[INFO] 2025-10-27T04:46:18.051Z - ✅ Menggunakan model: gemini-2.0-flash
+[INFO] 2025-10-27T04:46:39.545Z - 🟦 User: aku cari kos dibawah 20 juta
+[INFO] 2025-10-27T04:46:39.547Z - 📨 Mengirim prompt ke Gemini (attempt 1)
+[INFO] 2025-10-27T04:46:40.473Z - 📩 Gemini response diterima (attempt 1)
+[WARN] 2025-10-27T04:46:40.478Z - ⚠️ Gagal parsing hasil Gemini, gunakan query kosong.
+[INFO] 2025-10-27T04:46:40.480Z - 🟩 Ditemukan: 5 kos
+[INFO] 2025-10-27T04:46:43.615Z - 🤖 Bot reply: Oke, siap! Kamu cari kos dengan budget di bawah 20 juta ya? Itu maksudnya 20 juta per tahun, atau per bulan, nih? Soalnya kalau per bulan sih, banyak banget pilihan mewahnya. 😅
+
+Kalau per tahun, berarti sekitar 1,6 jutaan per bulan ya. Nah, aku ada beberapa rekomendasi kos yang mungkin cocok buat kamu:
+
+*   **Kos Putri Agestya Living**: Ini kos putri, lokasinya di Jl. Kaliurang, dekat UGM dan halte Trans Jogja. Harganya sekitar 1,7 juta.
+*   **Kost Putri Eksklusif Triple A De Ariesta**: Ini juga kos putri, lokasinya di Jl. Sulawesi, dekat minimarket dan warung makan. Harganya sekitar 1,3 juta.
+*   **Kos Putri Pandega Sakti 2**: Ini kos putri baru, lokasinya di Jl. Manggung. Harganya sekitar 1,5 juta.
+*   **Kos Putri Mawar Indah**: Lokasinya di Jl. Kaliurang KM 7. Harganya sekitar 1 juta.
+*   **Kos Pria Sembodo**: Nah, kalau kamu cowok, ini ada Kos Pria Sembodo di Jl. Gejayan. Harganya sekitar 950 ribu.
+
+Gimana? Ada yang menarik perhatianmu? Atau ada kriteria lain yang kamu cari, misalnya lokasi yang lebih spesifik, atau fasilitas tertentu? 😊
+[INFO] 2025-10-27T04:47:11.964Z - 🟦 User: aku mau yang lebih murah dari sebelumnya dong
+[INFO] 2025-10-27T04:47:11.966Z - 📨 Mengirim prompt ke Gemini (attempt 1)
+[INFO] 2025-10-27T04:47:12.836Z - 📩 Gemini response diterima (attempt 1)
+[INFO] 2025-10-27T04:47:12.838Z - ✅ Query berhasil diparse: {"preferensi":"lebih murah"}
+[INFO] 2025-10-27T04:47:12.839Z - 🟩 Ditemukan: 5 kos
+[INFO] 2025-10-27T04:47:15.125Z - 🤖 Bot reply: Oke, siap! Dari data yang aku punya, ini ada beberapa pilihan kos yang harganya lebih terjangkau dari yang sebelumnya:
+
+*   **Kos Pria Sembodo:** Ini yang paling murah, cuma Rp950.000 per bulan. Lokasinya di Jl. Gejayan No. 12 dan khusus untuk pria. Kamarnya ukuran 3x3.5 m, listrik sudah termasuk, ada kasur dan meja belajar. Lumayan banget kan?
+*   **Kos Putri Mawar Indah:** Harganya Rp1.000.000 per bulan. Lokasinya di Jl. Kaliurang KM 7, khusus untuk putri. Kamarnya 3x3 m, listrik sudah termasuk, ada kasur, lemari, dan meja belajar. Lokasinya juga strategis, dekat kampus UGM dan halte Trans Jogja.
+
+Gimana, ada yang menarik perhatianmu dari kedua pilihan ini? Kalau ada, bisa aku kasih info lebih detail lagi! 😊
+[INFO] 2025-10-27T04:59:31.008Z - 🟦 User: aku cari kos dibawah 8 juta
+[INFO] 2025-10-27T04:59:31.010Z - 📨 Mengirim prompt ke Gemini (attempt 1)
+[INFO] 2025-10-27T04:59:31.957Z - 📩 Gemini response diterima (attempt 1)
+[WARN] 2025-10-27T04:59:31.959Z - ⚠️ Gagal parsing hasil Gemini, gunakan query kosong.
+[INFO] 2025-10-27T04:59:31.960Z - 🟩 Ditemukan: 5 kos
+[INFO] 2025-10-27T04:59:33.610Z - 🤖 Bot reply: Oke, santai aja! Kamu nyari kos di bawah 8 juta? Itu budget per bulan atau total selama ngekos, nih? 😅 Terus, kamu nyari kos di daerah mana? Sama, kamu cowok atau cewek? Soalnya, beberapa kos ada yang khusus putri atau putra gitu. Kasih tau detailnya ya, biar aku bisa bantu cariin yang paling pas buat kamu! 😉
+[INFO] 2025-10-27T05:00:29.932Z - 🟦 User: budget sebulan, aku cewe dan cari di daerah ugm
+[INFO] 2025-10-27T05:00:29.934Z - 📨 Mengirim prompt ke Gemini (attempt 1)
+[INFO] 2025-10-27T05:00:30.799Z - 📩 Gemini response diterima (attempt 1)
+[WARN] 2025-10-27T05:00:30.801Z - ⚠️ Gagal parsing hasil Gemini, gunakan query kosong.
+[INFO] 2025-10-27T05:00:30.803Z - 🟩 Ditemukan: 5 kos
+[INFO] 2025-10-27T05:00:32.590Z - 🤖 Bot reply: Hai! Nyari kos di daerah UGM ya? Oke, budget sebulanmu berapa nih? Ini penting biar aku bisa kasih rekomendasi yang paling pas buat kamu. Trus, ada preferensi khusus gak soal fasilitas atau aturan kosnya? Misalnya, lebih suka yang udah termasuk listrik atau token sendiri? Pengen yang ada dapur bareng atau laundry? Kasih tau ya, biar pencarian kita makin terarah! 😉
+[INFO] 2025-10-27T05:06:06.996Z - ✅ Menggunakan model: gemini-2.0-flash
+[INFO] 2025-10-27T05:07:07.532Z - 🟦 User: aku cari kos dibawah 8 juta
+[INFO] 2025-10-27T05:07:07.535Z - 📨 Mengirim prompt ke Gemini (attempt 1)
+[INFO] 2025-10-27T05:07:09.245Z - 📩 Gemini response diterima (attempt 1)
+[WARN] 2025-10-27T05:07:09.246Z - ⚠️ Gagal parsing hasil Gemini, gunakan memory slot jika ada.
+[INFO] 2025-10-27T05:07:09.248Z - 🟩 Ditemukan: 0 kos
+[INFO] 2025-10-27T05:07:12.059Z - 🤖 Bot reply: Oke, jadi budgetmu di bawah 8 juta ya? Itu berarti sekitar 600 ribuan per bulan ya? Wah, sayangnya dari data yang aku punya, belum ada kos yang harganya segitu. Kebanyakan di atas 1 juta per bulan. 😔
+
+Tapi, jangan khawatir! Mungkin ada beberapa tips yang bisa kamu coba:
+
+1.  **Coba cari di lokasi yang agak pinggiran:** Biasanya kos di pusat kota memang lebih mahal. Coba cari yang agak jauh dari kampus atau pusat keramaian, mungkin bisa dapat yang lebih murah.
+2.  **Cari kos yang fasilitasnya standar:** Kos yang ada AC, kamar mandi dalam, atau WiFi biasanya lebih mahal. Kalau kamu nggak terlalu butuh fasilitas itu, coba cari kos yang fasilitasnya standar aja.
+3.  **Tanya teman atau senior:** Siapa tahu mereka punya rekomendasi kos murah yang belum terdaftar di aplikasi atau website.
+4.  **Cek papan pengumuman di kampus:** Kadang ada pemilik kos yang menempelkan iklan di sana.
+
+Semoga berhasil ya mencari kos yang sesuai budgetmu! Kalau ada info baru, pasti aku kabari. 😉
