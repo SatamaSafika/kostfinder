@@ -6,6 +6,9 @@ import { logError } from "./logger.js";
 const dataDir = path.resolve("./data");
 if (!fs.existsSync(dataDir)) fs.mkdirSync(dataDir);
 
+const usersFile = path.join(dataDir, "users.json");
+if (!fs.existsSync(usersFile)) fs.writeFileSync(usersFile, "{}", "utf8");
+
 // Helper baca file JSON
 export function readJSON(fileName) {
   try {

@@ -340,6 +340,454 @@
             "text": "Oke, sip! Kos putri ya? Nah, ini ada beberapa pilihan yang mungkin cocok buat kamu (harga per bulan ya, dan di bawah 8 juta pastinya! 😜):\n\n*   **Kos Putri Agestya Living:** Ini lokasinya di Jl. Kaliurang, deket UGM sama halte Trans Jogja. Harganya 1,7 juta per bulan. Fasilitasnya udah lengkap: kasur, lemari, meja belajar, dan listrik udah termasuk. Asiknya lagi, gak boleh ngerokok di kamar.\n*   **Kost Putri Eksklusif Triple A De Ariesta:** Kalau yang ini di Jl. Sulawesi, deket minimarket sama warung makan. Harganya 1,3 juta per bulan. Fasilitasnya juga ada kasur sama meja belajar. Aksesnya 24 jam, tapi gak boleh bawa tamu nginep ya.\n*   **Kos Putri Pandega Sakti 2:** Ini di Jl. Manggung, bangunannya baru. Harganya 1,5 juta per bulan. Fasilitasnya juga lengkap: kasur, lemari, meja belajar. Listriknya token masing-masing kamar. Ada dapur di lantai bawah sama laundry di lantai atas, jadi makin nyaman!\n*   **Kos Putri Mawar Indah:** Yang ini di Jl. Kaliurang KM 7. Harganya paling murah, 1 juta per bulan. Fasilitasnya juga lumayan: kasur, lemari, meja belajar. Lokasinya juga strategis, deket UGM sama halte Trans Jogja.\n\nGimana? Ada yang menarik perhatian kamu? Atau kamu punya preferensi lokasi lain? Siapa tau aku bisa bantu cariin yang lebih spesifik lagi! 😉"
           }
         ]
+      },
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "!kos bisakah kamu bantu aku cari kos dibawah harga 2 juta?"
+          }
+        ]
+      },
+      {
+        "role": "model",
+        "parts": [
+          {
+            "text": "Oke! Kamu lagi cari kos nih 😄. Coba ceritain dulu deh, kamu pengennya di daerah mana atau kisaran harga berapa?"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "!kos aku mau dekat ugm"
+          }
+        ]
+      },
+      {
+        "role": "model",
+        "parts": [
+          {
+            "text": "Oke! Kamu lagi cari kos nih 😄. Coba ceritain dulu deh, kamu pengennya di daerah mana atau kisaran harga berapa?"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "!kos mau kos harga dibawah 2 juta dong"
+          }
+        ]
+      },
+      {
+        "role": "model",
+        "parts": [
+          {
+            "text": "Oke! Kamu lagi cari kos nih 😄. Coba ceritain dulu deh, kamu pengennya di daerah mana atau kisaran harga berapa?"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "!kos kau mau di daerah ugm"
+          }
+        ]
+      },
+      {
+        "role": "model",
+        "parts": [
+          {
+            "text": "Oke! Kamu lagi cari kos nih 😄. Coba ceritain dulu deh, kamu pengennya di daerah mana atau kisaran harga berapa?"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "!kos oke stop deh dulu"
+          }
+        ]
+      },
+      {
+        "role": "model",
+        "parts": [
+          {
+            "text": "Oke, sesi pencarian kos kamu aku tutup ya! 😊 Kapan-kapan kalau mau cari lagi tinggal ketik `!kos` aja."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "!kos saya mau cari kos nih"
+          }
+        ]
+      },
+      {
+        "role": "model",
+        "parts": [
+          {
+            "text": "Oke! Kamu lagi cari kos nih 😄. Coba ceritain dulu deh, kamu pengennya di daerah mana atau kisaran harga berapa?"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "!kos mau cari di daerah ugm"
+          }
+        ]
+      },
+      {
+        "role": "model",
+        "parts": [
+          {
+            "text": "Oke! Kamu lagi cari kos nih 😄. Coba ceritain dulu deh, kamu pengennya di daerah mana atau kisaran harga berapa?"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "!kos mau cari dibawah harga 2 juta"
+          }
+        ]
+      },
+      {
+        "role": "model",
+        "parts": [
+          {
+            "text": "Oke! Kamu lagi cari kos nih 😄. Coba ceritain dulu deh, kamu pengennya di daerah mana atau kisaran harga berapa?"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "!kos oke stop dlu utk sekarang yah"
+          }
+        ]
+      },
+      {
+        "role": "model",
+        "parts": [
+          {
+            "text": "Oke, sesi pencarian kos kamu aku tutup ya! 😊 Kapan-kapan kalau mau cari lagi tinggal ketik `!kos` aja."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "!kos aku mau tanya tanya kos sekitaran ugm nih"
+          }
+        ]
+      },
+      {
+        "role": "model",
+        "parts": [
+          {
+            "text": "Oke! Kamu lagi cari kos nih 😄. Coba ceritain dulu deh, kamu pengennya di daerah mana atau kisaran harga berapa?"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "!kos unutk kisaran harga 2 juta atau kebawahnya ada ga ya?"
+          }
+        ]
+      },
+      {
+        "role": "model",
+        "parts": [
+          {
+            "text": "Oke! Kamu lagi cari kos nih 😄. Coba ceritain dulu deh, kamu pengennya di daerah mana atau kisaran harga berapa?"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "!kos stop dulu ya utk sekarang"
+          }
+        ]
+      },
+      {
+        "role": "model",
+        "parts": [
+          {
+            "text": "Oke, sesi pencarian kos kamu aku tutup ya! 😊 Kapan-kapan kalau mau cari lagi tinggal ketik `!kos` aja."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "!kos aku mau tanya kos sekitaran ugm kamu ada info g ya?"
+          }
+        ]
+      },
+      {
+        "role": "model",
+        "parts": [
+          {
+            "text": "Oke! Kamu lagi cari kos nih 😄. Coba ceritain dulu deh, kamu pengennya di daerah mana atau kisaran harga berapa?"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "!kos sekitar ugm dengan harga dibawah 2 juta"
+          }
+        ]
+      },
+      {
+        "role": "model",
+        "parts": [
+          {
+            "text": "Hmm... belum nemu yang cocok nih 😅. Mau aku cariin di lokasi lain, atau ubah kisaran harganya?"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "!kos putri aja deh, pilihannya apa ya?"
+          }
+        ]
+      },
+      {
+        "role": "model",
+        "parts": [
+          {
+            "text": "😔 Maaf, aku lagi error nih. Coba lagi nanti ya."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "!kos udah dulu deh utk sekarang makasih ya"
+          }
+        ]
+      },
+      {
+        "role": "model",
+        "parts": [
+          {
+            "text": "Oke, sesi pencarian kos kamu aku tutup ya! 😊 Kapan-kapan kalau mau cari lagi tinggal ketik `!kos` aja."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "!kos aku mau cari kos di daerah seturan"
+          }
+        ]
+      },
+      {
+        "role": "model",
+        "parts": [
+          {
+            "text": "Oke! Kamu lagi cari kos nih 😄. Coba ceritain dulu deh, kamu pengennya di daerah mana atau kisaran harga berapa?"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "!kos kalau untuk kos dengan harga dibawah 2 juta ada ga?"
+          }
+        ]
+      },
+      {
+        "role": "model",
+        "parts": [
+          {
+            "text": "Aku udah nemu beberapa pilihan nih! Mau aku bantu filter lagi berdasarkan fasilitas tertentu? Misal kamar mandi dalam, WiFi, atau AC?"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "!kos yang ada kamar mandi dalamnya ya, lainnya bebas deh"
+          }
+        ]
+      },
+      {
+        "role": "model",
+        "parts": [
+          {
+            "text": "Hmm... belum nemu yang cocok nih 😅. Mau aku cariin di lokasi lain, atau ubah kisaran harganya?"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "!kos oke udahan dlu deh ya"
+          }
+        ]
+      },
+      {
+        "role": "model",
+        "parts": [
+          {
+            "text": "Oke, sesi pencarian kos kamu aku tutup ya! 😊 Kapan-kapan kalau mau cari lagi tinggal ketik `!kos` aja."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "!kos aku mau cari kos di daerah depok ada ga ya?"
+          }
+        ]
+      },
+      {
+        "role": "model",
+        "parts": [
+          {
+            "text": "Oke! Kamu lagi cari kos nih 😄. Coba ceritain dulu deh, kamu pengennya di daerah mana atau kisaran harga berapa?"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "!kos aku mau kisaran harga dibawah 2 juta"
+          }
+        ]
+      },
+      {
+        "role": "model",
+        "parts": [
+          {
+            "text": "Aku udah nemu beberapa pilihan nih! Mau aku bantu filter lagi berdasarkan fasilitas tertentu? Misal kamar mandi dalam, WiFi, atau AC?"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "!kos aku mau yang kamar mandi dalam dong"
+          }
+        ]
+      },
+      {
+        "role": "model",
+        "parts": [
+          {
+            "text": "😅 Belum nemu kos yang cocok di data yang ada. Mau aku cariin di lokasi lain atau ubah harganya?"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "!kos kalau lokasi lain gimana"
+          }
+        ]
+      },
+      {
+        "role": "model",
+        "parts": [
+          {
+            "text": "😅 Belum nemu kos yang cocok di data yang ada. Mau aku cariin di lokasi lain atau ubah harganya?"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "!kos kaau lokasi sekitar ugm"
+          }
+        ]
+      },
+      {
+        "role": "model",
+        "parts": [
+          {
+            "text": "😅 Belum nemu kos yang cocok di data yang ada. Mau aku cariin di lokasi lain atau ubah harganya?"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "!kos udahan dlu ya"
+          }
+        ]
+      },
+      {
+        "role": "model",
+        "parts": [
+          {
+            "text": "Oke, sesi pencarian kos kamu aku tutup ya! 😊 Kapan-kapan kalau mau cari lagi tinggal ketik `!kos` aja."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "!kos halo aku mau caari kos nih"
+          }
+        ]
+      },
+      {
+        "role": "model",
+        "parts": [
+          {
+            "text": "Oke! Kamu lagi cari kos nih 😄. Coba ceritain dulu deh, kamu pengennya di daerah mana atau kisaran harga berapa?"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "!kos aku mau di daerah depok ada?"
+          }
+        ]
+      },
+      {
+        "role": "model",
+        "parts": [
+          {
+            "text": "😔 Maaf, aku lagi error nih. Coba lagi nanti ya."
+          }
+        ]
       }
     ]
   }

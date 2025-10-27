@@ -1,130 +1,213 @@
-
-import "dotenv/config";
+import 'dotenv/config';
+import fs from "fs";
+import path from "path";
+import { fileURLToPath } from "url";
 import { GoogleGenerativeAI } from "@google/generative-ai";
 import { searchKos } from "./utils/searchKos.js";
 import { formatResponse } from "./utils/formatResponse.js";
-import kosData from "./data/kos_jogja.json" assert { type: "json" };
-import kosVerified from "./data/kos_verified.json" assert { type: "json" };
+import { getSession, updateSession, resetSession, getUserHistory, saveUserHistory } from "./store.js";
 import { log, logError } from "./logger.js";
-import { getUserHistory, saveUserHistory, getSession, updateSession, resetSession } from "./store.js";
 
-// Gabungkan data lokal + verified
+// === Setup path ===
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const dataDir = path.join(__dirname, "data");
+
+// === Fungsi aman untuk baca JSON ===
+function safeReadJSON(filePath) {
+  try {
+    if (!fs.existsSync(filePath)) {
+      log(`⚠️ File tidak ditemukan: ${filePath}`);
+      return [];
+    }
+    const content = fs.readFileSync(filePath, "utf8");
+    if (!content.trim()) {
+      log(`⚠️ File kosong: ${filePath}`);
+      return [];
+    }
+    return JSON.parse(content);
+  } catch (err) {
+    logError(err, `Gagal baca file JSON: ${filePath}`);
+    return [];
+  }
+}
+
+// === Load data JSON ===
+const kosData = safeReadJSON(path.join(dataDir, "kos_jogja.json"));
+const kosVerified = safeReadJSON(path.join(dataDir, "kos_verified.json"));
+
+// === Normalisasi data kos ===
+function normalizeKosData(data) {
+  if (!Array.isArray(data)) return [];
+  return data.map(k => {
+    const semuaFasilitas = [
+      ...(k.fasilitas?.kamar || []),
+      ...(k.fasilitas?.kamar_mandi || []),
+      ...(k.fasilitas?.umum || []),
+      ...(k.fasilitas?.parkir || [])
+    ];
+
+    return {
+      nama: k.nama || "",
+      lokasi: k.lokasi || "",
+      tipe: k.spesifikasi?.tipe?.toLowerCase() || "",
+      harga: Number(k.harga) || 0,
+      fasilitas: semuaFasilitas.map(f => f.toLowerCase()),
+      aturan: k.peraturan || [],
+      preferensi: [],
+      verified: k.verified || false,
+      kontak: k.kontak || "",
+      sumber: k.sumber || "",
+    };
+  });
+}
+
+// === Gabungkan & normalisasi data ===
 const allKosData = [
-  ...kosData.map((k) => ({ ...k, verified: false })),
-  ...kosVerified.map((k) => ({ ...k, verified: true })),
+  ...normalizeKosData(kosData).map(k => ({ ...k, verified: false })),
+  ...normalizeKosData(kosVerified).map(k => ({ ...k, verified: true })),
 ];
 
-// Inisialisasi Gemini
+log(`✅ Data kos berhasil dimuat: ${allKosData.length} entri`);
+
+// === Inisialisasi Gemini ===
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
-const modelNames = ["gemini-2.0-flash", "gemini-1.5-flash", "gemini-1.5-pro"];
 let model;
+const modelNames = ["gemini-2.0-flash", "gemini-1.5-flash", "gemini-1.5-pro"];
 for (const name of modelNames) {
   try {
     model = genAI.getGenerativeModel({ model: name });
     log(`✅ Menggunakan model: ${name}`);
     break;
   } catch (err) {
-    log(`⚠️ Model ${name} tidak tersedia, coba berikutnya.`, "WARN");
+    log(`⚠️ Model ${name} gagal dipakai: ${err.message}`);
   }
 }
-if (!model) throw new Error("Tidak ada model Gemini valid tersedia.");
+if (!model) throw new Error("Tidak ada model Gemini yang tersedia.");
 
-// --- Deteksi cepat intent user ---
-function detectIntent(userInput) {
-  const query = {};
-  const hargaMatch = userInput.match(/(\d+(?:[.,]\d+)?)\s*(juta|jt|ribu|k)?/i);
-  if (hargaMatch) {
-    let harga = parseFloat(hargaMatch[1]);
-    const unit = hargaMatch[2]?.toLowerCase() || "";
-    if (unit.includes("juta") || unit.includes("jt")) harga *= 1_000_000;
-    if (unit.includes("ribu") || unit.includes("k")) harga *= 1_000;
-    query.harga_max = harga;
-  }
-
-  const lokasiMatch = userInput.match(/(ugm|uny|seturan|malioboro|kaliurang|condongcatur)/i);
-  if (lokasiMatch) query.lokasi = lokasiMatch[1].toLowerCase();
-
-  const tipeMatch = userInput.match(/putra|putri|campur/i);
-  if (tipeMatch) query.tipe = tipeMatch[0].toLowerCase();
-
-  const fasilitas = [];
-  if (userInput.includes("ac")) fasilitas.push("AC");
-  if (userInput.includes("wifi")) fasilitas.push("WiFi");
-  if (userInput.includes("kamar mandi dalam")) fasilitas.push("Kamar mandi dalam");
-  if (fasilitas.length) query.fasilitas = fasilitas;
-
-  return query;
-}
-
-// --- Ekstrak JSON pakai Gemini untuk backup ---
+// === Ekstraksi query ===
 async function extractQuery(userMessage, existingQuery = {}) {
   const prompt = `
-Kamu adalah asisten pencari kos di Yogyakarta. Ekstrak maksud user menjadi JSON:
+Kamu adalah asisten pencari kos di Yogyakarta. Ekstrak maksud user menjadi JSON dengan format:
 {
-  "lokasi": "string atau null",
+  "lokasi": string atau null,
   "harga_min": number atau null,
   "harga_max": number atau null,
-  "tipe": "Putri/Putra/Campur atau null",
-  "fasilitas": ["wifi", "AC", ...]
+  "tipe": "putra" | "putri" | "campur" | null,
+  "fasilitas": string[] atau []
 }
 User: "${userMessage}"
 Gunakan data lama jika relevan: ${JSON.stringify(existingQuery)}
 `;
+
   try {
     const res = await model.generateContent(prompt);
     const text = res?.response?.text()?.trim();
-    return JSON.parse(text);
-  } catch {
+
+    const jsonStart = text.indexOf("{");
+    const jsonEnd = text.lastIndexOf("}");
+    if (jsonStart !== -1 && jsonEnd !== -1) {
+      const parsed = JSON.parse(text.slice(jsonStart, jsonEnd + 1));
+      return { ...existingQuery, ...parsed };
+    } else {
+      throw new Error("Invalid JSON dari model");
+    }
+  } catch (err) {
     log("⚠️ Fallback ke rule-based intent", "WARN");
-    return { ...existingQuery, ...detectIntent(userMessage) };
+
+    const query = { ...existingQuery };
+    const text = userMessage.toLowerCase();
+
+    // Harga
+    const hargaMatch = text.match(/(\d+(?:[.,]\d+)?)\s*(juta|jt|ribu|k)?/i);
+    if (hargaMatch) {
+      let harga = parseFloat(hargaMatch[1]);
+      const unit = hargaMatch[2]?.toLowerCase() || "";
+      if (unit.includes("juta") || unit.includes("jt")) harga *= 1_000_000;
+      if (unit.includes("ribu") || unit.includes("k")) harga *= 1_000;
+      query.harga_max = harga;
+    }
+
+    // Lokasi
+    const lokasiMatch = text.match(/(ugm|uny|seturan|malioboro|kaliurang|condongcatur|sagan|gejayan)/i);
+    if (lokasiMatch) query.lokasi = lokasiMatch[1].toLowerCase();
+
+    // Tipe
+    const tipeMatch = text.match(/putra|putri|campur/i);
+    if (tipeMatch) query.tipe = tipeMatch[0].toLowerCase();
+
+    // Fasilitas
+    const fasilitas = [];
+    if (text.includes("ac")) fasilitas.push("AC");
+    if (text.includes("wifi")) fasilitas.push("WiFi");
+    if (text.includes("kamar mandi dalam")) fasilitas.push("Kamar mandi dalam");
+    if (fasilitas.length) query.fasilitas = fasilitas;
+
+    return query;
   }
 }
 
-// --- Fungsi utama bot ---
+// === Fungsi utama agent ===
 export async function kosFinderAgent(userMessage, userId) {
-  const session = getSession(userId);
-  const text = userMessage.toLowerCase();
+  try {
+    console.log(`🟦 [KOSFINDER] User(${userId}): ${userMessage}`);
 
-  // === 1️⃣ Jika user ingin mengakhiri sesi ===
-  if (/selesai|stop|cukup|udah/i.test(text)) {
-    resetSession(userId);
-    return "Oke, sesi pencarian kos kamu aku tutup ya! 😊 Kapan-kapan kalau mau cari lagi tinggal ketik `!kos` aja.";
-  }
+    const session = getSession(userId);
+    let text = userMessage.toLowerCase();
 
-  // === 2️⃣ Jika user belum memulai sesi ===
-  if (session.mode === "idle" && !text.startsWith("!kos")) {
+    // --- Cek trigger keluar ---
+    if (/selesai|stop|cukup|udah|terima kasih|thanks/i.test(text)) {
+      resetSession(userId);
+      return "Oke, sesi pencarian kos kamu aku tutup ya! 😊 Kapan-kapan kalau mau cari lagi tinggal ketik `!kos` aja.";
+    }
+
+    // === User baru memulai ===
+    if (text.startsWith("!kos") && session.mode === "idle") {
+      updateSession(userId, { mode: "searching", query: {}, lastResults: [] });
+      return "Oke! Kamu lagi cari kos nih 😄. Coba ceritain dulu deh, kamu pengennya di daerah mana atau kisaran harga berapa?";
+    }
+
+    // === Dalam mode pencarian ===
+    if (session.mode === "searching") {
+      if (text.startsWith("!kos")) {
+        text = text.replace("!kos", "").trim();
+        userMessage = userMessage.replace("!kos", "").trim();
+      }
+
+      const updatedQuery = await extractQuery(userMessage, session.query || {});
+      updateSession(userId, { query: updatedQuery });
+
+      // === Cari hasil hanya dari allKosData ===
+      const results = searchKos(allKosData, updatedQuery);
+
+      // Simpan history percakapan
+      const history = getUserHistory(userId);
+      history.push({ role: "user", parts: [{ text: userMessage }] });
+      saveUserHistory(userId, history);
+
+      // === Tampilkan hasil ===
+      if (!results || results.length === 0) {
+        log("🔎 Tidak ditemukan hasil di kedua dataset");
+        return "😅 Belum nemu kos yang cocok di data yang ada. Mau aku cariin di lokasi lain atau ubah harganya?";
+      }
+
+      // Kalau hasil banyak banget, tawarkan filter tambahan
+      if (results.length > 3) {
+        updateSession(userId, { lastResults: results });
+        return "Aku udah nemu beberapa pilihan nih! Mau aku bantu filter lagi berdasarkan fasilitas tertentu? Misal kamar mandi dalam, WiFi, atau AC?";
+      }
+
+      // Kalau hasil ≤ 3, tampilkan langsung
+      const formattedResults = formatResponse(results);
+      resetSession(userId);
+
+      return `Aku nemu yang cocok banget buat kamu nih 🏡✨:\n\n${formattedResults}\n\nKalau mau cari lagi tinggal ketik \`!kos\` aja ya!`;
+    }
+
+    // === Kalau user belum mulai sama sekali ===
     return "Kamu belum mulai pencarian kos. Ketik `!kos` dulu ya untuk mulai. 😊";
-  }
 
-  // === 3️⃣ Jika user baru mengetik "!kos" ===
-  if (text.startsWith("!kos")) {
-    updateSession(userId, { mode: "searching", query: {} });
-    return "Siap! Yuk cari kos bareng 😄. Kamu pengin mulai dari preferensi apa dulu nih? Lokasi, harga, atau tipe kos?";
-  }
-
-  // === 4️⃣ Update query dari pesan user ===
-  const updatedQuery = await extractQuery(userMessage, session.query);
-  updateSession(userId, { query: updatedQuery });
-
-  // === 5️⃣ Cari hasil berdasarkan query ===
-  const results = searchKos(allKosData, updatedQuery);
-  log(`🟩 Ditemukan ${results.length} kos untuk ${userId}`);
-
-  // === 6️⃣ Jika hasil kosong, bantu user refine ===
-  if (results.length === 0) {
-    return "Hmm... belum nemu yang cocok nih. Mau aku cariin di lokasi lain atau ubah kisaran harganya?";
-  }
-
-  // === 7️⃣ Jika hasil masih banyak, ajukan pertanyaan lanjutan ===
-  if (results.length > 3) {
-    return "Ada beberapa pilihan nih! Kamu mau aku filter lagi berdasarkan fasilitas tertentu? Misal kamar mandi dalam, AC, atau WiFi?";
-  }
-
-  // === 8️⃣ Jika hasil sudah spesifik, tampilkan dan akhiri sesi ===
-  if (results.length <= 3) {
-    resetSession(userId);
-    const formattedResults = formatResponse(results);
-    return `Aku nemu yang cocok banget buat kamu nih:\n\n${formattedResults}\n\nSemoga pas ya! 🏡✨`;
+  } catch (err) {
+    logError(err, "kosFinderAgent Error:");
+    return "😔 Maaf, aku lagi error nih. Coba lagi nanti ya.";
   }
 }
-

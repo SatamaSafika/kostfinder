@@ -111,3 +111,31 @@ Gimana? Ada yang bikin kamu tertarik? Atau ada preferensi lain, misalnya khusus 
 *   **Kos Putri Mawar Indah:** Yang ini di Jl. Kaliurang KM 7. Harganya paling murah, 1 juta per bulan. Fasilitasnya juga lumayan: kasur, lemari, meja belajar. Lokasinya juga strategis, deket UGM sama halte Trans Jogja.
 
 Gimana? Ada yang menarik perhatian kamu? Atau kamu punya preferensi lokasi lain? Siapa tau aku bisa bantu cariin yang lebih spesifik lagi! 😉
+[INFO] 2025-10-27T14:07:22.037Z - ✅ Menggunakan model: gemini-2.0-flash
+[INFO] 2025-10-27T14:32:00.189Z - ✅ Menggunakan model: gemini-2.0-flash
+[INFO] 2025-10-27T14:38:54.087Z - ✅ Menggunakan model: gemini-2.0-flash
+[INFO] 2025-10-27T14:59:10.810Z - ✅ Menggunakan model: gemini-2.0-flash
+[INFO] 2025-10-27T15:05:16.037Z - ✅ Menggunakan model: gemini-2.0-flash
+[INFO] 2025-10-27T15:18:20.228Z - ✅ Menggunakan model: gemini-2.0-flash
+[WARN] 2025-10-27T15:19:12.986Z - ⚠️ Fallback ke rule-based intent
+[WARN] 2025-10-27T15:19:45.733Z - ⚠️ Fallback ke rule-based intent
+[kosFinderAgent Error:] 2025-10-27T15:19:45.744Z - TypeError: Cannot read properties of undefined (reading 'toLowerCase')
+    at file:///C:/Users/user/Desktop/github/kostfinder/src/utils/searchKos.js:4:45
+    at Array.filter (<anonymous>)
+    at searchKos (file:///C:/Users/user/Desktop/github/kostfinder/src/utils/searchKos.js:2:18)
+    at kosFinderAgent (file:///C:/Users/user/Desktop/github/kostfinder/src/agent.js:127:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Client.<anonymous> (file:///C:/Users/user/Desktop/github/kostfinder/src/discordBot.js:47:17)
+[INFO] 2025-10-27T15:26:07.990Z - ✅ Menggunakan model: gemini-2.0-flash
+[INFO] 2025-10-27T16:06:16.276Z - ✅ Data kos berhasil dimuat: 5 entri
+[INFO] 2025-10-27T16:06:16.283Z - ✅ Menggunakan model: gemini-2.0-flash
+[INFO] 2025-10-27T16:07:26.773Z - 🔎 Tidak ditemukan hasil di kedua dataset
+[INFO] 2025-10-27T16:07:53.397Z - 🔎 Tidak ditemukan hasil di kedua dataset
+[INFO] 2025-10-27T16:08:04.303Z - 🔎 Tidak ditemukan hasil di kedua dataset
+[kosFinderAgent Error:] 2025-10-27T16:14:12.505Z - TypeError: Cannot read properties of undefined (reading 'tipe')
+    at file:///C:/Users/user/Desktop/github/kostfinder/src/utils/formatResponse.js:10:27
+    at Array.map (<anonymous>)
+    at formatResponse (file:///C:/Users/user/Desktop/github/kostfinder/src/utils/formatResponse.js:5:6)
+    at kosFinderAgent (file:///C:/Users/user/Desktop/github/kostfinder/src/agent.js:200:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Client.<anonymous> (file:///C:/Users/user/Desktop/github/kostfinder/src/discordBot.js:47:17)
