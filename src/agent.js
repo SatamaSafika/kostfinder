@@ -187,7 +187,7 @@ export async function kosFinderAgent(userMessage, userId) {
       // === Tampilkan hasil ===
       if (!results || results.length === 0) {
         log("🔎 Tidak ditemukan hasil di kedua dataset");
-        return "😅 Belum nemu kos yang cocok di data yang ada. Mau aku cariin di lokasi lain atau ubah harganya?";
+        return "Hmm, belum ketemu yang cocok nih 😕. Di daerah Depok memang agak terbatas. Mau aku bantu cariin di sekitar Kaliurang atau Condongcatur juga?";
       }
 
       // Kalau hasil banyak banget, tawarkan filter tambahan
@@ -196,11 +196,32 @@ export async function kosFinderAgent(userMessage, userId) {
         return "Aku udah nemu beberapa pilihan nih! Mau aku bantu filter lagi berdasarkan fasilitas tertentu? Misal kamar mandi dalam, WiFi, atau AC?";
       }
 
-      // Kalau hasil ≤ 3, tampilkan langsung
+      // === Kalau hasil ≤ 3, tampilkan langsung ===
       const formattedResults = formatResponse(results);
+
+      // --- ✨ Bagian tambahan: refinePrompt biar bahasanya natural ---
+      const refinePrompt = `
+      Kamu adalah asisten virtual bernama "KosFinder" yang sedang ngobrol dengan ${username}.
+      Gunakan bahasa ringan, kadang pakai emoji, dan jangan terlalu formal.
+      Responmu harus menyesuaikan nada pengguna — kalau dia nanya santai, balas santai juga.
+      Berikan sapa kecil di awal (misal "Hai!" atau "Oke!") dan akhiri dengan kalimat ramah.
+
+      Berikut hasil pencarian kos yang perlu kamu jelaskan dengan gaya manusia:
+
+      ${formattedResults}
+
+      Buatlah balasan yang terdengar natural dan ramah, seolah kamu benar-benar bantu dia cari kos.
+      `;
+
+
+      const refined = await model.generateContent(refinePrompt);
+      const finalText = refined?.response?.text()?.trim() || formattedResults;
+      // --- ✨ End refinement ---
+
       resetSession(userId);
 
-      return `Aku nemu yang cocok banget buat kamu nih 🏡✨:\n\n${formattedResults}\n\nKalau mau cari lagi tinggal ketik \`!kos\` aja ya!`;
+      // return hasil akhir yang sudah diperhalus
+      return finalText;
     }
 
     // === Kalau user belum mulai sama sekali ===

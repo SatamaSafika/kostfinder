@@ -788,6 +788,198 @@
             "text": "😔 Maaf, aku lagi error nih. Coba lagi nanti ya."
           }
         ]
+      },
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "!kos oke udhaan dlu yak"
+          }
+        ]
+      },
+      {
+        "role": "model",
+        "parts": [
+          {
+            "text": "Oke! Kamu lagi cari kos nih 😄. Coba ceritain dulu deh, kamu pengennya di daerah mana atau kisaran harga berapa?"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "!kos udahan dlu oke"
+          }
+        ]
+      },
+      {
+        "role": "model",
+        "parts": [
+          {
+            "text": "Oke, sesi pencarian kos kamu aku tutup ya! 😊 Kapan-kapan kalau mau cari lagi tinggal ketik `!kos` aja."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "!kos aku mau cari kos nih bantu plis"
+          }
+        ]
+      },
+      {
+        "role": "model",
+        "parts": [
+          {
+            "text": "Oke! Kamu lagi cari kos nih 😄. Coba ceritain dulu deh, kamu pengennya di daerah mana atau kisaran harga berapa?"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "!kos aku mau di daerah seturan ada ga?"
+          }
+        ]
+      },
+      {
+        "role": "model",
+        "parts": [
+          {
+            "text": "😅 Belum nemu kos yang cocok di data yang ada. Mau aku cariin di lokasi lain atau ubah harganya?"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "!kos kalau di daerah depok gimana"
+          }
+        ]
+      },
+      {
+        "role": "model",
+        "parts": [
+          {
+            "text": "Aku nemu yang cocok banget buat kamu nih 🏡✨:\n\n1. Kos Putri Agestya Living\n   📍 Jl. Kaliurang, Gg. Lombok No.B 36A, Kentungan, Condongcatur, Kec. Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55284\n   💰 Rp1.700.000\n   🏠 putri\n   🧩 Fasilitas: kasur, lemari, meja belajar, dalam, shower, water heater, wifi, dapur, motor, mobil\n   📜 Aturan: Hanya untuk wanita, Tidak boleh merokok di dalam kamar\n   📞 Kontak: 081779921304\n   🔗 Sumber: https://maps.app.goo.gl/pzMMTbb3gRje9QCB8\n   ✅ Terverifikasi\n\n2. Kos Putri Pandega Sakti 2\n   📍 Jl. Manggung, Caturtunggal, Depok, Sleman Regency, Daerah Istimewa Yogyakarta 55281\n   💰 Rp1.500.000\n   🏠 putri\n   🧩 Fasilitas: kasur, lemari, meja belajar, dalam, wifi, air minum gratis, dapur bersama, kulkas, ruang laundry\n   📜 Aturan: Hanya untuk wanita, Tidak boleh merokok di dalam kamar\n   📞 Kontak: 081338957847\n   🔗 Sumber: https://maps.app.goo.gl/tCsH8iVaEhnENcct8\n   ✅ Terverifikasi\n\nKalau mau cari lagi tinggal ketik `!kos` aja ya!"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "!kos aku mau cari kos nih"
+          }
+        ]
+      },
+      {
+        "role": "model",
+        "parts": [
+          {
+            "text": "Oke! Kamu lagi cari kos nih 😄. Coba ceritain dulu deh, kamu pengennya di daerah mana atau kisaran harga berapa?"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "!kos aku mau cari di dekat jalan kaliurang ada ga?"
+          }
+        ]
+      },
+      {
+        "role": "model",
+        "parts": [
+          {
+            "text": "😅 Belum nemu kos yang cocok di data yang ada. Mau aku cariin di lokasi lain atau ubah harganya?"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "!kos kalau di daerah depok gimana?"
+          }
+        ]
+      },
+      {
+        "role": "model",
+        "parts": [
+          {
+            "text": "Hai! Lagi cari kos di Jogja ya? Oke deh, aku bantu carikan yaa. Kebetulan, aku nemu dua opsi yang mungkin cocok buat kamu, nih:\n\n**1. Kos Putri Agestya Living**\n\n*   **Lokasi:** Jl. Kaliurang, Gg. Lombok No.B 36A, Kentungan, Condongcatur, Kec. Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55284\n*   **Harga:** Rp1.700.000\n*   **Tipe:** Putri\n*   **Fasilitas:** Wah, lengkap banget! Kasur, lemari, meja belajar, kamar mandi dalam (ada shower dan water heater pula!), WiFi, dapur, parkiran motor dan mobil. Mantap!\n*   **Aturan:** Cuma buat cewek, dan nggak boleh ngerokok di dalam kamar ya.\n*   **Kontak:** 081779921304\n*   **Link Maps:** [https://maps.app.goo.gl/pzMMTbb3gRje9QCB8](https://maps.app.goo.gl/pzMMTbb3gRje9QCB8)\n*   **Status:** Terverifikasi ✅\n\n**2. Kos Putri Pandega Sakti 2**\n\n*   **Lokasi:** Jl. Manggung, Caturtunggal, Depok, Sleman Regency, Daerah Istimewa Yogyakarta 55281\n*   **Harga:** Rp1.500.000\n*   **Tipe:** Putri\n*   **Fasilitas:** Ada kasur, lemari, meja belajar, kamar mandi dalam, WiFi, air minum gratis, dapur bersama, kulkas, dan ruang laundry. Asik!\n*   **Aturan:** Sama, cuma buat cewek dan nggak boleh ngerokok di dalam kamar.\n*   **Kontak:** 081338957847\n*   **Link Maps:** [https://maps.app.goo.gl/tCsH8iVaEhnENcct8](https://maps.app.goo.gl/tCsH8iVaEhnENcct8)\n*   **Status:** Terverifikasi ✅\n\nGimana? Menurutmu ada yang cocok? Jangan ragu buat hubungi nomor kontaknya langsung ya buat tanya-tanya lebih detail atau sekalian survei lokasinya. Semoga cepet dapet kos yang nyaman dan bikin betah di Jogja ya! Semangat! 😊"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "!kos aku mau cari kos"
+          }
+        ]
+      },
+      {
+        "role": "model",
+        "parts": [
+          {
+            "text": "Oke! Kamu lagi cari kos nih 😄. Coba ceritain dulu deh, kamu pengennya di daerah mana atau kisaran harga berapa?"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "!kos untuk harga under 3 juta ada?"
+          }
+        ]
+      },
+      {
+        "role": "model",
+        "parts": [
+          {
+            "text": "Aku udah nemu beberapa pilihan nih! Mau aku bantu filter lagi berdasarkan fasilitas tertentu? Misal kamar mandi dalam, WiFi, atau AC?"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "!kos yang ada ac nya ya"
+          }
+        ]
+      },
+      {
+        "role": "model",
+        "parts": [
+          {
+            "text": "Hmm, belum ketemu yang cocok nih 😕. Di daerah Depok memang agak terbatas. Mau aku bantu cariin di sekitar Kaliurang atau Condongcatur juga?"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "!kos condongcatur gimana?"
+          }
+        ]
+      },
+      {
+        "role": "model",
+        "parts": [
+          {
+            "text": "Hmm, belum ketemu yang cocok nih 😕. Di daerah Depok memang agak terbatas. Mau aku bantu cariin di sekitar Kaliurang atau Condongcatur juga?"
+          }
+        ]
       }
     ]
   }

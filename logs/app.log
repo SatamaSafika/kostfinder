@@ -139,3 +139,13 @@ Gimana? Ada yang menarik perhatian kamu? Atau kamu punya preferensi lokasi lain?
     at kosFinderAgent (file:///C:/Users/user/Desktop/github/kostfinder/src/agent.js:200:32)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
     at async Client.<anonymous> (file:///C:/Users/user/Desktop/github/kostfinder/src/discordBot.js:47:17)
+[INFO] 2025-10-27T16:20:04.437Z - ✅ Data kos berhasil dimuat: 5 entri
+[INFO] 2025-10-27T16:20:04.441Z - ✅ Menggunakan model: gemini-2.0-flash
+[INFO] 2025-10-27T16:21:19.247Z - 🔎 Tidak ditemukan hasil di kedua dataset
+[INFO] 2025-10-27T16:30:21.967Z - ✅ Data kos berhasil dimuat: 5 entri
+[INFO] 2025-10-27T16:30:21.971Z - ✅ Menggunakan model: gemini-2.0-flash
+[INFO] 2025-10-27T16:32:19.699Z - 🔎 Tidak ditemukan hasil di kedua dataset
+[INFO] 2025-10-27T16:38:34.770Z - ✅ Data kos berhasil dimuat: 5 entri
+[INFO] 2025-10-27T16:38:34.773Z - ✅ Menggunakan model: gemini-2.0-flash
+[INFO] 2025-10-27T16:39:19.698Z - 🔎 Tidak ditemukan hasil di kedua dataset
+[INFO] 2025-10-27T16:39:36.311Z - 🔎 Tidak ditemukan hasil di kedua dataset
