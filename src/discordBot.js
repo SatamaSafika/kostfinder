@@ -1,6 +1,8 @@
 import { Client, GatewayIntentBits } from "discord.js";
 import dotenv from "dotenv";
 import { kosFinderAgent } from "./agent.js";
+import 'dotenv/config'
+
 
 dotenv.config();
 
