@@ -19,7 +19,8 @@
       "kamar_mandi": [
         "Dalam",
         "Shower",
-        "Water heater"
+        "Water heater",
+        "AC"
       ],
       "parkir": [
         "Motor",
@@ -57,7 +58,8 @@
       ],
       "umum": [
         "WiFi",
-        "Ruang Jemur"
+        "Ruang Jemur",
+        "AC"
       ]
     },
     "peraturan": [
@@ -99,5 +101,125 @@
       "Tidak boleh merokok di dalam kamar"
     ],
     "info_tambahan": "Bangunan baru, dapur di lantai bawah dan laundry di lantai atas"
-  }
+  },
+  {
+    "nama": "Kost Putri Mindarti",
+    "lokasi": "Gg. Pandega Rini II No.3G, Manggung, Caturtunggal, Kec. Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55281",
+    "harga": 1070000,
+    "kontak": "085228216482",
+    "sumber": "https://maps.app.goo.gl/6ha9siqTw6SdFv116",
+    "spesifikasi": {
+      "tipe": "Putri",
+      "ukuran": "3x3 m",
+      "listrik": "Sudah termasuk"
+    },
+    "fasilitas": {
+      "kamar": [
+        "Kasur",
+        "Meja Belajar",
+        "Lemari / Storage",
+        "Jendela",
+        "Kursi"
+      ],
+      "kamar_mandi": [
+        "Dalam",
+        "Kloset Duduk",
+        "Wastafel",
+        "Bak Mandi"
+      ],
+      "umum": [
+        "WiFi",
+        "Kulkas",
+        "Ruang Tamu",
+        "Penjaga Kos",
+        "Ruang Jemur"
+      ]
+    },
+    "peraturan": [
+      "Akses 24 jam",
+      "Tidak boleh merokok di dalam kamar",
+      "Hanya untuk wanita",
+      "Tidak untuk pasutri",
+      "Maksimal 1 orang per kamar"
+    ],
+    "info_tambahan": "Kamar mandi dalam dengan fasilitas lengkap, lingkungan aman dan tenang, dekat area Pandega dan UGM"
+  },
+  {
+  "nama": "Kost Putri Grya Marta",
+  "lokasi": "Jl. Pandega Marta IV No.5, Manggung, Caturtunggal, Kec. Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55281",
+  "harga": 1200000,
+  "kontak": "0811752482",
+  "sumber": "https://maps.app.goo.gl/aC6KELGAFJ3Ttj9fA",
+  "spesifikasi": {
+    "tipe": "Putri",
+    "ukuran": "3x3.5 m",
+    "listrik": "Sudah termasuk"
+  },
+  "fasilitas": {
+    "kamar": [
+      "Kasur",
+      "Lemari",
+      "Meja Belajar",
+      "Kursi"
+    ],
+    "kamar_mandi": [
+      "Dalam",
+      "Shower"
+    ],
+    "umum": [
+      "WiFi",
+      "Dapur Bersama",
+      "Ruang Jemur",
+      "Kulkas"
+    ]
+  },
+  "peraturan": [
+    "Hanya untuk wanita",
+    "Tidak boleh merokok di dalam kamar",
+    "Akses 24 jam"
+  ],
+  "info_tambahan": "Dekat kampus UGM dan area kuliner Pandega Marta, lingkungan tenang dan bersih"
+},
+{
+  "nama": "Kost Catleya",
+  "lokasi": "Jl. Tejomoyo No.8, Karang Wuni, Caturtunggal, Kec. Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55284",
+  "harga": 1500000,
+  "kontak": "-",
+  "sumber": "https://maps.app.goo.gl/1aNNiVYKsYB87KjbA",
+  "spesifikasi": {
+    "tipe": "Putri",
+    "ukuran": "3x5 m",
+    "listrik": "Token 1300 watt (tidak termasuk)"
+  },
+  "fasilitas": {
+    "kamar": [
+      "AC",
+      "Kasur",
+      "Meja Belajar",
+      "TV",
+      "Lemari"
+    ],
+    "kamar_mandi": [
+      "Dalam",
+      "Kloset Duduk",
+      "Shower",
+      "Air Panas"
+    ],
+    "umum": [
+      "WiFi",
+      "Ruang Cuci",
+      "Kulkas",
+      "Ruang Jemur",
+      "Dapur"
+    ]
+  },
+  "peraturan": [
+    "Maksimal 1 orang per kamar",
+    "Tidak untuk pasutri",
+    "Tidak boleh bawa anak",
+    "Jam malam berlaku"
+  ],
+  "info_tambahan": "Dekat kampus UGM, Warteg Al Rizki (573 m), Alfamart (436 m), Masjid Baitul Muhtadin (2.0 km), Bank Mandiri (1.8 km), dan RS Khusus Bedah Sinduadi (1.9 km)"
+}
+
 ]
