@@ -230,5 +230,3 @@ Jika info kurang jelas, ajukan pertanyaan lanjutan. Jangan buat data baru di lua
     return "😔 Maaf, aku nggak bisa memproses permintaanmu sekarang.";
   }
 }
-
-

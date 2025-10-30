@@ -1,9 +1,10 @@
 import fs from "fs";
 import path from "path";
 
-const logFile = path.resolve("./logs/app.log");
+const logDir = path.resolve("./logs");
+if (!fs.existsSync(logDir)) fs.mkdirSync(logDir, { recursive: true });
+const logFile = path.join(logDir, "app.log");
 
-// Fungsi log biasa
 export function log(message, level = "INFO") {
   const timestamp = new Date().toISOString();
   const line = `[${level}] ${timestamp} - ${message}`;
@@ -15,7 +16,6 @@ export function log(message, level = "INFO") {
   }
 }
 
-// Fungsi log error
 export function logError(error, label = "ERROR") {
   const timestamp = new Date().toISOString();
   const line = `[${label}] ${timestamp} - ${error.stack || error}`;

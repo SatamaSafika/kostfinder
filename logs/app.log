@@ -80,6 +80,7 @@ Tapi, jangan khawatir! Mungkin ada beberapa tips yang bisa kamu coba:
 4.  **Cek papan pengumuman di kampus:** Kadang ada pemilik kos yang menempelkan iklan di sana.
 
 Semoga berhasil ya mencari kos yang sesuai budgetmu! Kalau ada info baru, pasti aku kabari. 😉
+<<<<<<< HEAD
 [INFO] 2025-10-27T05:11:49.272Z - 🟦 User: aku cari kos dibawah 8 juta
 [INFO] 2025-10-27T05:11:49.274Z - 📨 Mengirim prompt ke Gemini (attempt 1)
 [INFO] 2025-10-27T05:11:50.537Z - 📩 Gemini response diterima (attempt 1)
@@ -724,3 +725,148 @@ Tapi jangan khawatir! Kamu bisa coba beberapa cara ini:
 *   **Jalan-jalan di sekitar UGM:** Kadang ada kos yang pasang pengumuman langsung di depan kosnya.
 
 Semoga kamu cepat nemuin kos yang cocok ya! Semangat! 😊
+=======
+[INFO] 2025-10-27T05:27:29.652Z - ✅ Menggunakan model: gemini-2.0-flash
+[INFO] 2025-10-27T05:27:38.883Z - 🟦 User: aku cari kos dibawah 8 juta
+[INFO] 2025-10-27T05:27:38.885Z - 📨 Mengirim prompt ke Gemini (attempt 1)
+[INFO] 2025-10-27T05:27:40.416Z - 📩 Gemini response diterima (attempt 1)
+[WARN] 2025-10-27T05:27:40.421Z - ⚠️ Gagal parsing hasil Gemini, gunakan memory slot jika ada.
+[INFO] 2025-10-27T05:27:40.423Z - 🟩 Ditemukan: 5 kos
+[INFO] 2025-10-27T05:27:43.519Z - 🤖 Bot reply: Sip, budget di bawah 8 juta per tahun, ya? Berarti sekitar 600 ribuan sebulan. Oke, sekarang datanya udah lebih update nih! Ternyata ada beberapa pilihan yang masuk budgetmu:
+
+*   **Kos Putri Mawar Indah:** Ini kos putri di Jl. Kaliurang KM 7. Harganya 1 juta per bulan, tapi ini masih di bawah 8 juta per tahun, kan? Lokasinya juga strategis, dekat UGM dan halte Trans Jogja.
+*   **Kos Pria Sembodo:** Nah, kalau kamu cowok, ada Kos Pria Sembodo di Jl. Gejayan. Harganya 950 ribu per bulan. Dekat minimarket dan warung makan juga.
+
+Gimana? Ada yang bikin kamu tertarik? Atau ada preferensi lain, misalnya khusus putri atau putra, lokasi yang lebih spesifik, atau fasilitas yang kamu butuhkan? Kasih tau aja, biar aku bantu cari lagi! 😉
+[INFO] 2025-10-27T05:43:44.529Z - 🟦 User: aku cari kos dibawah 8 juta
+[INFO] 2025-10-27T05:43:44.530Z - 📨 Mengirim prompt ke Gemini (attempt 1)
+[INFO] 2025-10-27T05:43:45.648Z - 📩 Gemini response diterima (attempt 1)
+[WARN] 2025-10-27T05:43:45.649Z - ⚠️ Gagal parsing hasil Gemini, gunakan memory slot jika ada.
+[INFO] 2025-10-27T05:43:45.650Z - 🟩 Ditemukan: 5 kos
+[INFO] 2025-10-27T05:43:47.348Z - 🤖 Bot reply: "Oke, siap! Semua kos yang aku temukan harganya di bawah 8 juta kok, tenang aja! Hehe. Emang nyarinya per bulan kan ya? Biar aku bantu pilih yang paling pas, kamu ada preferensi khusus lagi nggak? Misalnya, mau yang khusus putri/putra, lokasinya deket kampus apa, atau fasilitasnya yang penting ada apa aja gitu?" 😉
+[INFO] 2025-10-27T05:44:03.149Z - 🟦 User: aku mau khusus putri nih
+[INFO] 2025-10-27T05:44:03.151Z - 📨 Mengirim prompt ke Gemini (attempt 1)
+[INFO] 2025-10-27T05:44:04.330Z - 📩 Gemini response diterima (attempt 1)
+[WARN] 2025-10-27T05:44:04.331Z - ⚠️ Gagal parsing hasil Gemini, gunakan memory slot jika ada.
+[INFO] 2025-10-27T05:44:04.332Z - 🟩 Ditemukan: 5 kos
+[INFO] 2025-10-27T05:44:07.321Z - 🤖 Bot reply: Oke, sip! Kos putri ya? Nah, ini ada beberapa pilihan yang mungkin cocok buat kamu (harga per bulan ya, dan di bawah 8 juta pastinya! 😜):
+
+*   **Kos Putri Agestya Living:** Ini lokasinya di Jl. Kaliurang, deket UGM sama halte Trans Jogja. Harganya 1,7 juta per bulan. Fasilitasnya udah lengkap: kasur, lemari, meja belajar, dan listrik udah termasuk. Asiknya lagi, gak boleh ngerokok di kamar.
+*   **Kost Putri Eksklusif Triple A De Ariesta:** Kalau yang ini di Jl. Sulawesi, deket minimarket sama warung makan. Harganya 1,3 juta per bulan. Fasilitasnya juga ada kasur sama meja belajar. Aksesnya 24 jam, tapi gak boleh bawa tamu nginep ya.
+*   **Kos Putri Pandega Sakti 2:** Ini di Jl. Manggung, bangunannya baru. Harganya 1,5 juta per bulan. Fasilitasnya juga lengkap: kasur, lemari, meja belajar. Listriknya token masing-masing kamar. Ada dapur di lantai bawah sama laundry di lantai atas, jadi makin nyaman!
+*   **Kos Putri Mawar Indah:** Yang ini di Jl. Kaliurang KM 7. Harganya paling murah, 1 juta per bulan. Fasilitasnya juga lumayan: kasur, lemari, meja belajar. Lokasinya juga strategis, deket UGM sama halte Trans Jogja.
+
+Gimana? Ada yang menarik perhatian kamu? Atau kamu punya preferensi lokasi lain? Siapa tau aku bisa bantu cariin yang lebih spesifik lagi! 😉
+[INFO] 2025-10-27T14:07:22.037Z - ✅ Menggunakan model: gemini-2.0-flash
+[INFO] 2025-10-27T14:32:00.189Z - ✅ Menggunakan model: gemini-2.0-flash
+[INFO] 2025-10-27T14:38:54.087Z - ✅ Menggunakan model: gemini-2.0-flash
+[INFO] 2025-10-27T14:59:10.810Z - ✅ Menggunakan model: gemini-2.0-flash
+[INFO] 2025-10-27T15:05:16.037Z - ✅ Menggunakan model: gemini-2.0-flash
+[INFO] 2025-10-27T15:18:20.228Z - ✅ Menggunakan model: gemini-2.0-flash
+[WARN] 2025-10-27T15:19:12.986Z - ⚠️ Fallback ke rule-based intent
+[WARN] 2025-10-27T15:19:45.733Z - ⚠️ Fallback ke rule-based intent
+[kosFinderAgent Error:] 2025-10-27T15:19:45.744Z - TypeError: Cannot read properties of undefined (reading 'toLowerCase')
+    at file:///C:/Users/user/Desktop/github/kostfinder/src/utils/searchKos.js:4:45
+    at Array.filter (<anonymous>)
+    at searchKos (file:///C:/Users/user/Desktop/github/kostfinder/src/utils/searchKos.js:2:18)
+    at kosFinderAgent (file:///C:/Users/user/Desktop/github/kostfinder/src/agent.js:127:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Client.<anonymous> (file:///C:/Users/user/Desktop/github/kostfinder/src/discordBot.js:47:17)
+[INFO] 2025-10-27T15:26:07.990Z - ✅ Menggunakan model: gemini-2.0-flash
+[INFO] 2025-10-27T16:06:16.276Z - ✅ Data kos berhasil dimuat: 5 entri
+[INFO] 2025-10-27T16:06:16.283Z - ✅ Menggunakan model: gemini-2.0-flash
+[INFO] 2025-10-27T16:07:26.773Z - 🔎 Tidak ditemukan hasil di kedua dataset
+[INFO] 2025-10-27T16:07:53.397Z - 🔎 Tidak ditemukan hasil di kedua dataset
+[INFO] 2025-10-27T16:08:04.303Z - 🔎 Tidak ditemukan hasil di kedua dataset
+[kosFinderAgent Error:] 2025-10-27T16:14:12.505Z - TypeError: Cannot read properties of undefined (reading 'tipe')
+    at file:///C:/Users/user/Desktop/github/kostfinder/src/utils/formatResponse.js:10:27
+    at Array.map (<anonymous>)
+    at formatResponse (file:///C:/Users/user/Desktop/github/kostfinder/src/utils/formatResponse.js:5:6)
+    at kosFinderAgent (file:///C:/Users/user/Desktop/github/kostfinder/src/agent.js:200:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Client.<anonymous> (file:///C:/Users/user/Desktop/github/kostfinder/src/discordBot.js:47:17)
+[INFO] 2025-10-27T16:20:04.437Z - ✅ Data kos berhasil dimuat: 5 entri
+[INFO] 2025-10-27T16:20:04.441Z - ✅ Menggunakan model: gemini-2.0-flash
+[INFO] 2025-10-27T16:21:19.247Z - 🔎 Tidak ditemukan hasil di kedua dataset
+[INFO] 2025-10-27T16:30:21.967Z - ✅ Data kos berhasil dimuat: 5 entri
+[INFO] 2025-10-27T16:30:21.971Z - ✅ Menggunakan model: gemini-2.0-flash
+[INFO] 2025-10-27T16:32:19.699Z - 🔎 Tidak ditemukan hasil di kedua dataset
+[INFO] 2025-10-27T16:38:34.770Z - ✅ Data kos berhasil dimuat: 5 entri
+[INFO] 2025-10-27T16:38:34.773Z - ✅ Menggunakan model: gemini-2.0-flash
+[INFO] 2025-10-27T16:39:19.698Z - 🔎 Tidak ditemukan hasil di kedua dataset
+[INFO] 2025-10-27T16:39:36.311Z - 🔎 Tidak ditemukan hasil di kedua dataset
+>>>>>>> 7ac88d470804000371005efc29ad8363d7b8fbef
+[Store readJSON error (users.json)] 2025-10-30T02:48:16.919Z - SyntaxError: Expected property name or '}' in JSON at position 6300
+    at JSON.parse (<anonymous>)
+    at readJSON (C:\Users\ASUS\Documents\NLP\kostfinder\src\store.js:18:17)
+    at saveUserHistory (C:\Users\ASUS\Documents\NLP\kostfinder\src\store.js:43:17)
+    at Object.<anonymous> (C:\Users\ASUS\Documents\NLP\kostfinder\tests\store.test.js:18:5)
+    at Promise.finally.completed (C:\Users\ASUS\Documents\NLP\kostfinder\node_modules\jest-circus\build\jestAdapterInit.js:1557:28)
+    at new Promise (<anonymous>)
+    at callAsyncCircusFn (C:\Users\ASUS\Documents\NLP\kostfinder\node_modules\jest-circus\build\jestAdapterInit.js:1497:10)
+    at _callCircusTest (C:\Users\ASUS\Documents\NLP\kostfinder\node_modules\jest-circus\build\jestAdapterInit.js:1007:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (C:\Users\ASUS\Documents\NLP\kostfinder\node_modules\jest-circus\build\jestAdapterInit.js:947:3)
+    at C:\Users\ASUS\Documents\NLP\kostfinder\node_modules\jest-circus\build\jestAdapterInit.js:849:7
+    at _runTestsForDescribeBlock (C:\Users\ASUS\Documents\NLP\kostfinder\node_modules\jest-circus\build\jestAdapterInit.js:862:11)
+    at _runTestsForDescribeBlock (C:\Users\ASUS\Documents\NLP\kostfinder\node_modules\jest-circus\build\jestAdapterInit.js:857:11)
+    at run (C:\Users\ASUS\Documents\NLP\kostfinder\node_modules\jest-circus\build\jestAdapterInit.js:761:3)
+    at runAndTransformResultsToJestFormat (C:\Users\ASUS\Documents\NLP\kostfinder\node_modules\jest-circus\build\jestAdapterInit.js:1918:21)
+    at jestAdapter (C:\Users\ASUS\Documents\NLP\kostfinder\node_modules\jest-circus\build\runner.js:101:19)
+    at runTestInternal (C:\Users\ASUS\Documents\NLP\kostfinder\node_modules\jest-runner\build\testWorker.js:275:16)
+    at runTest (C:\Users\ASUS\Documents\NLP\kostfinder\node_modules\jest-runner\build\testWorker.js:343:7)
+    at Object.worker (C:\Users\ASUS\Documents\NLP\kostfinder\node_modules\jest-runner\build\testWorker.js:497:12)
+[INFO] 2025-10-30T02:49:46.612Z - ✅ Menggunakan model: gemini-2.0-flash
+[INFO] 2025-10-30T02:49:46.631Z - 🟦 User: cari kos murah
+[INFO] 2025-10-30T02:49:46.633Z - 📨 [Gemini] Attempt 1/3
+[INFO] 2025-10-30T02:49:47.994Z - 📩 [Gemini] Response OK on attempt 1
+[WARN] 2025-10-30T02:49:47.995Z - ⚠️ Gagal parsing hasil Gemini, gunakan fallback extractor.
+[DEBUG] 2025-10-30T02:49:47.995Z - DEBUG rawText: ```json
+{
+  "lokasi": null,
+  "harga_min": null,
+  "harga_max": 1000000,
+  "tipe": null,
+  "fasilitas": [],
+  "preferensi": [],
+  "aturan": []
+}
+```
+[INFO] 2025-10-30T02:49:47.996Z - 🟩 Ditemukan: 2 kos
+[INFO] 2025-10-30T02:49:50.943Z - 🤖 Bot reply: Hai! Lagi cari kos murah ya? Oke, aku bantu cari info yang ada nih.
+
+Aku nemu beberapa pilihan, tapi sementara ini yang aku punya infonya lumayan terbatas. Ada dua nih:
+
+*   **Kos Pria Sembodo:** Ini khusus buat cowok ya. Lokasinya di Jl. Gejayan No. 12, Sleman. Harganya Rp950 ribu per bulan, kamarnya ukuran 3x3.5 meter. Listrik udah termasuk harga kos, dapet kasur sama meja belajar juga. Aturannya sih gak boleh bawa tamu nginep dan aksesnya 24 jam.
+
+*   **Kos Putri Mawar Indah:** Nah, kalau ini khusus buat cewek. Lokasinya di Jl. Kaliurang KM 7, Sleman. Harganya 1 juta per bulan, kamarnya ukuran 3x3 meter. Listrik juga udah termasuk, fasilitasnya ada kasur, lemari, sama meja belajar. Aturannya cuma buat wanita dan gak boleh merokok di dalam kamar.
+
+Gimana? Dari dua info ini, ada yang bikin kamu tertarik? Atau mungkin kamu punya preferensi lokasi lain, budget maksimal berapa, atau fasilitas apa yang paling penting buat kamu? Soalnya, infonya masih kurang detail nih, biar aku bisa bantu cari yang lebih pas lagi. 😊
+[INFO] 2025-10-30T02:49:50.956Z - 🟦 User: kos di UGM
+[INFO] 2025-10-30T02:49:50.956Z - 📨 [Gemini] Attempt 1/3
+[WARN] 2025-10-30T02:49:50.960Z - ⚠️ [Gemini] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent: Gemini down (attempt 1)
+[INFO] 2025-10-30T02:49:50.960Z - 📨 [Gemini] Attempt 2/3
+[INFO] 2025-10-30T02:49:52.081Z - 📩 [Gemini] Response OK on attempt 2
+[WARN] 2025-10-30T02:49:52.082Z - ⚠️ Gagal parsing hasil Gemini, gunakan fallback extractor.
+[DEBUG] 2025-10-30T02:49:52.082Z - DEBUG rawText: ```json
+{
+  "lokasi": "UGM",
+  "harga_min": null,
+  "harga_max": null,
+  "tipe": null,
+  "fasilitas": [],
+  "preferensi": [],
+  "aturan": []
+}
+```
+[INFO] 2025-10-30T02:49:52.083Z - 🟩 Ditemukan: 0 kos
+[INFO] 2025-10-30T02:49:54.303Z - 🤖 Bot reply: Waduh, sayang banget nih, kos di UGM yang sesuai sama yang kamu cari belum ketemu. Tapi, jangan khawatir! Mungkin ada beberapa hal yang bisa kita perjelas biar pencarian kita lebih akurat. 
+
+Misalnya, ada kriteria khusus nggak yang kamu cari? Seperti:
+
+*   **Budget:** Ada batasan harga tertentu nggak?
+*   **Lokasi:** Pengennya yang deket fakultas tertentu atau area UGM yang mana?
+*   **Fasilitas:** Butuh kamar mandi dalam, AC, Wi-Fi, atau fasilitas lainnya?
+*   **Jenis Kos:** Putri, putra, atau campur?
+
+Kalau kamu kasih tahu detailnya, aku bisa coba cari lagi siapa tahu ada yang pas! Semangat terus ya cari kosnya! 😉
