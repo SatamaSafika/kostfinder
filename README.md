@@ -1,9 +1,9 @@
-# 🏠 KostFinder Bot
+# KostFinder Bot
 _Discord Chatbot untuk Pencarian Kost Mahasiswa yang Cerdas & Terpercaya_
 
 ---
 
-## 💡 Latar Belakang
+## Latar Belakang
 
 Mahasiswa baru atau perantau sering mengalami kesulitan saat mencari tempat kost — informasi tersebar, tidak lengkap, dan sering tidak sesuai realita.  
 **KostFinder** hadir sebagai solusi dengan menghadirkan **chatbot berbasis Discord** yang bisa membantu mahasiswa mencari kost secara cepat, akurat, dan menyenangkan.
@@ -15,20 +15,20 @@ KostFinder akan mencari data yang relevan, menyaring sesuai kebutuhan pengguna, 
 
 ---
 
-## ✨ Fitur Utama
+## Fitur Utama
 
 | Fitur | Deskripsi |
 |-------|------------|
-| 🔍 **Pencarian Kost Otomatis** | Cari kost berdasarkan lokasi, harga, atau fasilitas dengan satu perintah. |
-| 💬 **Chat Natural & Kontekstual** | Bot mampu memahami bahasa alami seperti “kost murah tapi bersih dan ada WiFi”. |
-| 🧭 **Filtering & Ranking** | Hasil disusun berdasarkan relevansi dan preferensi pengguna. |
-| 🧠 **Data Pengguna (Memory)** | Bot menyimpan data pencarian pengguna di `data/users.json` untuk rekomendasi selanjutnya. |
-| 🗂️ **Sistem Logging** | Semua aktivitas bot tercatat di `logs/app.log` untuk debugging dan analisis. |
-| ⚙️ **Modular Architecture** | Setiap fungsi (agent, store, logger, dsb) dibuat modular untuk memudahkan pengembangan. |
+| **Pencarian Kost Otomatis** | Cari kost berdasarkan lokasi, harga, atau fasilitas dengan satu perintah. |
+| **Chat Natural & Kontekstual** | Bot mampu memahami bahasa alami seperti “kost murah tapi bersih dan ada WiFi”. |
+| **Filtering & Ranking** | Hasil disusun berdasarkan relevansi dan preferensi pengguna. |
+| **Data Pengguna (Memory)** | Bot menyimpan data pencarian pengguna di `data/users.json` untuk rekomendasi selanjutnya. |
+| **Sistem Logging** | Semua aktivitas bot tercatat di `logs/app.log` untuk debugging dan analisis. |
+| **Modular Architecture** | Setiap fungsi (agent, store, logger, dsb) dibuat modular untuk memudahkan pengembangan. |
 
 ---
 
-## 🧩 Struktur Proyek
+## Struktur Proyek
 
 ```
 KOSTFINDER/
@@ -52,7 +52,7 @@ KOSTFINDER/
 
 ---
 
-## ⚙️ Teknologi yang Digunakan
+## Teknologi yang Digunakan
 
 - **Node.js 20+**
 - **Discord.js v14**
@@ -63,23 +63,23 @@ KOSTFINDER/
 
 ---
 
-## 🚀 Cara Menjalankan Proyek
+## Cara Menjalankan Proyek
 
-### 1️⃣ Clone Repositori
+### 1️. Clone Repositori
 ```bash
 git clone https://github.com/[username]/kostfinder.git
 cd kostfinder
 npm install
 ```
 
-### 2️⃣ Konfigurasi `.env`
+### 2️. Konfigurasi `.env`
 Buat file `.env` berdasarkan contoh berikut:
 ```
 DISCORD_BOT_TOKEN=your-discord-bot-token
 BOT_NAME=KostFinder
 ```
 
-### 3️⃣ Jalankan Bot
+### 3️. Jalankan Bot
 ```bash
 node src/discordBot.js
 ```
@@ -91,7 +91,7 @@ Bot akan aktif di server Discord dan siap merespons perintah seperti:
 
 ---
 
-## 🧠 Cara Kerja Bot
+## Cara Kerja Bot
 
 1. **User Input**  
    Pengguna mengetikkan perintah di Discord (misal: `!kos dekat UGM harga 1 jutaan`).
@@ -106,7 +106,7 @@ Bot akan aktif di server Discord dan siap merespons perintah seperti:
 
 ---
 
-## 🗃️ Logging
+## Logging
 
 Contoh isi file `logs/app.log`:
 ```
@@ -116,7 +116,7 @@ Contoh isi file `logs/app.log`:
 
 ---
 
-## 💬 Contoh Interaksi
+## Contoh Interaksi
 
 **Input user:**
 ```
@@ -158,7 +158,7 @@ Gimana, ada yang menarik perhatianmu? Atau ada kriteria lain yang kamu cari? Mis
 
 ---
 
-## 🧪 Pengujian
+## Pengujian
 
 Proyek ini diuji menggunakan **Node Test Runner** untuk memastikan setiap modul berjalan dengan benar.  
 Test mencakup:
@@ -173,7 +173,7 @@ npm test
 
 ---
 
-## 🌱 Rencana Pengembangan
+## Rencana Pengembangan
 
 - Integrasi API real-time (Google Maps / data kost publik)
 - Sistem rating & ulasan pengguna
@@ -181,8 +181,14 @@ npm test
 - Pencarian berbasis AI (keyword semantic search)
 
 ---
+## Lampiran
 
-## 🤝 Anggota Kelompok
+- **Dokumentasi Lengkap (Notion):** [Laporan LLM Agent – KostFinder](https://www.notion.so/Laporan-LLM-Agent-KostFinder-29cae3e88842801d9beded118cbac9b5?source=copy_link)
+- **Video Presentasi (YouTube):** [Tonton di YouTube](https://youtu.be/heUZXae-Ssw?si=AIU58_RVEFu9P0_h)
+
+---
+
+## Anggota Kelompok
 
 Anggota kelompok yang terlibat dalam pembuatan bot ini:
 1. Satama Satama (22/492880/TK/53955)
