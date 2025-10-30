@@ -26,3 +26,15 @@ export function logError(error, label = "ERROR") {
     console.warn("⚠️ Gagal menulis log:", err.message);
   }
 }
+
+// appendPrompt(fn)
+export function appendPrompt(name, promptText) {
+  try {
+    const pathPrompts = path.resolve("./logs/prompts.log");
+    const timestamp = new Date().toISOString();
+    fs.appendFileSync(pathPrompts, `[${timestamp}] [${name}] ${promptText.slice(0,1000)}\n\n`);
+  } catch (err) {
+    console.warn("Failed to write prompts log:", err.message);
+  }
+}
+

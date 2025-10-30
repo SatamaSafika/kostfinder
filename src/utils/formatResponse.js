@@ -1,20 +1,20 @@
-export function formatResponse(results) {
-  if (!results.length) return "Tidak ditemukan kos sesuai kriteria.";
+export function formatResponse(results = []) {
+  if (!results.length) return "😔 Maaf, tidak ditemukan kos yang cocok dengan kriteria kamu.";
 
   return results
-    .map(
-      k => `
-🏠 **${k.nama}** ${k.verified ? "✅ (Terverifikasi)" : ""}
-📍 Lokasi: ${k.lokasi}
-💰 Harga: Rp${k.harga.toLocaleString()}
-🛏️ Tipe: ${k.spesifikasi.tipe} (${k.spesifikasi.ukuran})
-⚡ Listrik: ${k.spesifikasi.listrik}
-🚿 Fasilitas: ${k.fasilitas.kamar.join(", ")}
-📜 Aturan: ${k.peraturan.join(", ")}
-📌 Info Tambahan: ${k.info_tambahan || "-"}
-📞 Kontak: ${k.kontak || "-"}
-🔗 Sumber: ${k.sumber || "Internal Data"}
-    `
-    )
-    .join("\n\n");
+    .map((k) => {
+      const spesifikasi = k.spesifikasi || {};
+      const fasilitas = k.fasilitas || {};
+      const peraturan = k.peraturan || [];
+
+      return `🏠 **${k.nama || "Kos tanpa nama"}**
+📍 Lokasi: ${k.lokasi || "Tidak diketahui"}
+💰 Harga: Rp${(k.harga || 0).toLocaleString()}
+🛏️ Tipe: ${spesifikasi.tipe || "-"} (${spesifikasi.ukuran || "ukuran tidak diketahui"})
+⚡ Listrik: ${spesifikasi.listrik || "-"}
+🚿 Fasilitas: ${(fasilitas.kamar || []).join(", ") || "-"}
+📜 Aturan: ${peraturan.join(", ") || "-"}
+${k.verified ? "✅ *Terverifikasi*" : "❌ Belum verifikasi"}\n`;
+    })
+    .join("\n");
 }

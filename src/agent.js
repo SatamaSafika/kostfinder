@@ -1,6 +1,7 @@
 import 'dotenv/config';
 import { GoogleGenerativeAI } from "@google/generative-ai";
 import { searchKos } from "./utils/searchKos.js";
+import { fallbackExtractor } from "./utils/fallbackExtractor.js";
 import { formatResponse } from "./utils/formatResponse.js";
 import kosData from "./data/kos_jogja.json" assert { type: "json" };
 import kosVerified from "./data/kos_verified.json" assert { type: "json" };
@@ -31,24 +32,45 @@ for (const name of modelNames) {
 }
 if (!model) throw new Error("Tidak ada model Gemini valid tersedia.");
 
-// Retry helper
-async function generateWithRetry(prompt, retries = 2) {
+// =========================
+// 3️⃣ GEMINI REQUEST HANDLER + RETRY & BACKOFF
+// =========================
+
+async function generateWithRetry(prompt, retries = 3, baseDelay = 500) {
   for (let i = 0; i < retries; i++) {
     try {
-      log(`📨 Mengirim prompt ke Gemini (attempt ${i + 1})`);
-      const res = await model.generateContent(prompt);
-      const text = res?.response?.text()?.trim();
+      log(`📨 [Gemini] Attempt ${i + 1}/${retries}`);
+      const response = await model.generateContent(prompt);
+      const text = response?.response?.text()?.trim();
+
       if (text) {
-        log(`📩 Gemini response diterima (attempt ${i + 1})`);
+        log(`📩 [Gemini] Response OK on attempt ${i + 1}`);
         return text;
       }
+      log(`⚠️ [Gemini] Empty response on attempt ${i + 1}`, "WARN");
+
     } catch (err) {
-      log(`⚠️ Retry ${i + 1} gagal: ${err.message}`, "WARN");
-      await new Promise(r => setTimeout(r, 500));
+      const code = err.status || err.code || err.message;
+      log(`⚠️ [Gemini] Error: ${code} (attempt ${i + 1})`, "WARN");
+
+      // Tangani error umum & rate limit
+      if ([401, 403].includes(err.status)) {
+        throw new Error("🔒 API Key tidak valid atau diblokir.");
+      }
+      if ([429, 500, 502, 503].includes(err.status)) {
+        const delay = baseDelay * Math.pow(2, i); // exponential backoff
+        log(`⏳ Tunggu ${delay}ms sebelum retry berikutnya...`);
+        await new Promise(r => setTimeout(r, delay));
+        continue;
+      }
     }
   }
+
+  // Jika semua retry gagal
   throw new Error("Gagal menghubungi Gemini setelah beberapa percobaan.");
 }
+
+
 
 // Fungsi utama bot
 export async function kosFinderAgent(userMessage, userId) {
@@ -77,32 +99,71 @@ export async function kosFinderAgent(userMessage, userId) {
   try {
     // 1️⃣ Ekstrak intent user + gabungkan memory lama
     const extractPrompt = `
-Kamu adalah asisten pencari kos di Yogyakarta. Ekstrak maksud user menjadi JSON.
-Gunakan format ini:
-{
-  "lokasi": "string atau null",
-  "harga_min": number atau null,
-  "harga_max": number atau null,
-  "tipe": "Putri/Putra/Campur atau null",
-  "fasilitas": ["wifi", "AC", ...],
-  "preferensi": ["dekat kampus", "ramai", "tenang", ...],
-  "aturan": ["bawa hewan", "24 jam akses", ...]
-}
+    Kamu adalah agen pencari kos bernama **KosFinder**. 
+    Tugasmu hanya mengekstrak informasi dari teks user menjadi JSON dengan struktur ketat berikut:
 
-Jika user tidak menyebutkan, gunakan data memory lama:
-lokasi = ${memory.lokasi || "null"}, tipe = ${memory.tipe || "null"}, harga_max = ${memory.harga_max || "null"}
+    {
+      "lokasi": "string | null",
+      "harga_min": "number | null",
+      "harga_max": "number | null",
+      "tipe": "Putri" | "Putra" | "Campur" | null,
+      "fasilitas": ["wifi", "ac", "parkir", ...],
+      "preferensi": ["dekat kampus", "ramai", "tenang", ...],
+      "aturan": ["bawa hewan", "24 jam akses", ...]
+    }
 
-User: "${userMessage}"
+    📘 Aturan penting:
+    - Jawab **hanya JSON valid**, tanpa teks lain.
+    - Nilai null bila tidak disebut.
+    - Gunakan lowercase untuk array string.
+    - Jangan tambahkan komentar atau deskripsi.
+
+    🧩 Contoh:
+    User: "Cari kos putri murah dekat UGM dengan wifi dan AC"
+    Output:
+    {
+      "lokasi": "UGM",
+      "harga_min": null,
+      "harga_max": 1000000,
+      "tipe": "Putri",
+      "fasilitas": ["wifi", "ac"],
+      "preferensi": ["dekat kampus"],
+      "aturan": []
+    }
+
+    User: "Kos campur boleh bawa hewan, ada parkir motor, budget 700 ribu"
+    Output:
+    {
+      "lokasi": null,
+      "harga_min": null,
+      "harga_max": 700000,
+      "tipe": "Campur",
+      "fasilitas": ["parkir"],
+      "preferensi": [],
+      "aturan": ["bawa hewan"]
+    }
+
+    Sekarang, proses input berikut:
+
+    User: "${userMessage}"
     `;
+
     const rawText = await generateWithRetry(extractPrompt);
 
     let query = {};
     try {
       query = JSON.parse(rawText);
-    } catch {
-      log("⚠️ Gagal parsing hasil Gemini, gunakan memory slot jika ada.", "WARN");
-      query = { ...memory };
-    }
+        } catch (e) {
+        log("⚠️ Gagal parsing hasil Gemini, gunakan fallback extractor.", "WARN");
+        // log rawText kalau ada untuk debugging
+        log(`DEBUG rawText: ${rawText ? rawText.slice(0, 500) : "<empty>"}`, "DEBUG");
+        query = fallbackExtractor(userMessage);
+        // tambahkan memory jika ada yang kosong
+        query.lokasi = query.lokasi || memory.lokasi;
+        query.tipe = query.tipe || memory.tipe;
+        query.harga_max = query.harga_max || memory.harga_max;
+      }
+
 
     // 2️⃣ Isi dengan memory slot jika user tidak menyebut
     query.lokasi = query.lokasi || memory.lokasi;
@@ -110,9 +171,27 @@ User: "${userMessage}"
     query.harga_max = query.harga_max || memory.harga_max;
 
     // 3️⃣ Cari kos dari data lokal
-    const results = searchKos(allKosData, query);
-    log(`🟩 Ditemukan: ${results.length} kos`);
+        // 2️⃣ Cari kos dari data lokal (dengan proteksi error)
+    let results = [];
+      try {
+        results = searchKos(allKosData, query);
+        log(`🟩 Ditemukan: ${results.length} kos`);
+      } catch (err) {
+        // jika searchKos crash, log dan beri pesan follow-up ke user
+        logError(err, "Search Error:");
+        // minta klarifikasi daripada mengembalikan error generik
+        const clarify = [];
+        if (!query.lokasi) clarify.push("lokasi (mis. UGM, Condongcatur)");
+        if (!query.harga_max && !query.harga_min) clarify.push("kisaran harga (mis. di bawah 1 juta)");
+        if (!query.tipe) clarify.push("tipe (Putri/Putra/Campur)");
+        const follow = clarify.length
+          ? `Biar aku bantu lebih tepat — bisa sebutkan ${clarify.join(", ")}?`
+          : "Bisa sebutkan sedikit detail (lokasi / kisaran harga / tipe) supaya aku bisa cari dengan lebih tepat?";
+        return follow;
+      }
+
     const formattedResults = formatResponse(results);
+
 
     // 4️⃣ Susun konteks percakapan
     const conversation = [

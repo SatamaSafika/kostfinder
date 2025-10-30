@@ -5,7 +5,7 @@
   "main": "src/discordBot.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "keywords": [],
   "author": "",
@@ -14,5 +14,8 @@
     "@google/generative-ai": "^0.24.1",
     "discord.js": "^14.24.0",
     "dotenv": "^17.2.3"
+  },
+  "devDependencies": {
+    "jest": "^30.2.0"
   }
 }

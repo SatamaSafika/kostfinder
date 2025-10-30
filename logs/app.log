@@ -80,3 +80,647 @@ Tapi, jangan khawatir! Mungkin ada beberapa tips yang bisa kamu coba:
 4.  **Cek papan pengumuman di kampus:** Kadang ada pemilik kos yang menempelkan iklan di sana.
 
 Semoga berhasil ya mencari kos yang sesuai budgetmu! Kalau ada info baru, pasti aku kabari. 😉
+[INFO] 2025-10-27T05:11:49.272Z - 🟦 User: aku cari kos dibawah 8 juta
+[INFO] 2025-10-27T05:11:49.274Z - 📨 Mengirim prompt ke Gemini (attempt 1)
+[INFO] 2025-10-27T05:11:50.537Z - 📩 Gemini response diterima (attempt 1)
+[WARN] 2025-10-27T05:11:50.539Z - ⚠️ Gagal parsing hasil Gemini, gunakan memory slot jika ada.
+[INFO] 2025-10-27T05:11:50.542Z - 🟩 Ditemukan: 0 kos
+[INFO] 2025-10-27T05:11:51.935Z - 🤖 Bot reply: Oke, aku paham, kamu cari kos yang harganya di bawah 8 juta. Sayangnya, dari data yang ada saat ini, belum ada kos yang sesuai dengan budget tersebut. Aku akan terus mencari dan memperbarui informasinya. Sementara itu, mungkin kamu bisa mempertimbangkan tips yang sudah aku berikan sebelumnya, ya. Siapa tahu ada rezeki nemu kos yang pas! 😉
+[INFO] 2025-10-27T15:26:24.503Z - 🟦 User: udah dulu deh utk sekarang makasih ya
+[INFO] 2025-10-27T15:26:24.510Z - 📨 Mengirim prompt ke Gemini (attempt 1)
+[INFO] 2025-10-27T15:26:30.003Z - 📩 Gemini response diterima (attempt 1)
+[WARN] 2025-10-27T15:26:30.005Z - ⚠️ Gagal parsing hasil Gemini, gunakan memory slot jika ada.
+[INFO] 2025-10-27T15:26:30.007Z - 🟩 Ditemukan: 5 kos
+[INFO] 2025-10-27T15:26:31.488Z - 🤖 Bot reply: Sip! Sama-sama. Santai aja, kalau ada yang mau ditanyain lagi soal kos, jangan sungkan ya! Semoga cepet ketemu kos yang pas buat kamu. 😉
+[INFO] 2025-10-27T15:26:37.973Z - 🟦 User: aku mau cari kos di daerah seturan
+[INFO] 2025-10-27T15:26:37.974Z - 📨 Mengirim prompt ke Gemini (attempt 1)
+[INFO] 2025-10-27T15:26:42.992Z - 📩 Gemini response diterima (attempt 1)
+[WARN] 2025-10-27T15:26:42.994Z - ⚠️ Gagal parsing hasil Gemini, gunakan memory slot jika ada.
+[INFO] 2025-10-27T15:26:42.995Z - 🟩 Ditemukan: 0 kos
+[INFO] 2025-10-27T15:26:44.941Z - 🤖 Bot reply: Oke, di daerah Seturan ya? Hmm, sayangnya dari data yang aku punya sekarang, belum ada info kos yang pas di Seturan. Tapi, jangan khawatir! 
+
+Mungkin gini, kamu ada preferensi lain? Misalnya, budgetnya fleksibel atau mungkin mau nyari yang agak deket Seturan, tapi nggak persis di daerah itu? Atau, ada fasilitas khusus yang kamu pengen banget ada di kos? Siapa tau dengan info tambahan, aku bisa nemuin yang lebih cocok! 😉
+[INFO] 2025-10-27T15:27:14.839Z - 🟦 User: kalau untuk kos dengan harga dibawah 2 juta ada ga?
+[INFO] 2025-10-27T15:27:14.840Z - 📨 Mengirim prompt ke Gemini (attempt 1)
+[INFO] 2025-10-27T15:27:16.251Z - 📩 Gemini response diterima (attempt 1)
+[WARN] 2025-10-27T15:27:16.252Z - ⚠️ Gagal parsing hasil Gemini, gunakan memory slot jika ada.
+[INFO] 2025-10-27T15:27:16.253Z - 🟩 Ditemukan: 0 kos
+[Bot Error:] 2025-10-27T15:27:20.201Z - Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent: [503 Service Unavailable] The model is overloaded. Please try again later.
+    at handleResponseNotOk (file:///C:/Users/ASUS/Documents/NLP/kostfinder/node_modules/@google/generative-ai/dist/index.mjs:432:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async makeRequest (file:///C:/Users/ASUS/Documents/NLP/kostfinder/node_modules/@google/generative-ai/dist/index.mjs:401:9)
+    at async generateContent (file:///C:/Users/ASUS/Documents/NLP/kostfinder/node_modules/@google/generative-ai/dist/index.mjs:865:22)
+    at async ChatSession.sendMessage (file:///C:/Users/ASUS/Documents/NLP/kostfinder/node_modules/@google/generative-ai/dist/index.mjs:1208:9)
+    at async kosFinderAgent (file:///C:/Users/ASUS/Documents/NLP/kostfinder/src/agent.js:140:19)
+    at async Client.<anonymous> (file:///C:/Users/ASUS/Documents/NLP/kostfinder/src/discordBot.js:35:17)
+[INFO] 2025-10-27T15:27:47.574Z - 🟦 User: yang ada kamar mandi dalamnya ya, lainnya bebas deh
+[INFO] 2025-10-27T15:27:47.575Z - 📨 Mengirim prompt ke Gemini (attempt 1)
+[INFO] 2025-10-27T15:27:48.994Z - 📩 Gemini response diterima (attempt 1)
+[WARN] 2025-10-27T15:27:48.995Z - ⚠️ Gagal parsing hasil Gemini, gunakan memory slot jika ada.
+[INFO] 2025-10-27T15:27:48.996Z - 🟩 Ditemukan: 5 kos
+[INFO] 2025-10-27T15:27:51.776Z - 🤖 Bot reply: Oke, siap! Dari daftar yang aku punya, ini beberapa opsi kos yang ada kamar mandi dalamnya:
+
+*   **Kos Putri Agestya Living** (Terverifikasi): Lokasinya di Jl. Kaliurang, Gg. Lombok No.B 36A, Kentungan. Harganya sekitar Rp1,700,000 per bulan. Cocok nih buat yang cari kos putri dekat UGM.
+
+*   **Kost Putri Eksklusif Triple A De Ariesta** (Terverifikasi): Alamatnya di Jl. Sulawesi VII No.7, Purwosari, Sinduadi, Kec. Mlati. Harganya Rp1,300,000 per bulan.
+
+*   **Kos Putri Pandega Sakti 2** (Terverifikasi): Lokasinya di Jl. Manggung, Caturtunggal, Depok. Harga sewanya Rp1,500,000 per bulan. Plusnya lagi, ini bangunan baru dan ada fasilitas dapur serta laundry.
+
+Gimana, ada yang menarik perhatianmu dari ketiga opsi ini? Atau ada preferensi lokasi atau budget tertentu yang bisa jadi pertimbangan tambahan? 😊
+[INFO] 2025-10-29T21:59:09.853Z - ✅ Menggunakan model: gemini-2.0-flash
+[INFO] 2025-10-29T22:17:59.317Z - 🟦 User: hai aku cari kos di jalan kaliurang ada ga?
+[INFO] 2025-10-29T22:17:59.320Z - 📨 Mengirim prompt ke Gemini (attempt 1)
+[INFO] 2025-10-29T22:18:00.489Z - 📩 Gemini response diterima (attempt 1)
+[WARN] 2025-10-29T22:18:00.492Z - ⚠️ Gagal parsing hasil Gemini, gunakan memory slot jika ada.
+[INFO] 2025-10-29T22:18:00.493Z - 🟩 Ditemukan: 5 kos
+[INFO] 2025-10-29T22:18:02.777Z - 🤖 Bot reply: Hai! Ada nih beberapa pilihan kos di sekitar Jalan Kaliurang:
+
+*   **Kos Putri Mawar Indah:** Lokasinya persis di Jl. Kaliurang KM 7. Harga sewanya Rp1.000.000 per bulan. Ini khusus untuk putri ya.
+*   **Kos Putri Agestya Living:** Lokasinya di Jl. Kaliurang, Gg. Lombok No.B 36A (agak masuk gang sedikit). Harga sewanya Rp1.700.000 per bulan. Ini juga khusus untuk putri.
+
+Kedua kos ini dekat dengan kampus UGM dan halte Trans Jogja, jadi lokasinya cukup strategis. Ada preferensi khusus soal budget atau fasilitas yang kamu cari? Biar aku bisa bantu pilihkan yang paling sesuai! 😉
+[INFO] 2025-10-29T22:18:33.412Z - 🟦 User: kalo yang bisa 24 jam?
+[INFO] 2025-10-29T22:18:33.413Z - 📨 Mengirim prompt ke Gemini (attempt 1)
+[INFO] 2025-10-29T22:18:34.622Z - 📩 Gemini response diterima (attempt 1)
+[WARN] 2025-10-29T22:18:34.624Z - ⚠️ Gagal parsing hasil Gemini, gunakan memory slot jika ada.
+[INFO] 2025-10-29T22:18:34.625Z - 🟩 Ditemukan: 0 kos
+[INFO] 2025-10-29T22:18:36.449Z - 🤖 Bot reply: Oke, kamu cari kos yang aksesnya 24 jam ya? Sip! Sayangnya, dari data yang ada saat ini, belum ada kos yang spesifik bilang aksesnya 24 jam. 
+
+Tapi, biasanya sih, kos yang nggak punya jam malam atau aturan khusus soal jam masuk-keluar itu bisa dibilang aksesnya 24 jam. Mungkin sambil aku cari lagi, kamu bisa pertimbangin kos yang lokasinya strategis dan lingkungannya aman? Jadi, meskipun nggak ada info 24 jamnya, kamu tetep nyaman dan aman. Gimana? 😉
+[INFO] 2025-10-29T22:19:07.361Z - 🟦 User: dekat jalan besar
+[INFO] 2025-10-29T22:19:07.362Z - 📨 Mengirim prompt ke Gemini (attempt 1)
+[INFO] 2025-10-29T22:19:08.418Z - 📩 Gemini response diterima (attempt 1)
+[WARN] 2025-10-29T22:19:08.421Z - ⚠️ Gagal parsing hasil Gemini, gunakan memory slot jika ada.
+[INFO] 2025-10-29T22:19:08.423Z - 🟩 Ditemukan: 0 kos
+[INFO] 2025-10-29T22:19:10.365Z - 🤖 Bot reply: Oke, dekat jalan besar ya! Sayangnya, dari data yang aku punya saat ini, belum ada kos putri di daerah UGM yang spesifik menyebutkan lokasinya persis di dekat jalan besar. 
+
+Tapi, jangan khawatir! Beberapa kos yang aku sebutkan sebelumnya, seperti Kos Putri Agestya Living dan Kos Putri Mawar Indah, lokasinya di sekitar Jl. Kaliurang yang notabene merupakan jalan besar dan aksesnya cukup mudah.
+
+Mungkin untuk lebih pastinya, kamu bisa coba hubungi langsung kontak yang tertera di masing-masing kos untuk tanya lebih detail soal jaraknya ke jalan besar dan kemudahan akses transportasinya. Gimana?
+[INFO] 2025-10-29T22:27:00.538Z - ✅ Menggunakan model: gemini-2.0-flash
+[INFO] 2025-10-29T22:27:28.504Z - 🟦 User: aku nyari kos yang murah tapi deket UGM
+[INFO] 2025-10-29T22:27:28.507Z - 📨 Mengirim prompt ke Gemini (attempt 1)
+[INFO] 2025-10-29T22:27:29.679Z - 📩 Gemini response diterima (attempt 1)
+[WARN] 2025-10-29T22:27:29.682Z - ⚠️ Gagal parsing hasil Gemini, gunakan fallback extractor.
+[INFO] 2025-10-29T22:27:29.684Z - 🟩 Ditemukan: 0 kos
+[INFO] 2025-10-29T22:27:32.248Z - 🤖 Bot reply: Oke, mengerti! Kamu cari kos murah dan dekat UGM ya? Sayangnya, dari data yang aku punya saat ini, belum ada yang pas banget dengan kedua kriteria itu (ada kamar mandi dalam, murah, dan dekat UGM). 
+
+Biasanya, kos yang dekat UGM cenderung harganya sedikit lebih tinggi karena lokasinya strategis. Tapi, jangan khawatir! Mungkin kita bisa coba beberapa alternatif:
+
+1.  **Naikkan sedikit budget:** Mungkin dengan sedikit menaikkan budget, kita bisa dapat kos yang lebih dekat UGM dengan kamar mandi dalam.
+2.  **Cari yang agak jauh tapi akses mudah:** Kita bisa cari kos yang agak sedikit lebih jauh dari UGM, tapi punya akses transportasi yang mudah (misalnya dekat halte Trans Jogja). Biasanya harga kos di area yang agak jauh bisa lebih terjangkau.
+3.  **Pantau terus:** Harga dan ketersediaan kos bisa berubah sewaktu-waktu. Mungkin besok atau lusa ada kos yang sesuai dengan kriteria kamu.
+
+Kalau kamu mau, aku bisa bantu pantau terus atau cari info tambahan. Budget maksimalmu berapa ya? Atau ada area spesifik di sekitar UGM yang kamu incar? 😊
+[INFO] 2025-10-29T22:28:14.943Z - 🟦 User: harga under 3 juta?
+[INFO] 2025-10-29T22:28:14.945Z - 📨 Mengirim prompt ke Gemini (attempt 1)
+[INFO] 2025-10-29T22:28:16.073Z - 📩 Gemini response diterima (attempt 1)
+[WARN] 2025-10-29T22:28:16.075Z - ⚠️ Gagal parsing hasil Gemini, gunakan fallback extractor.
+[INFO] 2025-10-29T22:28:16.076Z - 🟩 Ditemukan: 0 kos
+[INFO] 2025-10-29T22:28:18.124Z - 🤖 Bot reply: Oke, lagi cari kos di bawah 3 juta ya? Hmm, berdasarkan data yang aku punya, sayangnya belum ada yang pas nih dengan kriteria itu. 
+
+Mungkin, kita bisa coba cari tahu dulu:
+
+*   **Lokasi yang kamu mau di mana?** Dengan tahu areanya, aku bisa coba cari lagi, siapa tahu ada yang kelewatan.
+*   **Fasilitas apa yang paling penting buat kamu?** Mungkin kalau kita kurangi beberapa fasilitas yang "nice-to-have" tapi gak terlalu penting, kita bisa nemu yang sesuai budget.
+*   **Apakah 3 juta itu budget per bulan, atau ada jangka waktu lain?**
+
+Kasih tahu aku ya, biar pencariannya lebih fokus! 😉
+[INFO] 2025-10-29T22:28:39.993Z - 🟦 User: kalau di Condongcatur ada gak?
+[INFO] 2025-10-29T22:28:39.995Z - 📨 Mengirim prompt ke Gemini (attempt 1)
+[INFO] 2025-10-29T22:28:41.143Z - 📩 Gemini response diterima (attempt 1)
+[WARN] 2025-10-29T22:28:41.144Z - ⚠️ Gagal parsing hasil Gemini, gunakan fallback extractor.
+[INFO] 2025-10-29T22:28:41.145Z - 🟩 Ditemukan: 1 kos
+[INFO] 2025-10-29T22:28:43.003Z - 🤖 Bot reply: Eh, kebetulan banget nih! Aku ada nemu satu kos putri di daerah Condongcatur namanya Agestya Living. Lokasinya di Jl. Kaliurang, Kentungan (masih masuk Condongcatur). Harganya 1,7 juta per bulan, udah termasuk listrik. Kamarnya lumayan luas (3x4 m) dan ada kasur, lemari, sama meja belajar juga. Katanya sih deket sama UGM dan halte Trans Jogja, jadi enak buat transportasi.
+
+Gimana, kira-kira itu yang kamu cari? Atau ada kriteria lain yang pengen kamu tambahin? Siapa tau aku bisa bantu cari lagi! 😉
+[INFO] 2025-10-29T22:29:09.830Z - 🟦 User: kalo boleh bawa hewan, ada ga?
+[INFO] 2025-10-29T22:29:09.831Z - 📨 Mengirim prompt ke Gemini (attempt 1)
+[INFO] 2025-10-29T22:29:11.265Z - 📩 Gemini response diterima (attempt 1)
+[WARN] 2025-10-29T22:29:11.266Z - ⚠️ Gagal parsing hasil Gemini, gunakan fallback extractor.
+[Bot Error:] 2025-10-29T22:29:11.268Z - TypeError: Cannot read properties of undefined (reading 'includes')
+    at file:///C:/Users/ASUS/Documents/NLP/kostfinder/src/utils/searchKos.js:11:45
+    at Array.every (<anonymous>)
+    at file:///C:/Users/ASUS/Documents/NLP/kostfinder/src/utils/searchKos.js:11:25
+    at Array.filter (<anonymous>)
+    at searchKos (file:///C:/Users/ASUS/Documents/NLP/kostfinder/src/utils/searchKos.js:2:18)
+    at kosFinderAgent (file:///C:/Users/ASUS/Documents/NLP/kostfinder/src/agent.js:134:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Client.<anonymous> (file:///C:/Users/ASUS/Documents/NLP/kostfinder/src/discordBot.js:35:17)
+[INFO] 2025-10-29T22:37:02.295Z - ✅ Menggunakan model: gemini-2.0-flash
+[INFO] 2025-10-29T22:37:54.960Z - 🟦 User: kalo boleh bawa hewan, ada ga?
+[INFO] 2025-10-29T22:37:54.962Z - 📨 Mengirim prompt ke Gemini (attempt 1)
+[INFO] 2025-10-29T22:37:54.971Z - 🟦 User: cari kos yang boleh bawa hewan, ada ga?
+[INFO] 2025-10-29T22:37:54.972Z - 📨 Mengirim prompt ke Gemini (attempt 1)
+[WARN] 2025-10-29T22:37:55.881Z - ⚠️ Retry 1 gagal: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent: [429 Too Many Requests] Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.
+[INFO] 2025-10-29T22:37:56.399Z - 📨 Mengirim prompt ke Gemini (attempt 2)
+[INFO] 2025-10-29T22:37:56.909Z - 📩 Gemini response diterima (attempt 1)
+[WARN] 2025-10-29T22:37:56.911Z - ⚠️ Gagal parsing hasil Gemini, gunakan fallback extractor.
+[DEBUG] 2025-10-29T22:37:56.912Z - DEBUG rawText: ```json
+{
+  "lokasi": null,
+  "harga_min": null,
+  "harga_max": null,
+  "tipe": null,
+  "fasilitas": [],
+  "preferensi": [],
+  "aturan": ["bawa hewan"]
+}
+```
+[INFO] 2025-10-29T22:37:56.915Z - 🟩 Ditemukan: 5 kos
+[INFO] 2025-10-29T22:37:57.344Z - 📩 Gemini response diterima (attempt 2)
+[WARN] 2025-10-29T22:37:57.345Z - ⚠️ Gagal parsing hasil Gemini, gunakan fallback extractor.
+[DEBUG] 2025-10-29T22:37:57.346Z - DEBUG rawText: ```json
+{
+  "lokasi": null,
+  "harga_min": null,
+  "harga_max": null,
+  "tipe": null,
+  "fasilitas": [],
+  "preferensi": [],
+  "aturan": ["bawa hewan"]
+}
+```
+[INFO] 2025-10-29T22:37:57.348Z - 🟩 Ditemukan: 5 kos
+[Bot Error:] 2025-10-29T22:37:57.865Z - Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent: [429 Too Many Requests] Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.
+    at handleResponseNotOk (file:///C:/Users/ASUS/Documents/NLP/kostfinder/node_modules/@google/generative-ai/dist/index.mjs:432:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async makeRequest (file:///C:/Users/ASUS/Documents/NLP/kostfinder/node_modules/@google/generative-ai/dist/index.mjs:401:9)
+    at async generateContent (file:///C:/Users/ASUS/Documents/NLP/kostfinder/node_modules/@google/generative-ai/dist/index.mjs:865:22)
+    at async ChatSession.sendMessage (file:///C:/Users/ASUS/Documents/NLP/kostfinder/node_modules/@google/generative-ai/dist/index.mjs:1208:9)
+    at async kosFinderAgent (file:///C:/Users/ASUS/Documents/NLP/kostfinder/src/agent.js:181:19)
+    at async Client.<anonymous> (file:///C:/Users/ASUS/Documents/NLP/kostfinder/src/discordBot.js:35:17)
+[INFO] 2025-10-29T22:37:59.770Z - 🤖 Bot reply: Wah, sayang banget ya, dari info kos yang aku punya saat ini, belum ada yang secara spesifik bilang boleh bawa hewan peliharaan. Biasanya sih, peraturan ini cukup ketat di kos karena pertimbangan kebersihan dan kenyamanan penghuni lain. 
+
+Tapi, jangan berkecil hati dulu! Aku saranin coba hubungi langsung nomor kontak yang tertera di masing-masing info kos. Siapa tahu aja mereka punya kebijakan khusus atau pertimbangan lain. Misalnya, mungkin ada kos yang memperbolehkan hewan kecil tertentu dengan syarat tertentu.
+
+Atau, kalau kamu mau, aku bisa bantu cari info kos lain di luar data yang aku punya ini. Mungkin ada pilihan lain yang lebih sesuai dengan kebutuhanmu. Kira-kira hewan apa yang ingin kamu bawa? Dengan begitu, aku bisa lebih spesifik dalam mencari informasi.
+[INFO] 2025-10-29T22:38:17.944Z - 🟦 User: cari kos yang boleh bawa hewan, ada ga?
+[INFO] 2025-10-29T22:38:17.946Z - 📨 Mengirim prompt ke Gemini (attempt 1)
+[INFO] 2025-10-29T22:38:19.124Z - 📩 Gemini response diterima (attempt 1)
+[WARN] 2025-10-29T22:38:19.126Z - ⚠️ Gagal parsing hasil Gemini, gunakan fallback extractor.
+[DEBUG] 2025-10-29T22:38:19.126Z - DEBUG rawText: ```json
+{
+  "lokasi": null,
+  "harga_min": null,
+  "harga_max": null,
+  "tipe": null,
+  "fasilitas": [],
+  "preferensi": [],
+  "aturan": ["bawa hewan"]
+}
+```
+[INFO] 2025-10-29T22:38:19.128Z - 🟩 Ditemukan: 5 kos
+[INFO] 2025-10-29T22:38:22.092Z - 🤖 Bot reply: Wah, mencari kos yang boleh bawa hewan peliharaan memang agak tricky ya. Dari hasil pencarian yang saya punya, sayangnya belum ada info spesifik tentang kos yang memperbolehkan hewan peliharaan. Tapi, jangan putus asa dulu! 
+
+Biasanya, aturan mengenai hewan peliharaan ini sangat bervariasi tergantung kebijakan pemilik kos. Jadi, cara terbaiknya adalah:
+
+1.  **Hubungi langsung kos-kosan yang menarik minatmu.** Tanya langsung ke nomor kontak yang tertera, apakah mereka memperbolehkan membawa hewan peliharaan atau tidak. Siapa tahu, ada yang fleksibel!
+2.  **Coba cari di grup atau forum pencari kos di daerahmu.** Biasanya, ada informasi dari orang lain yang punya pengalaman mencari kos dengan hewan peliharaan.
+3.  **Pertimbangkan kos yang punya halaman atau area outdoor.** Mungkin pemilik kos akan lebih mempertimbangkan jika hewan peliharaanmu punya tempat untuk bermain di luar kamar.
+
+Semoga sukses dalam pencarian kosnya, ya! Kalau ada info tambahan yang kamu butuhkan, jangan ragu untuk bertanya lagi!
+[INFO] 2025-10-29T22:38:46.015Z - 🟦 User: aku cari kos murah deket ugm yang ada wifi
+[INFO] 2025-10-29T22:38:46.017Z - 📨 Mengirim prompt ke Gemini (attempt 1)
+[WARN] 2025-10-29T22:39:01.251Z - ⚠️ Retry 1 gagal: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent: [500 Internal Server Error] Internal error encountered.
+[INFO] 2025-10-29T22:39:01.754Z - 📨 Mengirim prompt ke Gemini (attempt 2)
+[INFO] 2025-10-29T22:39:02.850Z - 📩 Gemini response diterima (attempt 2)
+[WARN] 2025-10-29T22:39:02.851Z - ⚠️ Gagal parsing hasil Gemini, gunakan fallback extractor.
+[DEBUG] 2025-10-29T22:39:02.852Z - DEBUG rawText: ```json
+{
+  "lokasi": "ugm",
+  "harga_min": null,
+  "harga_max": null,
+  "tipe": null,
+  "fasilitas": ["wifi"],
+  "preferensi": ["dekat kampus"],
+  "aturan": []
+}
+```
+[INFO] 2025-10-29T22:39:02.854Z - 🟩 Ditemukan: 0 kos
+[INFO] 2025-10-29T22:39:04.181Z - 🤖 Bot reply: Hai! Hmm, aku udah coba cariin kos murah deket UGM yang ada WiFi, tapi sayangnya belum ada yang pas nih sesuai kriteria kamu. Mungkin ada preferensi lain yang bisa kamu tambahin? Misalnya, range harga maksimalnya berapa, atau fasilitas lain yang penting selain WiFi? Biar aku bisa bantu cariin yang lebih cocok lagi! 😊
+[INFO] 2025-10-29T22:39:30.087Z - 🟦 User: kos maksimal 2juta
+[INFO] 2025-10-29T22:39:30.088Z - 📨 Mengirim prompt ke Gemini (attempt 1)
+[INFO] 2025-10-29T22:39:31.213Z - 📩 Gemini response diterima (attempt 1)
+[WARN] 2025-10-29T22:39:31.215Z - ⚠️ Gagal parsing hasil Gemini, gunakan fallback extractor.
+[DEBUG] 2025-10-29T22:39:31.216Z - DEBUG rawText: ```json
+{
+  "lokasi": null,
+  "harga_min": null,
+  "harga_max": 2000000,
+  "tipe": null,
+  "fasilitas": [],
+  "preferensi": [],
+  "aturan": []
+}
+```
+[INFO] 2025-10-29T22:39:31.219Z - 🟩 Ditemukan: 0 kos
+[INFO] 2025-10-29T22:39:33.571Z - 🤖 Bot reply: Wah, oke! Aku cek dulu ya buat kos dengan budget maksimal 2 juta. Hmm, setelah aku cari, sayangnya belum ada info kos yang pas dengan budget segitu saat ini. 
+
+Mungkin kamu bisa coba pertimbangkan beberapa hal:
+
+*   **Lokasi:** Apakah kamu fleksibel dengan lokasinya? Biasanya, kos di pusat kota atau lokasi strategis memang lebih mahal. Kalau agak jauh dari pusat, mungkin bisa dapat yang lebih murah.
+*   **Fasilitas:** Apakah fasilitas seperti AC, kamar mandi dalam, atau WiFi itu wajib? Kalau bisa dikurangi, mungkin bisa dapat harga yang lebih terjangkau.
+*   **Jenis Kos:** Apakah kamu cari kos campur, putra, atau putri? Terkadang ada perbedaan harga juga.
+
+Atau, mungkin kamu punya preferensi lain yang bisa aku bantu cari? Misalnya, area tertentu yang kamu inginkan, atau fasilitas minimal yang harus ada? Siapa tahu dengan informasi lebih detail, aku bisa bantu carikan yang lebih sesuai! 😊
+[INFO] 2025-10-29T23:11:30.196Z - 🟦 User: aku cari kos dengan kualitas paling bagus, berapapun harganya gapapa
+[Bot Error:] 2025-10-29T23:11:30.201Z - ReferenceError: generateWithRetry is not defined
+    at kosFinderAgent (file:///C:/Users/ASUS/Documents/NLP/kostfinder/src/agent.js:177:21)
+    at Client.<anonymous> (file:///C:/Users/ASUS/Documents/NLP/kostfinder/src/discordBot.js:35:23)
+    at Client.emit (node:events:524:28)
+    at MessageCreateAction.handle (C:\Users\ASUS\Documents\NLP\kostfinder\node_modules\discord.js\src\client\actions\MessageCreate.js:32:14)
+    at module.exports [as MESSAGE_CREATE] (C:\Users\ASUS\Documents\NLP\kostfinder\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (C:\Users\ASUS\Documents\NLP\kostfinder\node_modules\discord.js\src\client\websocket\WebSocketManager.js:352:31)
+    at WebSocketManager.<anonymous> (C:\Users\ASUS\Documents\NLP\kostfinder\node_modules\discord.js\src\client\websocket\WebSocketManager.js:236:12)
+    at WebSocketManager.emit (C:\Users\ASUS\Documents\NLP\kostfinder\node_modules\@vladfrangu\async_event_emitter\dist\index.cjs:2504:31)
+    at WebSocketShard.<anonymous> (C:\Users\ASUS\Documents\NLP\kostfinder\node_modules\@discordjs\ws\dist\index.js:1190:51)
+    at WebSocketShard.emit (C:\Users\ASUS\Documents\NLP\kostfinder\node_modules\@vladfrangu\async_event_emitter\dist\index.cjs:2504:31)
+[INFO] 2025-10-29T23:17:31.260Z - ✅ Menggunakan model: gemini-2.0-flash
+[INFO] 2025-10-29T23:17:52.977Z - 🟦 User: boleh bawa hewan
+[INFO] 2025-10-29T23:17:52.979Z - 📨 [Gemini] Attempt 1/3
+[INFO] 2025-10-29T23:17:54.170Z - 📩 [Gemini] Response OK on attempt 1
+[WARN] 2025-10-29T23:17:54.171Z - ⚠️ Gagal parsing hasil Gemini, gunakan fallback extractor.
+[DEBUG] 2025-10-29T23:17:54.173Z - DEBUG rawText: ```json
+{
+  "lokasi": null,
+  "harga_min": null,
+  "harga_max": null,
+  "tipe": null,
+  "fasilitas": [],
+  "preferensi": [],
+  "aturan": ["bawa hewan"]
+}
+```
+[INFO] 2025-10-29T23:17:54.177Z - 🟩 Ditemukan: 5 kos
+[INFO] 2025-10-29T23:17:56.133Z - 🤖 Bot reply: Untuk kos-kos yang aku temukan ini, sayangnya tidak ada informasi spesifik apakah boleh membawa hewan peliharaan atau tidak. 😔
+
+Saran terbaikku adalah:
+
+1. **Hubungi langsung nomor kontak yang tertera.** Tanyakan langsung ke pemilik kos apakah mereka memperbolehkan hewan peliharaan. Ini cara paling akurat!
+2. **Cari kos lain yang punya aturan jelas soal hewan peliharaan.** Beberapa kos memang secara eksplisit menyatakan "tidak boleh membawa hewan peliharaan" atau "pet-friendly".
+
+Semoga kamu segera menemukan kos yang cocok dan ramah hewan peliharaan, ya! 🐾
+[INFO] 2025-10-29T23:18:37.658Z - 🟦 User: cari kos campur dengan wifi
+[INFO] 2025-10-29T23:18:37.659Z - 📨 [Gemini] Attempt 1/3
+[INFO] 2025-10-29T23:18:38.904Z - 📩 [Gemini] Response OK on attempt 1
+[WARN] 2025-10-29T23:18:38.906Z - ⚠️ Gagal parsing hasil Gemini, gunakan fallback extractor.
+[DEBUG] 2025-10-29T23:18:38.907Z - DEBUG rawText: ```json
+{
+  "lokasi": null,
+  "harga_min": null,
+  "harga_max": null,
+  "tipe": "Campur",
+  "fasilitas": ["wifi"],
+  "preferensi": [],
+  "aturan": []
+}
+```
+[INFO] 2025-10-29T23:18:38.909Z - 🟩 Ditemukan: 0 kos
+[INFO] 2025-10-29T23:18:40.951Z - 🤖 Bot reply: Waduh, maaf banget nih, kayaknya lagi belum ada info kos campur yang ada WiFi-nya. Mungkin kamu bisa coba pertimbangkan opsi lain dulu? Atau, kalau memang harus ada WiFi, mungkin bisa cari kos campur yang lokasinya dekat tempat yang ada WiFi gratis, kayak kafe atau perpustakaan? 
+
+Atau, gini deh, coba ceritain lebih detail kos yang kamu cari? Siapa tahu aku bisa bantu cariin lagi dengan kriteria yang lebih spesifik. Misalnya, budgetnya berapa, lokasinya di mana, atau fasilitas lain yang kamu butuhkan? 😊
+[INFO] 2025-10-29T23:19:01.885Z - 🟦 User: pokoknya mau kos campur dimanapun
+[INFO] 2025-10-29T23:19:01.886Z - 📨 [Gemini] Attempt 1/3
+[INFO] 2025-10-29T23:19:03.056Z - 📩 [Gemini] Response OK on attempt 1
+[WARN] 2025-10-29T23:19:03.058Z - ⚠️ Gagal parsing hasil Gemini, gunakan fallback extractor.
+[DEBUG] 2025-10-29T23:19:03.059Z - DEBUG rawText: ```json
+{
+  "lokasi": null,
+  "harga_min": null,
+  "harga_max": null,
+  "tipe": "Campur",
+  "fasilitas": [],
+  "preferensi": [],
+  "aturan": []
+}
+```
+[INFO] 2025-10-29T23:19:03.060Z - 🟩 Ditemukan: 0 kos
+[INFO] 2025-10-29T23:19:04.505Z - 🤖 Bot reply: Waduh, setelah aku cari-cari, ternyata belum ada info kos campur yang pas nih. Mungkin karena memang kos campur agak jarang ya. Hmm, kira-kira ada area spesifik yang kamu pengen banget di situ? Atau ada fasilitas khusus yang dicari? Kalau ada info tambahan, mungkin aku bisa bantu cariin lagi yang lebih spesifik! 😊
+[INFO] 2025-10-29T23:19:17.080Z - 🟦 User: kos dengan fasilitas paling lengkap
+[INFO] 2025-10-29T23:19:17.081Z - 📨 [Gemini] Attempt 1/3
+[INFO] 2025-10-29T23:19:18.313Z - 📩 [Gemini] Response OK on attempt 1
+[WARN] 2025-10-29T23:19:18.315Z - ⚠️ Gagal parsing hasil Gemini, gunakan fallback extractor.
+[DEBUG] 2025-10-29T23:19:18.316Z - DEBUG rawText: ```json
+{
+  "lokasi": null,
+  "harga_min": null,
+  "harga_max": null,
+  "tipe": null,
+  "fasilitas": [],
+  "preferensi": [],
+  "aturan": []
+}
+```
+[INFO] 2025-10-29T23:19:18.317Z - 🟩 Ditemukan: 5 kos
+[INFO] 2025-10-29T23:19:21.815Z - 🤖 Bot reply: Oke, kalau kamu cari kos dengan fasilitas paling lengkap, ini beberapa opsi yang muncul berdasarkan info yang ada:
+
+Dari daftar yang saya temukan, beberapa kos yang menawarkan fasilitas cukup lengkap (meskipun definisi "paling lengkap" bisa beda-beda ya, tergantung kebutuhanmu):
+
+*   **Kos Putri Pandega Sakti 2:** Ini menarik karena fasilitas kamarnya sudah termasuk kasur, lemari, dan meja belajar. Ditambah lagi, ada fasilitas umum seperti dapur di lantai bawah dan laundry di lantai atas. Penting banget kan buat anak kos? 😊 Listriknya pakai token sendiri, jadi bisa lebih kontrol pemakaian.
+
+*   **Kos Putri Agestya Living:** Ini juga lumayan lengkap, fasilitas kamarnya ada kasur, lemari, dan meja belajar. Listrik sudah termasuk harga sewa, jadi lebih praktis. Lokasinya juga strategis, dekat UGM dan halte Trans Jogja.
+
+**Penting untuk diingat:**
+
+*   Definisi "paling lengkap" itu relatif. Apa yang penting buat kamu? Misalnya, apakah kamu butuh AC, kamar mandi dalam, atau Wi-Fi super kencang?
+*   Sebaiknya hubungi langsung nomor kontak yang tertera untuk menanyakan detail fasilitas, ketersediaan kamar, dan aturan kos.
+
+Semoga membantu ya! Kalau kamu punya preferensi lain, coba ceritakan, biar saya bisa bantu carikan yang lebih sesuai. 😉
+[INFO] 2025-10-29T23:19:51.310Z - 🟦 User: kalo butuh AC
+[INFO] 2025-10-29T23:19:51.312Z - 📨 [Gemini] Attempt 1/3
+[INFO] 2025-10-29T23:19:52.539Z - 📩 [Gemini] Response OK on attempt 1
+[WARN] 2025-10-29T23:19:52.541Z - ⚠️ Gagal parsing hasil Gemini, gunakan fallback extractor.
+[DEBUG] 2025-10-29T23:19:52.542Z - DEBUG rawText: ```json
+{
+  "lokasi": null,
+  "harga_min": null,
+  "harga_max": null,
+  "tipe": null,
+  "fasilitas": ["ac"],
+  "preferensi": [],
+  "aturan": []
+}
+```
+[INFO] 2025-10-29T23:19:52.544Z - 🟩 Ditemukan: 5 kos
+[INFO] 2025-10-29T23:19:55.716Z - 🤖 Bot reply: Oke, kamu butuh AC ya? Sayangnya dari info yang aku dapat, belum ada keterangan spesifik yang menyebutkan kalau kos-kosan di atas punya AC. 
+
+Tapi, beberapa kos yang harganya lebih tinggi (misalnya di atas 1,5 juta) biasanya punya AC. Coba deh kamu hubungi langsung nomor kontak yang tertera di masing-masing kos, dan tanya apakah kamarnya ber-AC. Siapa tahu ada yang punya fasilitas AC tapi belum dicantumkan di deskripsi.
+
+Atau, kalau kamu mau, bisa coba cari sendiri di platform pencari kos lain seperti Mamikos atau Rukita. Biasanya di sana ada filter untuk mencari kos dengan fasilitas AC.
+
+Semoga dapat kos yang cocok dengan AC ya! 😊
+[INFO] 2025-10-29T23:23:27.096Z - 🟦 User: cari kos paling murah
+[INFO] 2025-10-29T23:23:27.098Z - 📨 [Gemini] Attempt 1/3
+[INFO] 2025-10-29T23:23:28.407Z - 📩 [Gemini] Response OK on attempt 1
+[WARN] 2025-10-29T23:23:28.408Z - ⚠️ Gagal parsing hasil Gemini, gunakan fallback extractor.
+[DEBUG] 2025-10-29T23:23:28.409Z - DEBUG rawText: ```json
+{
+  "lokasi": null,
+  "harga_min": null,
+  "harga_max": null,
+  "tipe": null,
+  "fasilitas": [],
+  "preferensi": [],
+  "aturan": []
+}
+```
+[INFO] 2025-10-29T23:23:28.410Z - 🟩 Ditemukan: 2 kos
+[INFO] 2025-10-29T23:23:30.797Z - 🤖 Bot reply: Oke, lagi cari kos yang paling murah ya? Berdasarkan info yang aku dapat, ini ada 2 pilihan:
+
+*   **Kos Pria Sembodo:** Ini yang paling murah, harganya Rp950,000 per bulan. Lokasinya di Jl. Gejayan No. 12, khusus untuk cowok. Ukuran kamarnya lumayan lah, 3x3.5 meter. Listrik sudah termasuk, dan ada kasur sama meja belajar. Cocok buat yang lagi cari kos simpel dan hemat.
+
+*   **Kos Putri Mawar Indah:** Kalau kamu cewek, ini juga bisa jadi pilihan. Harganya Rp1,000,000 per bulan, jadi sedikit lebih mahal dari yang tadi. Lokasinya di Jl. Kaliurang KM 7. Fasilitasnya lumayan lengkap, ada kasur, lemari, dan meja belajar. Lokasinya juga strategis, dekat kampus UGM dan halte Trans Jogja.
+
+Gimana? Dari kedua pilihan itu, ada yang menarik perhatianmu? Atau mungkin kamu punya preferensi lain, misalnya lokasi atau fasilitas yang lebih spesifik? Kasih tahu aja, biar aku bisa bantu cariin lagi! 😉
+[INFO] 2025-10-29T23:23:52.595Z - 🟦 User: tapi aku cewe
+[INFO] 2025-10-29T23:23:52.596Z - 📨 [Gemini] Attempt 1/3
+[INFO] 2025-10-29T23:23:53.745Z - 📩 [Gemini] Response OK on attempt 1
+[WARN] 2025-10-29T23:23:53.747Z - ⚠️ Gagal parsing hasil Gemini, gunakan fallback extractor.
+[DEBUG] 2025-10-29T23:23:53.748Z - DEBUG rawText: ```json
+{
+  "lokasi": null,
+  "harga_min": null,
+  "harga_max": null,
+  "tipe": "Putri",
+  "fasilitas": [],
+  "preferensi": [],
+  "aturan": []
+}
+```
+[INFO] 2025-10-29T23:23:53.749Z - 🟩 Ditemukan: 5 kos
+[INFO] 2025-10-29T23:23:56.403Z - 🤖 Bot reply: Oh iya, maaf! Aku salah fokus. Tadi aku lihat ada kos pria juga. 😅
+
+Karena kamu cewek, ini daftar kos yang khusus putri yang mungkin cocok:
+
+*   **Kost Putri Eksklusif Triple A De Ariesta:** Ini lumayan oke, harganya Rp1,3 juta. Sudah termasuk listrik, ada kasur dan meja belajar. Lokasinya juga strategis dekat minimarket dan warung makan.
+
+*   **Kos Putri Pandega Sakti 2:** Agak mahal sedikit, Rp1,5 juta. Tapi ini bangunan baru, kamarnya lebih luas (3.5x4 m) dan ada fasilitas tambahan seperti lemari. Listriknya token ya.
+
+*   **Kos Putri Agestya Living:** Ini yang paling mahal, Rp1,7 juta. Tapi lokasinya strategis banget dekat UGM dan halte Trans Jogja. Fasilitasnya standar, kasur, lemari, meja belajar.
+
+*   **Kos Putri Mawar Indah:** Ini juga pilihan bagus, harganya Rp1 juta. Lokasinya juga dekat UGM.
+
+Gimana, ada yang menarik perhatianmu? Atau ada kriteria lain yang kamu cari? Misalnya, butuh kamar mandi dalam atau fasilitas parkir yang luas? Kasih tau aja, biar aku bantu cari yang paling pas! 😊
+[INFO] 2025-10-29T23:24:16.490Z - 🟦 User: cari kos cewe yang paling murah dan dekat ugm
+[INFO] 2025-10-29T23:24:16.492Z - 📨 [Gemini] Attempt 1/3
+[INFO] 2025-10-29T23:24:17.632Z - 📩 [Gemini] Response OK on attempt 1
+[WARN] 2025-10-29T23:24:17.633Z - ⚠️ Gagal parsing hasil Gemini, gunakan fallback extractor.
+[DEBUG] 2025-10-29T23:24:17.635Z - DEBUG rawText: ```json
+{
+  "lokasi": "ugm",
+  "harga_min": null,
+  "harga_max": null,
+  "tipe": "Putri",
+  "fasilitas": [],
+  "preferensi": ["dekat kampus"],
+  "aturan": []
+}
+```
+[INFO] 2025-10-29T23:24:17.637Z - 🟩 Ditemukan: 0 kos
+[INFO] 2025-10-29T23:24:19.397Z - 🤖 Bot reply: Waduh, sayang banget nih, aku belum nemu kos cewek yang paling murah dan lokasinya bener-bener deket UGM berdasarkan data yang aku punya. 
+
+Biasanya sih, kalau mau dapet yang murah, emang harus agak jeli nyarinya dan mungkin nggak persis di sekitar UGM banget. Atau mungkin kamu punya kriteria lain yang bisa aku pertimbangkan? Misalnya, budget maksimal kamu berapa? Atau radius terjauh dari UGM yang masih kamu pertimbangkan? Siapa tahu dengan info tambahan, aku bisa bantu cari info lain yang lebih relevan! 😉
+[INFO] 2025-10-29T23:24:37.802Z - 🟦 User: yaudah kos paling murah aja
+[INFO] 2025-10-29T23:24:37.804Z - 📨 [Gemini] Attempt 1/3
+[INFO] 2025-10-29T23:24:39.168Z - 📩 [Gemini] Response OK on attempt 1
+[WARN] 2025-10-29T23:24:39.169Z - ⚠️ Gagal parsing hasil Gemini, gunakan fallback extractor.
+[DEBUG] 2025-10-29T23:24:39.170Z - DEBUG rawText: ```json
+{
+  "lokasi": null,
+  "harga_min": null,
+  "harga_max": null,
+  "tipe": null,
+  "fasilitas": [],
+  "preferensi": [],
+  "aturan": []
+}
+```
+[INFO] 2025-10-29T23:24:39.171Z - 🟩 Ditemukan: 2 kos
+[INFO] 2025-10-29T23:24:40.805Z - 🤖 Bot reply: Oke, dari yang aku lihat, kos paling murah itu **Kos Pria Sembodo** di Gejayan. Harganya Rp950,000. Cocok buat kamu? Lokasinya juga lumayan strategis, dekat minimarket dan warung makan. Tapi ini khusus untuk pria ya. Gimana, tertarik? 😊
+[INFO] 2025-10-29T23:24:54.762Z - 🟦 User: ga ada yang cewe paling murah?
+[INFO] 2025-10-29T23:24:54.763Z - 📨 [Gemini] Attempt 1/3
+[INFO] 2025-10-29T23:24:55.887Z - 📩 [Gemini] Response OK on attempt 1
+[WARN] 2025-10-29T23:24:55.888Z - ⚠️ Gagal parsing hasil Gemini, gunakan fallback extractor.
+[DEBUG] 2025-10-29T23:24:55.889Z - DEBUG rawText: ```json
+{
+  "lokasi": null,
+  "harga_min": null,
+  "harga_max": null,
+  "tipe": "Putri",
+  "fasilitas": [],
+  "preferensi": [],
+  "aturan": []
+}
+```
+[INFO] 2025-10-29T23:24:55.895Z - 🟩 Ditemukan: 2 kos
+[INFO] 2025-10-29T23:24:57.395Z - 🤖 Bot reply: Hmm, dari info yang aku punya, kos putri paling murah yang aku temuin itu di Mawar Indah, harganya 1 juta per bulan. Lokasinya di Jl. Kaliurang KM 7, deket UGM. Tapi, kalau kamu punya budget di bawah itu, mungkin kita bisa coba cari opsi lain? Kira-kira budget maksimal kamu berapa ya? Siapa tahu ada yang lebih cocok! 😉
+[INFO] 2025-10-29T23:25:13.680Z - 🟦 User: 800ribu
+[INFO] 2025-10-29T23:25:13.681Z - 📨 [Gemini] Attempt 1/3
+[INFO] 2025-10-29T23:25:14.911Z - 📩 [Gemini] Response OK on attempt 1
+[WARN] 2025-10-29T23:25:14.912Z - ⚠️ Gagal parsing hasil Gemini, gunakan fallback extractor.
+[DEBUG] 2025-10-29T23:25:14.914Z - DEBUG rawText: ```json
+{
+  "lokasi": null,
+  "harga_min": null,
+  "harga_max": 800000,
+  "tipe": null,
+  "fasilitas": [],
+  "preferensi": [],
+  "aturan": []
+}
+```
+[INFO] 2025-10-29T23:25:14.915Z - 🟩 Ditemukan: 0 kos
+[INFO] 2025-10-29T23:25:16.845Z - 🤖 Bot reply: Oke, lagi nyari kos dengan budget 800 ribu ya? Sayangnya, dari hasil pencarian, belum ada kos yang pas nih dengan harga segitu. 🤔
+
+Nah, biar aku bisa bantu cariin yang lebih sesuai, mungkin kamu bisa kasih tau preferensi lainnya? Misalnya:
+
+*   **Lokasinya di mana?** (kota/kecamatan/area spesifik)
+*   **Fasilitas yang paling penting apa?** (misalnya kamar mandi dalam, wifi, AC, dll.)
+*   **Jenis kosnya gimana?** (putra, putri, campur)
+
+Dengan info lebih detail, aku bisa bantu cariin alternatif lain atau mungkin kos dengan harga sedikit di atas 800 ribu tapi fasilitasnya oke banget! 😉
+[INFO] 2025-10-29T23:25:29.013Z - 🟦 User: campur
+[INFO] 2025-10-29T23:25:29.015Z - 📨 [Gemini] Attempt 1/3
+[INFO] 2025-10-29T23:25:30.216Z - 📩 [Gemini] Response OK on attempt 1
+[WARN] 2025-10-29T23:25:30.217Z - ⚠️ Gagal parsing hasil Gemini, gunakan fallback extractor.
+[DEBUG] 2025-10-29T23:25:30.218Z - DEBUG rawText: ```json
+{
+  "lokasi": null,
+  "harga_min": null,
+  "harga_max": null,
+  "tipe": "Campur",
+  "fasilitas": [],
+  "preferensi": [],
+  "aturan": []
+}
+```
+[INFO] 2025-10-29T23:25:30.219Z - 🟩 Ditemukan: 0 kos
+[INFO] 2025-10-29T23:25:32.008Z - 🤖 Bot reply: Wah, "campur" ya? Oke, maksudnya kamu nyari kos campur, gitu? Sayangnya, dari data yang aku punya sekarang, belum ada kos campur yang spesifik nih. 
+
+Biar aku bisa bantu lebih baik, kamu bisa kasih info tambahan? Misalnya:
+
+*   **Lokasinya di mana?** (Kota/Kecamatan)
+*   **Budgetnya berapa?**
+*   **Fasilitas yang dicari apa aja?** (Kamar mandi dalam, AC, WiFi, dll.)
+
+Dengan informasi lebih detail, aku bisa cariin kos yang paling cocok buat kamu! 😊
+[INFO] 2025-10-30T01:10:08.270Z - ✅ Menggunakan model: gemini-2.0-flash
+[INFO] 2025-10-30T01:14:05.339Z - ✅ Menggunakan model: gemini-2.0-flash
+[INFO] 2025-10-30T01:26:52.491Z - ✅ Menggunakan model: gemini-2.0-flash
+[INFO] 2025-10-30T01:26:52.506Z - 🟦 User: cari kos murah
+[INFO] 2025-10-30T01:26:52.510Z - 📨 [Gemini] Attempt 1/3
+[INFO] 2025-10-30T01:26:54.763Z - 📩 [Gemini] Response OK on attempt 1
+[WARN] 2025-10-30T01:26:54.766Z - ⚠️ Gagal parsing hasil Gemini, gunakan fallback extractor.
+[DEBUG] 2025-10-30T01:26:54.767Z - DEBUG rawText: ```json
+{
+  "lokasi": null,
+  "harga_min": null,
+  "harga_max": 1000000,
+  "tipe": null,
+  "fasilitas": [],
+  "preferensi": [],
+  "aturan": []
+}
+```
+[INFO] 2025-10-30T01:26:54.769Z - 🟩 Ditemukan: 1 kos
+[INFO] 2025-10-30T01:26:56.877Z - 🤖 Bot reply: Oke, lagi cari kos murah ya? Aku ada nih info kos di daerah UGM, harganya lumayan terjangkau, sekitar Rp750.000 per bulan. Tapi, sayangnya informasinya masih terbatas nih.
+
+*   **Ukuran kamarnya** kamu ada preferensi khusus nggak? Biar aku bisa bantu cari info lebih lanjut.
+*   **Listriknya** gimana? Udah termasuk atau bayar sendiri?
+*   **Fasilitasnya** apa aja ya? Penting ada kamar mandi dalam atau lemari misalnya?
+*   **Ada aturan khusus** nggak? Misal jam malam atau nggak boleh bawa teman cowok/cewek?
+
+Kalau kamu kasih tau preferensi kamu, aku bisa bantu cari info lebih detail! 😉
+[INFO] 2025-10-30T01:26:56.910Z - 🟦 User: kos di UGM
+[INFO] 2025-10-30T01:26:56.912Z - 📨 [Gemini] Attempt 1/3
+[WARN] 2025-10-30T01:26:56.916Z - ⚠️ [Gemini] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent: Gemini down (attempt 1)
+[INFO] 2025-10-30T01:26:56.917Z - 📨 [Gemini] Attempt 2/3
+[INFO] 2025-10-30T01:26:58.127Z - 📩 [Gemini] Response OK on attempt 2
+[WARN] 2025-10-30T01:26:58.128Z - ⚠️ Gagal parsing hasil Gemini, gunakan fallback extractor.
+[DEBUG] 2025-10-30T01:26:58.129Z - DEBUG rawText: ```json
+{
+  "lokasi": "UGM",
+  "harga_min": null,
+  "harga_max": null,
+  "tipe": null,
+  "fasilitas": [],
+  "preferensi": [],
+  "aturan": []
+}
+```
+[INFO] 2025-10-30T01:26:58.130Z - 🟩 Ditemukan: 1 kos
+[INFO] 2025-10-30T01:27:00.326Z - 🤖 Bot reply: Hai! Lagi cari kos di UGM ya? Oke, aku ada info nih. Ada kos yang lokasinya di UGM, harganya sekitar Rp750.000 per bulan.
+
+Sayangnya, infonya belum terlalu detail. Misalnya, tipe kamarnya apa (apakah ada kamar mandi dalam atau luar), ukuran kamarnya berapa, listriknya gimana (apakah termasuk atau bayar sendiri), dan fasilitas yang tersedia apa aja.
+
+Kalau kamu tertarik, mungkin kamu bisa cari tahu info lebih lanjut tentang kos ini? Atau mungkin kamu punya kriteria kos yang lebih spesifik? Misalnya, budget maksimal berapa, pengen yang ada AC atau WiFi, atau cari yang dekat dengan fakultas tertentu? Kalau kamu kasih tau kriteriamu, aku bisa bantu carikan info yang lebih relevan lagi! 😉
+[INFO] 2025-10-30T01:37:38.847Z - ✅ Menggunakan model: gemini-2.0-flash
+[INFO] 2025-10-30T01:37:38.879Z - 🟦 User: cari kos murah
+[INFO] 2025-10-30T01:37:38.883Z - 📨 [Gemini] Attempt 1/3
+[INFO] 2025-10-30T01:37:43.352Z - 📩 [Gemini] Response OK on attempt 1
+[WARN] 2025-10-30T01:37:43.353Z - ⚠️ Gagal parsing hasil Gemini, gunakan fallback extractor.
+[DEBUG] 2025-10-30T01:37:43.354Z - DEBUG rawText: ```json
+{
+  "lokasi": null,
+  "harga_min": null,
+  "harga_max": 1000000,
+  "tipe": null,
+  "fasilitas": [],
+  "preferensi": [],
+  "aturan": []
+}
+```
+[INFO] 2025-10-30T01:37:43.356Z - 🟩 Ditemukan: 2 kos
+[INFO] 2025-10-30T02:34:15.929Z - ✅ Menggunakan model: gemini-2.0-flash
+[INFO] 2025-10-30T02:34:15.941Z - 🟦 User: cari kos murah
+[INFO] 2025-10-30T02:34:15.943Z - 📨 [Gemini] Attempt 1/3
+[INFO] 2025-10-30T02:34:17.433Z - 📩 [Gemini] Response OK on attempt 1
+[WARN] 2025-10-30T02:34:17.434Z - ⚠️ Gagal parsing hasil Gemini, gunakan fallback extractor.
+[DEBUG] 2025-10-30T02:34:17.434Z - DEBUG rawText: ```json
+{
+  "lokasi": null,
+  "harga_min": null,
+  "harga_max": 1000000,
+  "tipe": null,
+  "fasilitas": [],
+  "preferensi": [],
+  "aturan": []
+}
+```
+[INFO] 2025-10-30T02:34:17.435Z - 🟩 Ditemukan: 2 kos
+[INFO] 2025-10-30T02:34:20.224Z - 🤖 Bot reply: Hai! Lagi cari kos murah ya? Kebetulan nih, aku ada info beberapa kos yang mungkin cocok buat kamu:
+
+*   **Kos Pria Sembodo:** Ini khusus buat cowok nih, lokasinya di Jl. Gejayan. Harganya lumayan terjangkau, sekitar Rp950.000 per bulan udah termasuk listrik. Kamarnya ukuran 3x3.5 meter, ada kasur sama meja belajar juga. Tapi, gak boleh bawa tamu nginep ya, dan aksesnya 24 jam.
+
+*   **Kos Putri Mawar Indah:** Nah, kalau kamu cewek, ini bisa jadi pilihan. Lokasinya di Jl. Kaliurang KM 7. Harganya sedikit lebih mahal, Rp1.000.000 per bulan, tapi listrik udah termasuk juga. Kamarnya ukuran 3x3 meter, ada kasur, lemari, sama meja belajar. Aturannya, cuma buat cewek dan gak boleh merokok di kamar.
+
+Gimana, ada yang menarik perhatian kamu? Atau mungkin kamu punya preferensi lain, misalnya lokasi yang lebih spesifik atau budget yang lebih rendah? Coba kasih tau aku, biar aku bisa bantu cariin yang lebih sesuai lagi! 😉
+[INFO] 2025-10-30T02:34:20.239Z - 🟦 User: kos di UGM
+[INFO] 2025-10-30T02:34:20.240Z - 📨 [Gemini] Attempt 1/3
+[WARN] 2025-10-30T02:34:20.243Z - ⚠️ [Gemini] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent: Gemini down (attempt 1)
+[INFO] 2025-10-30T02:34:20.243Z - 📨 [Gemini] Attempt 2/3
+[INFO] 2025-10-30T02:34:21.462Z - 📩 [Gemini] Response OK on attempt 2
+[WARN] 2025-10-30T02:34:21.463Z - ⚠️ Gagal parsing hasil Gemini, gunakan fallback extractor.
+[DEBUG] 2025-10-30T02:34:21.463Z - DEBUG rawText: ```json
+{
+  "lokasi": "UGM",
+  "harga_min": null,
+  "harga_max": null,
+  "tipe": null,
+  "fasilitas": [],
+  "preferensi": [],
+  "aturan": []
+}
+```
+[INFO] 2025-10-30T02:34:21.464Z - 🟩 Ditemukan: 0 kos
+[INFO] 2025-10-30T02:34:23.670Z - 🤖 Bot reply: Waduh, maaf banget nih, kayaknya sekarang lagi nggak ada info kos di UGM yang sesuai dengan kriteria yang aku punya. Mungkin lagi banyak yang penuh atau belum ada info baru yang masuk. 
+
+Tapi jangan khawatir! Kamu bisa coba beberapa cara ini:
+
+*   **Cek secara berkala:** Info kos biasanya cepat berubah, jadi coba cek lagi nanti, mungkin aja ada yang baru.
+*   **Cari di platform lain:** Coba cari di website atau aplikasi khusus pencari kos, mungkin ada pilihan yang lebih banyak di sana.
+*   **Tanya teman atau senior:** Kalau kamu kenal teman atau senior di UGM, coba tanya mereka, biasanya mereka punya info kos yang oke.
+*   **Jalan-jalan di sekitar UGM:** Kadang ada kos yang pasang pengumuman langsung di depan kosnya.
+
+Semoga kamu cepat nemuin kos yang cocok ya! Semangat! 😊
