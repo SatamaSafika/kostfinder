@@ -220,6 +220,662 @@
     "Jam malam berlaku"
   ],
   "info_tambahan": "Dekat kampus UGM, Warteg Al Rizki (573 m), Alfamart (436 m), Masjid Baitul Muhtadin (2.0 km), Bank Mandiri (1.8 km), dan RS Khusus Bedah Sinduadi (1.9 km)"
-}
+},
+
+{
+    "nama": "Kos Campur Harmoni",
+    "lokasi": "Jl. Monjali No. 88, Mlati, Sleman",
+    "harga": 1200000,
+    "kontak": "081345987632",
+    "sumber": "https://maps.app.goo.gl/fake1",
+    "spesifikasi": {
+      "tipe": "Campur",
+      "ukuran": "3x3 m",
+      "listrik": "Sudah termasuk"
+    },
+    "fasilitas": {
+      "kamar": ["Kasur", "Lemari", "Kipas Angin"],
+      "kamar_mandi": ["Luar", "Kloset Duduk"],
+      "umum": ["WiFi", "Dapur Bersama", "Parkir Motor"]
+    },
+    "peraturan": ["Boleh hewan kecil", "Tidak boleh pesta"],
+    "info_tambahan": "Dekat Jalan Monjali dan Indomaret. Ramah hewan peliharaan kecil seperti kucing."
+  },
+  {
+    "nama": "Kos Putra Sembodo",
+    "lokasi": "Jl. Gejayan No. 12, Sleman",
+    "harga": 950000,
+    "kontak": "085322145678",
+    "sumber": "https://maps.app.goo.gl/fake2",
+    "spesifikasi": {
+      "tipe": "Putra",
+      "ukuran": "3x3.5 m",
+      "listrik": "Sudah termasuk"
+    },
+    "fasilitas": {
+      "kamar": ["Kasur", "Meja Belajar"],
+      "kamar_mandi": ["Luar"],
+      "umum": ["WiFi", "Laundry", "Parkir Motor"]
+    },
+    "peraturan": ["Tidak boleh merokok di dalam kamar", "Akses 24 jam"],
+    "info_tambahan": "Dekat area kuliner Gejayan dan kampus Sanata Dharma."
+  },
+  {
+    "nama": "Kos Putri Mawar Indah",
+    "lokasi": "Jl. Kaliurang KM 7, Sleman",
+    "harga": 1000000,
+    "kontak": "081288745923",
+    "sumber": "https://maps.app.goo.gl/fake3",
+    "spesifikasi": {
+      "tipe": "Putri",
+      "ukuran": "3x3.5 m",
+      "listrik": "Sudah termasuk"
+    },
+    "fasilitas": {
+      "kamar": ["Kasur", "Meja Belajar", "Lemari"],
+      "kamar_mandi": ["Dalam"],
+      "umum": ["WiFi", "Dapur Bersama"]
+    },
+    "peraturan": ["Hanya untuk wanita", "Tidak boleh membawa hewan"],
+    "info_tambahan": "Dekat UGM, lokasi strategis dan aman."
+  },
+  {
+    "nama": "Kos Putri Lavender",
+    "lokasi": "Jl. Pogung Baru, Caturtunggal, Sleman",
+    "harga": 1300000,
+    "kontak": "085268976432",
+    "sumber": "https://maps.app.goo.gl/fake4",
+    "spesifikasi": {
+      "tipe": "Putri",
+      "ukuran": "3.5x4 m",
+      "listrik": "Sudah termasuk"
+    },
+    "fasilitas": {
+      "kamar": ["Kasur", "Lemari", "Meja Belajar", "AC"],
+      "kamar_mandi": ["Dalam", "Water Heater"],
+      "umum": ["WiFi", "Kulkas", "Ruang Jemur", "Laundry"]
+    },
+    "peraturan": ["Tidak boleh bawa tamu menginap", "Akses 24 jam"],
+    "info_tambahan": "Dekat UGM dan kafe Pogung."
+  },
+  {
+    "nama": "Kos Putra Mataram",
+    "lokasi": "Jl. Colombo No.45, Sleman",
+    "harga": 900000,
+    "kontak": "081267892134",
+    "sumber": "https://maps.app.goo.gl/fake5",
+    "spesifikasi": {
+      "tipe": "Putra",
+      "ukuran": "3x3 m",
+      "listrik": "Token sendiri"
+    },
+    "fasilitas": {
+      "kamar": ["Kasur", "Meja Belajar"],
+      "kamar_mandi": ["Luar"],
+      "umum": ["Parkir Motor", "WiFi"]
+    },
+    "peraturan": ["Tidak boleh bawa hewan", "Akses 24 jam"],
+    "info_tambahan": "Dekat Stadion Mandala Krida."
+  },
+  {
+    "nama": "Kos Campur Arjuna",
+    "lokasi": "Jl. Timoho No.88, Umbulharjo, Yogyakarta",
+    "harga": 1000000,
+    "kontak": "081345987654",
+    "sumber": "https://maps.app.goo.gl/fake6",
+    "spesifikasi": {
+      "tipe": "Campur",
+      "ukuran": "3x3 m",
+      "listrik": "Sudah termasuk"
+    },
+    "fasilitas": {
+      "kamar": ["Kasur", "Kipas Angin"],
+      "kamar_mandi": ["Luar"],
+      "umum": ["WiFi", "Parkir Motor", "Dapur Bersama"]
+    },
+    "peraturan": ["Boleh hewan kecil", "Tidak untuk pasutri"],
+    "info_tambahan": "Dekat area kuliner Timoho."
+  },
+  {
+    "nama": "Kos Putra Nusa Indah",
+    "lokasi": "Jl. Godean Km 4, Sleman",
+    "harga": 800000,
+    "kontak": "081357912345",
+    "sumber": "https://maps.app.goo.gl/fake7",
+    "spesifikasi": {
+      "tipe": "Putra",
+      "ukuran": "3x3 m",
+      "listrik": "Sudah termasuk"
+    },
+    "fasilitas": {
+      "kamar": ["Kasur", "Kursi"],
+      "kamar_mandi": ["Luar"],
+      "umum": ["Parkir Motor", "WiFi"]
+    },
+    "peraturan": ["Tidak boleh membawa hewan", "Akses 24 jam"],
+    "info_tambahan": "Dekat SPBU dan pasar Godean."
+  },
+  {
+    "nama": "Kos Putri Seruni",
+    "lokasi": "Jl. Affandi No.45, Caturtunggal",
+    "harga": 1100000,
+    "kontak": "081222145876",
+    "sumber": "https://maps.app.goo.gl/fake8",
+    "spesifikasi": {
+      "tipe": "Putri",
+      "ukuran": "3x3 m",
+      "listrik": "Sudah termasuk"
+    },
+    "fasilitas": {
+      "kamar": ["Kasur", "Lemari"],
+      "kamar_mandi": ["Dalam"],
+      "umum": ["WiFi", "Ruang Laundry"]
+    },
+    "peraturan": ["Tidak boleh merokok", "Akses 24 jam"],
+    "info_tambahan": "Dekat kampus Sanata Dharma dan halte TransJogja."
+  },
+  {
+    "nama": "Kos Putra Sakura",
+    "lokasi": "Jl. Selokan Mataram, Sleman",
+    "harga": 1000000,
+    "kontak": "085298765432",
+    "sumber": "https://maps.app.goo.gl/fake9",
+    "spesifikasi": {
+      "tipe": "Putra",
+      "ukuran": "3x3.5 m",
+      "listrik": "Token"
+    },
+    "fasilitas": {
+      "kamar": ["Kasur", "Lemari"],
+      "kamar_mandi": ["Dalam"],
+      "umum": ["WiFi", "Parkir Mobil"]
+    },
+    "peraturan": ["Tidak boleh membawa hewan", "Tidak boleh pesta"],
+    "info_tambahan": "Dekat area kuliner Seturan."
+  },
+  {
+    "nama": "Kos Putri Melati",
+    "lokasi": "Jl. Candi Gebang, Sleman",
+    "harga": 900000,
+    "kontak": "081333789654",
+    "sumber": "https://maps.app.goo.gl/fake10",
+    "spesifikasi": {
+      "tipe": "Putri",
+      "ukuran": "3x3 m",
+      "listrik": "Sudah termasuk"
+    },
+    "fasilitas": {
+      "kamar": ["Kasur", "Meja Belajar"],
+      "kamar_mandi": ["Luar"],
+      "umum": ["WiFi", "Ruang Jemur"]
+    },
+    "peraturan": ["Tidak boleh bawa hewan", "Akses 24 jam"],
+    "info_tambahan": "Dekat kampus UPN dan Alfamart."
+  },
+
+  {
+    "nama": "Kos Campur Harmoni",
+    "lokasi": "Jl. Monjali No. 88, Mlati, Sleman",
+    "harga": 1200000,
+    "kontak": "081345987632",
+    "sumber": "https://maps.app.goo.gl/fake1",
+    "spesifikasi": {
+      "tipe": "Campur",
+      "ukuran": "3x3 m",
+      "listrik": "Sudah termasuk"
+    },
+    "fasilitas": {
+      "kamar": ["Kasur", "Lemari", "Kipas Angin"],
+      "kamar_mandi": ["Luar", "Kloset Duduk"],
+      "umum": ["WiFi", "Dapur Bersama", "Parkir Motor"]
+    },
+    "peraturan": ["Boleh hewan kecil", "Tidak boleh pesta"],
+    "info_tambahan": "Dekat Jalan Monjali dan Indomaret. Ramah hewan peliharaan kecil seperti kucing."
+  },
+  {
+    "nama": "Kos Putra Sembodo",
+    "lokasi": "Jl. Gejayan No. 12, Sleman",
+    "harga": 950000,
+    "kontak": "085322145678",
+    "sumber": "https://maps.app.goo.gl/fake2",
+    "spesifikasi": {
+      "tipe": "Putra",
+      "ukuran": "3x3.5 m",
+      "listrik": "Sudah termasuk"
+    },
+    "fasilitas": {
+      "kamar": ["Kasur", "Meja Belajar"],
+      "kamar_mandi": ["Luar"],
+      "umum": ["WiFi", "Laundry", "Parkir Motor"]
+    },
+    "peraturan": ["Tidak boleh merokok di dalam kamar", "Akses 24 jam"],
+    "info_tambahan": "Dekat area kuliner Gejayan dan kampus Sanata Dharma."
+  },
+  {
+    "nama": "Kos Putri Mawar Indah",
+    "lokasi": "Jl. Kaliurang KM 7, Sleman",
+    "harga": 1000000,
+    "kontak": "081288745923",
+    "sumber": "https://maps.app.goo.gl/fake3",
+    "spesifikasi": {
+      "tipe": "Putri",
+      "ukuran": "3x3.5 m",
+      "listrik": "Sudah termasuk"
+    },
+    "fasilitas": {
+      "kamar": ["Kasur", "Meja Belajar", "Lemari"],
+      "kamar_mandi": ["Dalam"],
+      "umum": ["WiFi", "Dapur Bersama"]
+    },
+    "peraturan": ["Hanya untuk wanita", "Tidak boleh membawa hewan"],
+    "info_tambahan": "Dekat UGM, lokasi strategis dan aman."
+  },
+  {
+    "nama": "Kos Putri Lavender",
+    "lokasi": "Jl. Pogung Baru, Caturtunggal, Sleman",
+    "harga": 1300000,
+    "kontak": "085268976432",
+    "sumber": "https://maps.app.goo.gl/fake4",
+    "spesifikasi": {
+      "tipe": "Putri",
+      "ukuran": "3.5x4 m",
+      "listrik": "Sudah termasuk"
+    },
+    "fasilitas": {
+      "kamar": ["Kasur", "Lemari", "Meja Belajar", "AC"],
+      "kamar_mandi": ["Dalam", "Water Heater"],
+      "umum": ["WiFi", "Kulkas", "Ruang Jemur", "Laundry"]
+    },
+    "peraturan": ["Tidak boleh bawa tamu menginap", "Akses 24 jam"],
+    "info_tambahan": "Dekat UGM dan kafe Pogung."
+  },
+  {
+    "nama": "Kos Putra Mataram",
+    "lokasi": "Jl. Colombo No.45, Sleman",
+    "harga": 900000,
+    "kontak": "081267892134",
+    "sumber": "https://maps.app.goo.gl/fake5",
+    "spesifikasi": {
+      "tipe": "Putra",
+      "ukuran": "3x3 m",
+      "listrik": "Token sendiri"
+    },
+    "fasilitas": {
+      "kamar": ["Kasur", "Meja Belajar"],
+      "kamar_mandi": ["Luar"],
+      "umum": ["Parkir Motor", "WiFi"]
+    },
+    "peraturan": ["Tidak boleh bawa hewan", "Akses 24 jam"],
+    "info_tambahan": "Dekat Stadion Mandala Krida."
+  },
+  {
+    "nama": "Kos Campur Arjuna",
+    "lokasi": "Jl. Timoho No.88, Umbulharjo, Yogyakarta",
+    "harga": 1000000,
+    "kontak": "081345987654",
+    "sumber": "https://maps.app.goo.gl/fake6",
+    "spesifikasi": {
+      "tipe": "Campur",
+      "ukuran": "3x3 m",
+      "listrik": "Sudah termasuk"
+    },
+    "fasilitas": {
+      "kamar": ["Kasur", "Kipas Angin"],
+      "kamar_mandi": ["Luar"],
+      "umum": ["WiFi", "Parkir Motor", "Dapur Bersama"]
+    },
+    "peraturan": ["Boleh hewan kecil", "Tidak untuk pasutri"],
+    "info_tambahan": "Dekat area kuliner Timoho."
+  },
+  {
+    "nama": "Kos Putra Nusa Indah",
+    "lokasi": "Jl. Godean Km 4, Sleman",
+    "harga": 800000,
+    "kontak": "081357912345",
+    "sumber": "https://maps.app.goo.gl/fake7",
+    "spesifikasi": {
+      "tipe": "Putra",
+      "ukuran": "3x3 m",
+      "listrik": "Sudah termasuk"
+    },
+    "fasilitas": {
+      "kamar": ["Kasur", "Kursi"],
+      "kamar_mandi": ["Luar"],
+      "umum": ["Parkir Motor", "WiFi"]
+    },
+    "peraturan": ["Tidak boleh membawa hewan", "Akses 24 jam"],
+    "info_tambahan": "Dekat SPBU dan pasar Godean."
+  },
+  {
+    "nama": "Kos Putri Seruni",
+    "lokasi": "Jl. Affandi No.45, Caturtunggal",
+    "harga": 1100000,
+    "kontak": "081222145876",
+    "sumber": "https://maps.app.goo.gl/fake8",
+    "spesifikasi": {
+      "tipe": "Putri",
+      "ukuran": "3x3 m",
+      "listrik": "Sudah termasuk"
+    },
+    "fasilitas": {
+      "kamar": ["Kasur", "Lemari"],
+      "kamar_mandi": ["Dalam"],
+      "umum": ["WiFi", "Ruang Laundry"]
+    },
+    "peraturan": ["Tidak boleh merokok", "Akses 24 jam"],
+    "info_tambahan": "Dekat kampus Sanata Dharma dan halte TransJogja."
+  },
+  {
+    "nama": "Kos Putra Sakura",
+    "lokasi": "Jl. Selokan Mataram, Sleman",
+    "harga": 1000000,
+    "kontak": "085298765432",
+    "sumber": "https://maps.app.goo.gl/fake9",
+    "spesifikasi": {
+      "tipe": "Putra",
+      "ukuran": "3x3.5 m",
+      "listrik": "Token"
+    },
+    "fasilitas": {
+      "kamar": ["Kasur", "Lemari"],
+      "kamar_mandi": ["Dalam"],
+      "umum": ["WiFi", "Parkir Mobil"]
+    },
+    "peraturan": ["Tidak boleh membawa hewan", "Tidak boleh pesta"],
+    "info_tambahan": "Dekat area kuliner Seturan."
+  },
+  {
+    "nama": "Kos Putri Melati",
+    "lokasi": "Jl. Candi Gebang, Sleman",
+    "harga": 900000,
+    "kontak": "081333789654",
+    "sumber": "https://maps.app.goo.gl/fake10",
+    "spesifikasi": {
+      "tipe": "Putri",
+      "ukuran": "3x3 m",
+      "listrik": "Sudah termasuk"
+    },
+    "fasilitas": {
+      "kamar": ["Kasur", "Meja Belajar"],
+      "kamar_mandi": ["Luar"],
+      "umum": ["WiFi", "Ruang Jemur"]
+    },
+    "peraturan": ["Tidak boleh bawa hewan", "Akses 24 jam"],
+    "info_tambahan": "Dekat kampus UPN dan Alfamart."
+  }, 
+
+  {
+    "id": "kos_101",
+    "nama": "Kos Mawar Indah",
+    "lokasi": "Jalan Kaliurang KM 5, Sleman, Yogyakarta",
+    "harga": 850000,
+    "tipe": "Putri",
+    "fasilitas": ["WiFi", "Dapur", "Kamar mandi dalam", "Parkir motor"],
+    "aturan": ["Tidak boleh merokok", "Tidak boleh membawa hewan"]
+  },
+  {
+    "id": "kos_102",
+    "nama": "Kost Bahagia",
+    "lokasi": "Jl. Cendrawasih No.10, Pogung, Sleman",
+    "harga": 1200000,
+    "tipe": "Campur",
+    "fasilitas": ["AC", "WiFi", "Laundry", "Dapur"],
+    "aturan": ["Tidak boleh pesta", "Tamu hanya sampai jam 9 malam"]
+  },
+  {
+    "id": "kos_103",
+    "nama": "Kost Putra Damai",
+    "lokasi": "Jl. Gejayan No.23, Depok, Sleman",
+    "harga": 950000,
+    "tipe": "Putra",
+    "fasilitas": ["Kamar mandi dalam", "Parkir mobil", "WiFi"],
+    "aturan": ["Tidak boleh merokok di dalam kamar"]
+  },
+  {
+    "id": "kos_104",
+    "nama": "Griya Asri Kost",
+    "lokasi": "Jl. Monjali No.77, Yogyakarta",
+    "harga": 1000000,
+    "tipe": "Putri",
+    "fasilitas": ["AC", "WiFi", "Air panas", "Parkir motor"],
+    "aturan": ["Tidak boleh membawa pasangan ke kamar"]
+  },
+  {
+    "id": "kos_105",
+    "nama": "Kos Harmoni",
+    "lokasi": "Jl. Seturan Raya, Depok, Sleman",
+    "harga": 1500000,
+    "tipe": "Campur",
+    "fasilitas": ["AC", "WiFi", "Laundry", "Parkir mobil", "CCTV"],
+    "aturan": ["Tidak boleh hewan peliharaan", "Tamu maksimal jam 10 malam"]
+  },
+  {
+    "id": "kos_106",
+    "nama": "Kos Melati Residence",
+    "lokasi": "Jl. Babarsari No.12, Sleman, Yogyakarta",
+    "harga": 800000,
+    "tipe": "Putri",
+    "fasilitas": ["Kamar mandi dalam", "Dapur bersama", "WiFi"],
+    "aturan": ["Tidak boleh merokok", "Tidak boleh pesta"]
+  },
+  {
+    "id": "kos_107",
+    "nama": "Kos Santai",
+    "lokasi": "Jl. Affandi, Caturtunggal, Sleman",
+    "harga": 700000,
+    "tipe": "Putra",
+    "fasilitas": ["WiFi", "Parkir motor", "Dapur"],
+    "aturan": ["Tidak boleh membawa tamu menginap"]
+  },
+  {
+    "id": "kos_108",
+    "nama": "Kos Eksklusif Gardenia",
+    "lokasi": "Jl. Palagan Tentara Pelajar No.56, Sleman",
+    "harga": 1800000,
+    "tipe": "Campur",
+    "fasilitas": ["AC", "WiFi", "Water heater", "Laundry", "Parkir mobil"],
+    "aturan": ["Deposit wajib", "Tidak boleh pesta"]
+  },
+  {
+    "id": "kos_109",
+    "nama": "Kos Sakura",
+    "lokasi": "Jl. Selokan Mataram, Sleman, Yogyakarta",
+    "harga": 900000,
+    "tipe": "Putri",
+    "fasilitas": ["WiFi", "Kamar mandi dalam", "Dapur", "Laundry"],
+    "aturan": ["Tidak boleh membawa tamu laki-laki ke kamar"]
+  },
+  {
+    "id": "kos_110",
+    "nama": "Kos Aman Sentosa",
+    "lokasi": "Jl. Maguwoharjo No.5, Sleman",
+    "harga": 750000,
+    "tipe": "Putra",
+    "fasilitas": ["WiFi", "Parkir motor", "CCTV"],
+    "aturan": ["Tidak boleh merokok", "Jam malam pukul 11 malam"]
+  }, 
+
+  {
+    "id": "kos_111",
+    "nama": "Kos Hijau Lestari",
+    "lokasi": "Jl. Godean KM 4, Sleman, Yogyakarta",
+    "harga": 850000,
+    "tipe": "Putra",
+    "fasilitas": ["WiFi", "Parkir motor", "Dapur bersama"],
+    "aturan": ["Tidak boleh merokok", "Tidak boleh membawa tamu menginap"]
+  },
+  {
+    "id": "kos_112",
+    "nama": "Kos Putri Arjuna",
+    "lokasi": "Jl. Kaliurang KM 7, Ngaglik, Sleman",
+    "harga": 1100000,
+    "tipe": "Putri",
+    "fasilitas": ["AC", "WiFi", "Laundry", "Kamar mandi dalam"],
+    "aturan": ["Tidak boleh membawa tamu laki-laki", "Tidak boleh pesta"]
+  },
+  {
+    "id": "kos_113",
+    "nama": "Kost Mapan Residence",
+    "lokasi": "Jl. Seturan Tengah No.3, Sleman",
+    "harga": 1300000,
+    "tipe": "Campur",
+    "fasilitas": ["AC", "WiFi", "Water heater", "Parkir mobil"],
+    "aturan": ["Deposit 1 bulan", "Tidak boleh hewan peliharaan"]
+  },
+  {
+    "id": "kos_114",
+    "nama": "Kos Putra Sejahtera",
+    "lokasi": "Jl. Magelang KM 6, Sleman",
+    "harga": 950000,
+    "tipe": "Putra",
+    "fasilitas": ["WiFi", "Kamar mandi dalam", "Dapur"],
+    "aturan": ["Tidak boleh merokok di dalam kamar", "Tamu hanya sampai jam 9 malam"]
+  },
+  {
+    "id": "kos_115",
+    "nama": "Kos Amanah Putri",
+    "lokasi": "Jl. Colombo No.45, Karangmalang, Sleman",
+    "harga": 1000000,
+    "tipe": "Putri",
+    "fasilitas": ["WiFi", "Laundry", "Kamar mandi dalam", "CCTV"],
+    "aturan": ["Tidak boleh membawa tamu laki-laki", "Tidak boleh pesta"]
+  },
+  {
+    "id": "kos_116",
+    "nama": "Kos Pelajar Mandiri",
+    "lokasi": "Jl. Pogung Lor No.22, Sleman",
+    "harga": 650000,
+    "tipe": "Putra",
+    "fasilitas": ["WiFi", "Parkir motor", "Dapur bersama"],
+    "aturan": ["Tidak boleh pesta", "Jam malam pukul 10 malam"]
+  },
+  {
+    "id": "kos_117",
+    "nama": "Kos Eksklusif Harmony",
+    "lokasi": "Jl. Babarsari No.25, Sleman",
+    "harga": 1700000,
+    "tipe": "Campur",
+    "fasilitas": ["AC", "WiFi", "Water heater", "Laundry", "Parkir mobil"],
+    "aturan": ["Deposit wajib", "Tidak boleh merokok di dalam kamar"]
+  },
+  {
+    "id": "kos_118",
+    "nama": "Kos Putri Pelita",
+    "lokasi": "Jl. Solo KM 8, Maguwoharjo, Sleman",
+    "harga": 850000,
+    "tipe": "Putri",
+    "fasilitas": ["WiFi", "Kamar mandi dalam", "Dapur bersama"],
+    "aturan": ["Tidak boleh membawa hewan", "Tidak boleh pesta"]
+  },
+  {
+    "id": "kos_119",
+    "nama": "Kos Putra Ceria",
+    "lokasi": "Jl. AM Sangaji No.12, Jetis, Yogyakarta",
+    "harga": 780000,
+    "tipe": "Putra",
+    "fasilitas": ["WiFi", "Parkir motor", "Dapur bersama"],
+    "aturan": ["Tidak boleh pesta", "Tidak boleh membawa tamu"]
+  },
+  {
+    "id": "kos_120",
+    "nama": "Kost Family Residence",
+    "lokasi": "Jl. Palagan Tentara Pelajar No.102, Sleman",
+    "harga": 1900000,
+    "tipe": "Campur",
+    "fasilitas": ["AC", "WiFi", "Laundry", "Water heater", "Parkir mobil"],
+    "aturan": ["Tidak boleh pesta", "Tidak boleh membawa hewan peliharaan"]
+  }, 
+
+  {
+    "id": "kos_121",
+    "nama": "Kos Putra Bahagia",
+    "lokasi": "Jl. Monjali No.45, Sleman, Yogyakarta",
+    "harga": 900000,
+    "tipe": "Putra",
+    "fasilitas": ["WiFi", "Kamar mandi dalam", "Parkir motor"],
+    "aturan": ["Tidak boleh pesta", "Tamu hanya sampai jam 10 malam"]
+  },
+  {
+    "id": "kos_122",
+    "nama": "Kos Putri Anggrek",
+    "lokasi": "Jl. Cempaka No.9, Condongcatur, Sleman",
+    "harga": 1200000,
+    "tipe": "Putri",
+    "fasilitas": ["AC", "WiFi", "Laundry", "CCTV"],
+    "aturan": ["Tidak boleh membawa tamu laki-laki", "Tidak boleh hewan peliharaan"]
+  },
+  {
+    "id": "kos_123",
+    "nama": "Kos Pelajar Sentosa",
+    "lokasi": "Jl. Kranji No.2, Pogung Kidul, Sleman",
+    "harga": 700000,
+    "tipe": "Putra",
+    "fasilitas": ["WiFi", "Parkir motor", "Dapur bersama"],
+    "aturan": ["Tidak boleh merokok di kamar", "Jam malam pukul 10 malam"]
+  },
+  {
+    "id": "kos_124",
+    "nama": "Kos Putri Dahlia",
+    "lokasi": "Jl. Pandega Marta No.11, Sleman",
+    "harga": 950000,
+    "tipe": "Putri",
+    "fasilitas": ["WiFi", "Kamar mandi dalam", "Dapur bersama"],
+    "aturan": ["Tidak boleh membawa tamu laki-laki", "Tidak boleh pesta"]
+  },
+  {
+    "id": "kos_125",
+    "nama": "Kos Premium Merapi View",
+    "lokasi": "Jl. Kaliurang KM 10, Sleman",
+    "harga": 2000000,
+    "tipe": "Campur",
+    "fasilitas": ["AC", "WiFi", "Water heater", "Laundry", "Parkir mobil"],
+    "aturan": ["Deposit wajib 1 bulan", "Tidak boleh merokok di kamar"]
+  },
+  {
+    "id": "kos_126",
+    "nama": "Kos Putra Jaya Abadi",
+    "lokasi": "Jl. Sagan Tengah No.5, Gondokusuman, Yogyakarta",
+    "harga": 850000,
+    "tipe": "Putra",
+    "fasilitas": ["WiFi", "Kamar mandi luar", "Dapur bersama"],
+    "aturan": ["Tidak boleh membawa tamu menginap", "Jam malam pukul 11 malam"]
+  },
+  {
+    "id": "kos_127",
+    "nama": "Kos Eksklusif Nusa Indah",
+    "lokasi": "Jl. Affandi No.47, Sleman",
+    "harga": 1600000,
+    "tipe": "Putri",
+    "fasilitas": ["AC", "WiFi", "Laundry", "Water heater"],
+    "aturan": ["Tidak boleh membawa tamu laki-laki", "Deposit wajib"]
+  },
+  {
+    "id": "kos_128",
+    "nama": "Kos Campur Aman Sentosa",
+    "lokasi": "Jl. Kaliurang KM 8, Ngaglik, Sleman",
+    "harga": 1000000,
+    "tipe": "Campur",
+    "fasilitas": ["WiFi", "Parkir mobil", "Dapur bersama"],
+    "aturan": ["Tidak boleh pesta", "Tidak boleh membawa hewan"]
+  },
+  {
+    "id": "kos_129",
+    "nama": "Kos Putri Sakura",
+    "lokasi": "Jl. Perumnas No.56, Caturtunggal, Sleman",
+    "harga": 950000,
+    "tipe": "Putri",
+    "fasilitas": ["WiFi", "AC", "Kamar mandi dalam"],
+    "aturan": ["Tidak boleh membawa tamu laki-laki", "Tidak boleh merokok"]
+  },
+  {
+    "id": "kos_130",
+    "nama": "Kos Putra Wijaya Kusuma",
+    "lokasi": "Jl. Maguwoharjo No.33, Sleman",
+    "harga": 780000,
+    "tipe": "Putra",
+    "fasilitas": ["WiFi", "Dapur bersama", "Parkir motor"],
+    "aturan": ["Tidak boleh pesta", "Tidak boleh membawa tamu menginap"]
+  }
+  
 
 ]

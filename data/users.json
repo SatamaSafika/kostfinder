@@ -78,5 +78,281 @@
         "role": "model"
       }
     ]
+  },
+  "1293452570718896174": {
+    "history": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "!kos aku cari kos di jalan kaliurang, ada apa aja ya"
+          }
+        ]
+      },
+      {
+        "role": "model",
+        "parts": [
+          {
+            "text": "Hai! Lagi cari kos di Jalan Kaliurang ya? Oke, aku bantu cariin. Dari hasil pencarian, ini beberapa opsi yang mungkin cocok buat kamu:\n\n*   **Kos Mawar Indah:** Lokasinya di Jalan Kaliurang KM 5. Harganya sekitar Rp850.000. Sayangnya, detail kamar dan fasilitasnya belum ada nih.\n\n*   **Kos Putri Mawar Indah:** Ada beberapa lokasi di KM 7. Harganya sekitar Rp1.000.000 per bulan. Kamarnya tipe putri dengan ukuran 3x3.5 meter. Fasilitasnya lumayan lengkap, ada kasur, meja belajar, dan lemari. Aturannya khusus untuk wanita dan gak boleh bawa hewan peliharaan.\n\n*   **Kos Campur Aman Sentosa:** Ini kos campur di KM 8. Harganya sama, Rp1.000.000. Detail kamar dan fasilitasnya juga belum ada.\n\n*   **Kos Putri Arjuna:** Lokasinya di KM 7. Harganya sedikit lebih mahal, Rp1.100.000. Detail kamar dan fasilitasnya juga belum ada.\n\n*   **Kos Putri Agestya Living:** Kalau ini di daerah Kentungan, dekat Jalan Kaliurang juga. Harganya Rp1.700.000. Kamarnya khusus putri dengan ukuran 3x4 meter. Fasilitasnya ada kasur, lemari, dan meja belajar. Gak boleh merokok di dalam kamar ya.\n\n*   **Kos Premium Merapi View:** Nah, ini buat yang cari kos premium dengan pemandangan Merapi. Lokasinya di KM 10. Harganya Rp2.000.000. Detail kamar dan fasilitasnya belum ada.\n\n**Pertanyaan Penting:**\n\n*   **Kamu cari kos untuk cowok atau cewek?** Soalnya, ada beberapa kos yang khusus putri.\n*   **Budget kamu berapa?** Ini penting biar aku bisa bantu pilihin yang paling sesuai.\n*   **Fasilitas apa yang paling kamu butuhkan?** Misalnya, harus ada kamar mandi dalam, AC, atau WiFi.\n*   **Lokasi spesifik di Jalan Kaliurang yang kamu inginkan di KM berapa?**\n\nKalo kamu jawab pertanyaan-pertanyaan ini, aku bisa bantu cariin kos yang paling pas buat kamu! 😉"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "!kos kos untuk cewe ya"
+          }
+        ]
+      },
+      {
+        "role": "model",
+        "parts": [
+          {
+            "text": "Oke, khusus buat cewek ya! Dari daftar yang tadi, ini yang khusus untuk putri:\n\n*   **Kos Putri Mawar Indah:** Ini ada beberapa lokasi di KM 7. Harganya sekitar Rp1.000.000 per bulan. Kamarnya ukuran 3x3.5 meter, udah ada kasur, meja belajar, dan lemari. Aturannya khusus buat wanita dan gak boleh bawa hewan peliharaan.\n\n*   **Kos Putri Arjuna:** Lokasinya juga di KM 7. Harganya sedikit lebih mahal, Rp1.100.000. Sayangnya, detail kamar dan fasilitasnya belum ada nih.\n\n*   **Kos Putri Agestya Living:** Nah, ini di daerah Kentungan, dekat Jalan Kaliurang juga. Harganya Rp1.700.000. Kamarnya ukuran 3x4 meter, udah ada kasur, lemari, dan meja belajar. Gak boleh merokok di dalam kamar ya.\n\n**Menurut kamu, mana yang paling menarik?** Kalau kamu kasih tau budget dan fasilitas yang kamu pengen, aku bisa bantu mempersempit pilihan lagi. Atau, kamu lebih tertarik sama lokasi tertentu di Jalan Kaliurang? 😊"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "!kos kalo aku mau kos yang bisa bawa hewan?"
+          }
+        ]
+      },
+      {
+        "role": "model",
+        "parts": [
+          {
+            "text": "Wah, oke! Cari kos putri di Jalan Kaliurang yang boleh bawa hewan memang agak tricky nih. Dari data yang aku punya, sayangnya **tidak ada satupun kos putri yang secara eksplisit memperbolehkan membawa hewan peliharaan.**\n\nBiasanya, aturan bawa hewan peliharaan itu cukup ketat di kos-kosan. Tapi, bukan berarti nggak ada harapan ya! \n\n**Saran dari aku:**\n\n1.  **Coba hubungi langsung pemilik kos:** Kamu bisa coba hubungi nomor kontak kos-kosan yang menarik buat kamu (misalnya Kos Mawar Indah atau Kos Putri Arjuna yang detailnya belum lengkap). Tanya langsung ke pemiliknya apakah mereka fleksibel soal hewan peliharaan. Siapa tahu mereka punya kebijakan khusus atau pertimbangan tertentu.\n2.  **Pertimbangkan kos campur:** Kalau memang sulit cari kos putri yang boleh bawa hewan, mungkin kamu bisa pertimbangkan kos campur. Siapa tahu di kos campur aturannya lebih longgar. Tapi, pastikan kamu tetap nyaman dan aman ya!\n3.  **Cari alternatif lain:** Kalau ternyata memang nggak ada kos di Jalan Kaliurang yang cocok, mungkin kamu bisa perluas area pencarian. Siapa tahu ada kos di daerah sekitar Kaliurang yang lebih ramah hewan peliharaan.\n\nSemoga berhasil menemukan kos yang cocok ya! 😊"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "!kos aku ingin cari kos yang bisa bawa hewan"
+          }
+        ]
+      },
+      {
+        "role": "model",
+        "parts": [
+          {
+            "text": "Hai! Cari kos yang bisa bawa hewan emang agak menantang ya. Dari data yang aku punya di Jalan Kaliurang, sayangnya **belum ada info kos yang secara eksplisit bilang boleh bawa hewan peliharaan.** 😥\n\nTapi, jangan langsung nyerah! Ada beberapa opsi yang bisa kamu coba:\n\n1.  **Hubungi langsung kos-kosan yang menarik:** Coba deh hubungi nomor kontak Kos Mawar Indah (yang di KM 5) atau Kos Campur Aman Sentosa (di KM 8). Walaupun infonya belum lengkap, siapa tahu mereka punya kebijakan khusus soal hewan peliharaan yang belum dicantumkan. Nggak ada salahnya kan ditanyain langsung? 😉\n\n2.  **Pertimbangkan Kos Campur:** Kalau kamu fleksibel, Kos Campur Aman Sentosa bisa jadi pilihan. Karena ini kos campur, mungkin aturannya nggak seketat kos putri soal hewan peliharaan. Tapi, tetap pertimbangkan faktor keamanan dan kenyamanan kamu ya!\n\n3.  **Perluas Area Pencarian:** Kalau memang sulit banget nemu di Jalan Kaliurang, mungkin kamu bisa coba cari di daerah sekitar Kaliurang. Siapa tahu ada kos yang lebih ramah hewan di area lain.\n\n**Penting diingat:**\n\n*   Pastikan hewan peliharaan kamu nggak mengganggu penghuni kos lain.\n*   Selalu jaga kebersihan dan kesehatan hewan peliharaan kamu.\n*   Siap sedia dengan biaya tambahan jika ada (misalnya, biaya kebersihan).\n\nSemoga kamu cepet nemu kos yang cocok buat kamu dan hewan kesayanganmu ya! Good luck! 👍"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "!kos ya di area manapun gapapa, yang penting bisa bawa hewan"
+          }
+        ]
+      },
+      {
+        "role": "model",
+        "parts": [
+          {
+            "text": "Oke, karena yang paling penting bisa bawa hewan peliharaan, kita fokus ke sana ya! Sayangnya, dari daftar kos di atas, belum ada yang secara eksplisit bilang \"boleh bawa hewan\". 😔\n\n**Rekomendasiku:**\n\n1.  **Hubungi Langsung Kos yang Menarik:** Walaupun aturannya belum jelas, coba deh hubungi langsung Kos Mawar Indah (yang di KM 5) atau Kos Campur Aman Sentosa (di KM 8). Tanya langsung ke pemiliknya, siapa tahu mereka punya pertimbangan khusus atau aturan yang fleksibel soal hewan peliharaan. Nggak ada salahnya mencoba! 😉\n\n2.  **Prioritaskan Kos Campur Aman Sentosa:** Kalau kamu nggak masalah dengan kos campur, ini bisa jadi opsi terbaik. Biasanya, aturan di kos campur lebih longgar dibandingkan kos putri. Jadi, kemungkinan untuk bisa bawa hewan peliharaan lebih besar.\n\n**Sebelum memutuskan, coba tanyakan hal-hal ini ke pemilik kos:**\n\n*   Apakah hewan peliharaan diizinkan?\n*   Jenis hewan apa saja yang diperbolehkan?\n*   Apakah ada biaya tambahan untuk membawa hewan peliharaan?\n*   Apakah ada aturan khusus yang perlu diperhatikan (misalnya, kebersihan, jam tenang, dll.)?\n\nSemoga kamu segera menemukan kos yang cocok buat kamu dan hewan kesayanganmu ya! 😊"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "!kos okey deh"
+          }
+        ]
+      },
+      {
+        "role": "model",
+        "parts": [
+          {
+            "text": "Oke! Jadi, dari daftar kos yang udah aku kasih, mana yang paling menarik buat kamu?\n\nMengingat kamu pengen banget bisa bawa hewan peliharaan, saran terbaikku tetap:\n\n1.  **Hubungi Langsung Kos yang Menarik:** Coba deh telepon atau WA Kos Mawar Indah (KM 5) atau Kos Campur Aman Sentosa (KM 8). Tanya langsung ke pemiliknya soal kemungkinan bawa hewan. Walaupun di info nggak ada keterangan, siapa tahu mereka punya kebijakan khusus.\n2.  **Pertimbangkan Kos Campur Aman Sentosa:** Kalau kamu fleksibel sama kos campur, ini bisa jadi pilihan yang lebih mungkin.\n\nSebelum kamu hubungi, coba pikirin lagi:\n\n*   **Budget kamu berapa?**\n*   **Selain bisa bawa hewan, fasilitas apa lagi yang penting buat kamu?** (Misalnya, kamar mandi dalam, WiFi, dll.)\n*   **Lokasi di Jalan Kaliurang yang kamu prefer di KM berapa?**\n\nDengan info yang lebih jelas, aku bisa bantu kamu menyusun pertanyaan yang tepat buat pemilik kos nanti. Semangat cari kosnya! 😉"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "!kos diatas 2juta"
+          }
+        ]
+      },
+      {
+        "role": "model",
+        "parts": [
+          {
+            "text": "Waduh, kalau budgetnya di atas 2 juta, sayangnya dari data yang tadi aku punya belum ada yang masuk nih. 😔 Kebanyakan kos di Jalan Kaliurang yang aku tau harganya di bawah itu.\n\nTapi, jangan khawatir! Kalau budget kamu segitu, mungkin kita bisa cari opsi yang lebih premium dengan fasilitas yang lebih lengkap. Beberapa pilihan yang mungkin cocok:\n\n1.  **Apartemen Studio:** Dengan budget segitu, kamu bisa coba cari apartemen studio di sekitar Jalan Kaliurang. Biasanya, apartemen studio punya fasilitas yang lebih lengkap (AC, kamar mandi dalam, dapur mini, kolam renang, gym, dll.) dan lebih nyaman. Tapi, pastikan dulu apakah apartemen tersebut memperbolehkan hewan peliharaan.\n\n2.  **Kos Eksklusif:** Beberapa kos eksklusif mungkin punya harga sewa di atas 2 juta. Biasanya, kos eksklusif punya fasilitas yang mirip apartemen studio (kamar mandi dalam, AC, WiFi kencang, laundry, cleaning service, dll.). Kamu bisa coba cari kos eksklusif di daerah Seturan atau Condongcatur, yang lokasinya nggak terlalu jauh dari Jalan Kaliurang.\n\n**Sebelum memutuskan, pastikan kamu perhatikan hal-hal ini:**\n\n*   **Lokasi:** Pastikan lokasinya strategis dan dekat dengan tempat kamu beraktivitas (kampus, kantor, dll.).\n*   **Fasilitas:** Pilih yang sesuai dengan kebutuhan kamu (AC, kamar mandi dalam, WiFi, dapur mini, dll.).\n*   **Keamanan:** Pastikan keamanannya terjamin (security 24 jam, CCTV, kartu akses, dll.).\n*   **Kebijakan Hewan Peliharaan:** Ini yang paling penting! Pastikan kamu bertanya dengan jelas apakah hewan peliharaan diizinkan dan apa saja aturannya.\n\nSemoga kamu cepet nemu tempat tinggal yang nyaman dan sesuai dengan budget kamu ya! Semangat! 😊"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "!kos hai aku mau cari kos dengan fasilitas paling banyak dan lengkap"
+          }
+        ]
+      },
+      {
+        "role": "model",
+        "parts": [
+          {
+            "text": "Hai! Wah, nyari kos yang fasilitasnya paling lengkap ya? Oke, aku bantu cariin. Tapi, karena aku belum punya info detail tentang semua kos di Jalan Kaliurang (apalagi yang paling lengkap), aku butuh sedikit info dari kamu nih.\n\n**Pertama, budget kamu berapa?** Soalnya, biasanya kos yang fasilitasnya lengkap harganya juga lumayan tinggi.\n\n**Kedua, fasilitas apa aja yang paling kamu butuhkan?** Misalnya:\n\n*   Kamar mandi dalam?\n*   AC?\n*   WiFi kencang?\n*   Kasur yang nyaman?\n*   Meja belajar yang luas?\n*   Lemari pakaian yang besar?\n*   Dapur bersama?\n*   Ruang santai?\n*   Laundry?\n*   Cleaning service?\n*   Keamanan 24 jam?\n*   Parkir yang luas?\n\nKalau kamu sebutin fasilitas yang paling kamu pengen, aku bisa bantu cariin kos yang paling mendekati kriteria kamu. 😉"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "!kos budget bukan masalah bagi aku, berapa saja aku bisa bayar. dan fasilitasnya untuk semua aku bisa"
+          }
+        ]
+      },
+      {
+        "role": "model",
+        "parts": [
+          {
+            "text": "Wah, kalau budget bukan masalah dan kamu pengen fasilitas yang lengkap, kita bisa eksplor pilihan yang lebih premium nih! Tapi, karena dari data yang aku punya sebelumnya nggak ada yang spesifik nyebutin \"fasilitas lengkap semua\", aku mau kasih beberapa saran yang bisa kamu pertimbangkan:\n\n1.  **Apartemen Studio/1 Bedroom:** Dengan budget yang fleksibel, apartemen bisa jadi pilihan yang paling menarik. Biasanya, apartemen studio atau 1 bedroom udah dilengkapi fasilitas yang cukup lengkap:\n    *   Kamar mandi dalam dengan air panas\n    *   AC\n    *   Dapur mini (kitchen set, kompor, kulkas)\n    *   Kasur yang nyaman\n    *   Meja kerja\n    *   Lemari pakaian\n    *   Akses WiFi\n    *   Fasilitas gedung (kolam renang, gym, laundry, minimarket)\n    *   Keamanan 24 jam\n    *   Parkir\n\n    Kamu bisa cari apartemen studio/1 bedroom di sekitar Jalan Kaliurang atau daerah Seturan/Condongcatur.\n\n2.  **Kos Eksklusif:** Kalau kamu lebih suka suasana kos, coba cari kos eksklusif. Biasanya, kos eksklusif punya fasilitas yang mirip apartemen studio, tapi dengan suasana yang lebih komunal. Beberapa kos eksklusif bahkan punya fasilitas tambahan seperti:\n    *   Ruang santai bersama\n    *   Dapur bersama yang lengkap\n    *   Cleaning service\n    *   Laundry\n\n    Kamu bisa cari kos eksklusif di website atau aplikasi pencari kos.\n\n**Tips dari aku:**\n\n*   **Cari info sebanyak mungkin:** Baca review kos/apartemen di internet, tanya ke teman yang pernah tinggal di sana, atau langsung survei ke lokasi.\n*   **Perhatikan detail:** Pastikan semua fasilitas berfungsi dengan baik dan sesuai dengan ekspektasi kamu.\n*   **Negosiasi harga:** Jangan ragu untuk negosiasi harga, terutama kalau kamu sewa dalam jangka waktu yang lama.\n\nSemoga kamu cepet nemu tempat tinggal impian kamu ya! Kalau ada pertanyaan lain, jangan sungkan untuk tanya. 😊"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "!kos clear"
+          }
+        ]
+      },
+      {
+        "role": "model",
+        "parts": [
+          {
+            "text": "Oke, clear! Jadi, kita udah coba cari kos dengan berbagai kriteria ya. Mulai dari yang lokasinya di Jalan Kaliurang, khusus putri, boleh bawa hewan, sampai yang fasilitasnya paling lengkap dan budgetnya fleksibel.\n\nSayangnya, dari data yang aku punya, belum ada kos yang 100% cocok sama semua kriteria kamu. 😔\n\nTapi, jangan berkecil hati! Mungkin aja ada kos yang belum terdata di sini. Kamu bisa coba cara-cara ini:\n\n*   **Cari di website/aplikasi pencari kos:** Biasanya, di sana ada filter yang lebih lengkap, jadi kamu bisa cari kos sesuai dengan kriteria yang kamu inginkan.\n*   **Tanya ke teman/kenalan:** Siapa tahu mereka punya rekomendasi kos yang cocok buat kamu.\n*   **Survei langsung ke lokasi:** Ini cara paling efektif untuk nemuin kos yang sesuai dengan ekspektasi kamu.\n\nSemoga kamu cepet nemu kos yang paling pas buat kamu ya! Semangat! 😊"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "!kos cari kos putri dekat UGM harga under \\1 juta"
+          }
+        ]
+      },
+      {
+        "role": "model",
+        "parts": [
+          {
+            "text": "Hai! Lagi cari kos putri deket UGM dengan budget di bawah 1 juta ya? Hmm, sayangnya dari info yang aku punya sekarang, belum ada yang pas nih. 😔\n\nTapi, jangan langsung sedih! Biasanya, kos deket UGM emang agak pricey, tapi bukan berarti nggak ada harapan sama sekali. Coba deh, kamu mau aku bantu cari lagi dengan beberapa penyesuaian?\n\nMisalnya:\n\n*   **Budgetnya dinaikin dikit?** Kadang, nambah sedikit budget bisa dapet kos yang lebih oke fasilitasnya.\n*   **Lokasinya agak jauhan dikit dari UGM?** Biasanya, makin jauh dari kampus, harga kos juga makin murah.\n*   **Fasilitasnya dikurangin dikit?** Mungkin kamu bisa kompromi soal fasilitas, misalnya nggak harus kamar mandi dalam atau AC.\n\nKalo kamu mau, aku bisa bantu cari lagi dengan penyesuaian ini. Atau, kamu punya kriteria lain yang bisa aku pertimbangkan? 😊"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "!kos ya jauh dari ugm gapapa"
+          }
+        ]
+      },
+      {
+        "role": "model",
+        "parts": [
+          {
+            "text": "Waduh, maaf banget ya! Setelah aku coba cari lagi, ternyata tetep nggak nemu kos putri deket UGM yang harganya di bawah 1 juta dan lokasinya agak jauhan. 😔\n\nMungkin karena emang udah banyak kos yang naik harga ya. Tapi, aku nggak mau bikin kamu putus asa! \n\n**Coba deh beberapa tips ini:**\n\n*   **Perluas area pencarian:** Jangan cuma fokus di sekitar UGM aja. Coba cari di daerah lain yang agak jauhan, misalnya daerah Seturan, Condongcatur, atau Gejayan. Biasanya, di sana harga kosnya lebih bervariasi.\n*   **Cari kos yang \"tersembunyi\":** Biasanya, kos yang lokasinya agak masuk gang atau nggak terlalu kelihatan dari jalan raya harganya lebih murah. Coba deh jalan-jalan di sekitar UGM dan tanya-tanya ke warga sekitar.\n*   **Manfaatkan media sosial:** Coba deh join grup-grup Facebook atau Telegram yang isinya anak UGM. Biasanya, di sana banyak yang nawarin kos atau share info tentang kos yang lagi kosong.\n*   **Jangan malu bertanya:** Tanya ke teman-teman kamu yang kuliah di UGM, siapa tahu mereka punya rekomendasi kos yang murah dan nyaman.\n\nSemoga kamu cepet nemu kos yang cocok ya! Semangat terus! 💪"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "!kos cari kos putri dekat UGM harga di 1 juta"
+          }
+        ]
+      },
+      {
+        "role": "model",
+        "parts": [
+          {
+            "text": "Waduh, aku udah coba cari lagi nih, tapi ternyata masih belum nemu juga kos putri deket UGM yang harganya pas 1 juta. 😔 Kayaknya emang agak susah ya nyari kos dengan harga segitu di daerah UGM.\n\nTapi, jangan nyerah dulu! Aku punya beberapa saran yang mungkin bisa membantu:\n\n*   **Pertimbangkan kos yang fasilitasnya standar:** Biasanya, kos yang harganya 1 jutaan itu fasilitasnya standar aja, misalnya kamar mandi luar, nggak ada AC, atau nggak ada laundry. Kalau kamu nggak terlalu butuh fasilitas yang mewah, mungkin kamu bisa pertimbangkan opsi ini.\n*   **Cari kos yang lagi promo:** Kadang, ada kos yang lagi ngadain promo atau diskon, misalnya diskon untuk mahasiswa baru atau diskon untuk sewa bulanan. Coba deh rajin-rajin cari info di website atau media sosial kos.\n*   **Ajak teman buat patungan:** Kalau kamu punya teman yang juga lagi cari kos, coba deh ajak buat patungan nyewa rumah atau kontrakan. Biasanya, kalau patungan biayanya jadi lebih murah.\n\nSemoga kamu cepet nemu kos yang cocok ya! Semangat terus! 😊"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "!kos clear"
+          }
+        ]
+      },
+      {
+        "role": "model",
+        "parts": [
+          {
+            "text": "Oke, clear! Kita udah coba berbagai cara ya buat nyari kos putri deket UGM dengan harga yang kamu mau. Sayangnya, sampai sekarang belum ada yang pas nih. 😔\n\nMungkin emang agak susah nyari kos dengan kriteria kayak gitu di daerah UGM. Tapi, jangan berkecil hati ya! Siapa tahu nanti ada rezeki nemu kos yang cocok. 😉\n\nKalau kamu ada pertanyaan lain atau butuh bantuan lain, jangan sungkan buat tanya ya! Aku siap bantu sebisa mungkin. 😊"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "!kos aku cari kos cewe di daerah ugm"
+          }
+        ]
+      },
+      {
+        "role": "model",
+        "parts": [
+          {
+            "text": "Waduh, aku udah coba cari-cari info kos cewek di daerah UGM nih, tapi hasilnya belum ada yang pas. 😔\n\nBiasanya, kos di sekitar UGM emang cepet banget penuhnya. Tapi, jangan langsung nyerah ya! Siapa tau rejeki kita beda. \n\nBiar aku bisa bantu cari lebih spesifik, ada beberapa pertanyaan nih:\n\n*   **Budget kamu berapa nih per bulannya?** Ini penting banget biar aku bisa filter kos yang sesuai.\n*   **Selain deket UGM, ada kriteria lain nggak?** Misalnya, pengen yang ada kamar mandi dalam, WiFi kenceng, atau deket warung makan?\n*   **Mau yang kosongan atau udah ada isinya?** Ini juga pengaruh ke harga biasanya.\n\nKalo kamu jawab pertanyaan ini, aku bisa bantu cari info lebih lanjut. Atau, kamu udah ada bayangan kos yang pengen kayak gimana? Cerita aja, biar aku bisa bantu! 😉"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "!kos aku cari kos putri di jalan kaliurang, budget under 1 juta"
+          }
+        ]
+      },
+      {
+        "role": "model",
+        "parts": [
+          {
+            "text": "Waduh, aku udah coba cari-cari info kos putri di Jalan Kaliurang dengan budget di bawah 1 juta, tapi hasilnya masih belum ketemu nih. 😔 Kayaknya emang agak susah ya nyari kos dengan harga segitu di daerah sana.\n\nTapi, jangan langsung sedih ya! Mungkin aja ada rezeki nomplok. Biar aku bisa bantu cari lagi lebih spesifik, coba jawab beberapa pertanyaan ini ya:\n\n*   **\"Under 1 juta\" itu tepatnya berapa ya?** Kadang, nambah sedikit budget bisa dapet kos yang lebih oke lho.\n*   **Lokasinya di Jalan Kaliurang KM berapa nih yang kamu pengen?** Soalnya, Jalan Kaliurang itu panjang banget, hehe.\n*   **Fasilitas yang paling penting apa aja nih?** Misalnya, harus ada kasur, lemari, atau kamar mandi dalam?\n\nKalo kamu jawab pertanyaan ini, aku bisa bantu cari info lebih lanjut. Atau, mungkin kamu punya kenalan yang punya kos di daerah sana? Coba aja tanya-tanya, siapa tau ada yang kosong. 😉"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "!kos next ya boleh deh budget berapapun yang penting di jalan kaliuraang"
+          }
+        ]
+      },
+      {
+        "role": "model",
+        "parts": [
+          {
+            "text": "Oke! Jadi, budget fleksibel ya, yang penting kos putri di Jalan Kaliurang. Siap!\n\nKarena budget bukan masalah, kita bisa fokus cari yang fasilitasnya oke dan lokasinya strategis.\n\nDari info yang aku punya, ini beberapa opsi yang bisa kamu pertimbangkan:\n\n*   **Kos Putri Agestya Living:** Lokasinya di daerah Kentungan, yang masih deket Jalan Kaliurang. Harganya Rp1.700.000. Kamarnya ukuran 3x4 meter, udah ada kasur, lemari, dan meja belajar. Tapi, nggak boleh merokok di dalam kamar ya.\n\n*   **Kos Premium Merapi View:** Nah, ini buat yang cari kos premium dengan pemandangan Merapi. Lokasinya di KM 10. Harganya Rp2.000.000. Sayangnya, detail kamar dan fasilitasnya belum ada. Tapi, dari namanya aja udah kebayang ya viewnya bakal keren.\n\n**Gimana? Ada yang menarik perhatian kamu?**\n\nSupaya pencarian kita lebih efektif, coba kasih tau aku:\n\n*   **Prioritas fasilitasnya apa aja nih?** Misalnya, harus ada kamar mandi dalam, AC, WiFi kenceng, atau laundry?\n*   **Lebih prefer lokasi di KM berapa?**\n\nDengan info yang lebih detail, aku bisa bantu cari kos yang paling pas buat kamu! 😉"
+          }
+        ]
+      }
+    ]
   }
 }
